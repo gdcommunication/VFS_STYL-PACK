@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\DepartmentMembership.ascx" timeStamp="2014-11-27T14:28:44.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\DepartmentMembership.js" timeStamp="2014-11-27T14:28:44.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\OthersAccessToUserCal.ascx" timeStamp="2014-11-27T14:28:46.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\TeamMembership.ascx" timeStamp="2014-11-27T14:28:48.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\TeamMembership.js" timeStamp="2014-11-27T14:28:48.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserAccessToOthersCal.ascx" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserChangePassword.ascx" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserDetails.ascx" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserEmployee.ascx" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserIntegrations.ascx" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserIntegrations.js" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserNotes.ascx" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserRoles.ascx" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserRoles.js" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserSecurity.ascx" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserServiceAndSupport.ascx" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserTeamMembers.ascx" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserTeamMembers.js" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserTeamMembership.ascx" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\UserTeamMembership.js" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\User\App_LocalResources\" />
+</exportedFiles>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\FiltrerDansHistorique.method.xml" timeStamp="2015-04-20T13:10:10.4372" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\OnAfterDelete.method.xml" timeStamp="2014-12-02T15:48:58.5966" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\OnAfterInsert.method.xml" timeStamp="2014-12-02T15:48:58.5039" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\OnAfterUpdate.method.xml" timeStamp="2014-12-02T15:48:58.5517" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\OnBeforeDelete.method.xml" timeStamp="2014-12-02T15:48:58.5742" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\OnBeforeInsert.method.xml" timeStamp="2014-12-02T15:48:58.4716" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\OnBeforeUpdate.method.xml" timeStamp="2014-12-02T15:48:58.5253" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\OnCreate.method.xml" timeStamp="2014-12-02T15:48:58.6181" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\Par_origine.filter.xml" timeStamp="2015-04-16T08:42:39.7141" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\RegleTeste.method.xml" timeStamp="2015-04-20T13:11:05.7721" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\Sage.SnippetLibrary.CSharp.@.7349b66e-4f60-4e0d-9f2e-4392e1eaf3fb.codesnippet.cs" timeStamp="2015-04-17T11:57:24.7563" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\Sage.SnippetLibrary.CSharp.@.a7f364e9-449a-479a-9b4c-eb993153c240.codesnippet.cs" timeStamp="2015-04-20T13:02:40.3815" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\THistoriqueLignesDeVentes.T_HIST_LIGNES_VENTES.entity.xml" timeStamp="2015-04-30T12:13:22.2217" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\QuickForms\" />
+</exportedFiles>

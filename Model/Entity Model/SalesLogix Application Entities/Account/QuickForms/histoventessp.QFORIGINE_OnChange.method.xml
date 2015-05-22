@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="0bdc6d55-68aa-487f-9213-b25ad6b90068" lastModifiedUtc="2015-05-18T11:03:08.4589046Z" name="QFORIGINE_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="histoventessp">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="41817833-8f30-4790-abf1-5a8479a3fe70" paramName="form" sequence="0" paramType="Ihistoventessp" />
+    <OrmEntityMethodParam id="47c3bd1a-d0d7-4c3c-b5fd-7e385a26f666" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="8bd75d4b-23ab-4415-93f8-f18da6e0962d" lastModifiedUtc="2015-05-18T12:03:06.5392141Z" targetType="Sage.BusinessRules.CodeSnippets.histoventesspEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="QFORIGINE_OnChangeStep" active="true" codeSnippetId="52b60aec-ce9f-4e0f-97ca-a51e12c20db5">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

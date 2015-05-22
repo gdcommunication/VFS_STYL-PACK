@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\AccountSummaryView.js" timeStamp="2015-04-08T08:29:01.0633" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\ActivityContactSummary.js" timeStamp="2015-04-08T08:28:50.1715" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\ActivitySummaryList.js" timeStamp="2015-04-08T08:28:50.5777" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\CampaignSummary.js" timeStamp="2015-04-08T08:29:09.6581" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\ConfirmationDetailSummary.js" timeStamp="2015-04-08T08:28:54.3005" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\ConfirmationListSummary.js" timeStamp="2015-04-08T08:28:54.7331" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\ContactSummaryView.js" timeStamp="2015-04-08T08:29:15.8926" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\ContractSummary.js" timeStamp="2015-04-08T08:29:22.6632" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\CopyAccount.js" timeStamp="2015-04-08T08:29:02.9374" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\CopyContact.js" timeStamp="2015-04-08T08:29:17.4082" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\DefectSummary.js" timeStamp="2015-04-08T08:29:30.5930" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\EmailDetails.js" timeStamp="2014-11-27T14:28:44.0000" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\EventSummary.js" timeStamp="2015-04-08T08:28:51.8903" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\LeadSummary.js" timeStamp="2015-04-08T08:29:43.9965" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\LitRequestSummary.js" timeStamp="2015-04-08T08:29:46.8228" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\OpportunitySummary.js" timeStamp="2015-04-08T08:29:56.2262" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\ReturnSummary.js" timeStamp="2015-04-08T08:30:12.1630" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\SalesOrderSummaryView.js" timeStamp="2015-04-08T08:30:18.0273" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\TicketSummary.js" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\jscript\Sage\SummaryTemplates\nls\ru\UserSummaryView.js" timeStamp="2014-11-27T14:28:50.0000" />
+</exportedFiles>

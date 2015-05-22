@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\BooleanParameterEditor.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\CrystalReportConditionEditor.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\CrystalReportConditionsDialog.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\CrystalReportParametersDialog.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\CrystalReportsFormatter.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\CrystalReportsUtility.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\CrystalReportWizardController.js" timeStamp="2014-11-27T10:10:50.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\DateParameterEditor.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\DateRangeParameterEditor.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\MultiselectNumberParameterEditor.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\MultiselectStringParameterEditor.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\NumberParameterEditor.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\StringParameterEditor.js" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\nls\fr\_ParameterEditorBase.js" timeStamp="2014-11-27T10:10:50.0000" />
+</exportedFiles>

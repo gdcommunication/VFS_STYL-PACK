@@ -1,0 +1,218 @@
+27/11/2014 10:38:44
+INFO  2014-11-27 11:36:31,739 - Installation du bundle...
+INFO  2014-11-27 11:36:31,751 - Exécution de la pré-installation.
+INFO  2014-11-27 11:36:31,755 - Installation de Elément de modèle : Default-Mapping-SalesLogix (\Entity Model\CodeTemplates\Entity\Default-Mapping-Saleslogix.Mapping.codetemplate.xml)
+INFO  2014-11-27 11:36:31,768 - Installation de Default-Mapping-SalesLogix (\Entity Model\CodeTemplates\Entity\Default-Mapping-Saleslogix.Mapping.codetemplate.xml) terminée
+INFO  2014-11-27 11:36:31,773 - Installation de Elément de modèle : Default-SData-SalesLogix (\Entity Model\CodeTemplates\Entity\Default-SData-Saleslogix.sdata.codetemplate.xml)
+INFO  2014-11-27 11:36:31,818 - Installation de Default-SData-SalesLogix (\Entity Model\CodeTemplates\Entity\Default-SData-Saleslogix.sdata.codetemplate.xml) terminée
+INFO  2014-11-27 11:36:31,824 - Installation de élément de contexte : Saleslogix Application Entities (\Entity Model\Saleslogix Application Entities\SalesLogix Application Entities.T.package.xml)
+INFO  2014-11-27 11:36:31,839 - Installation de Saleslogix Application Entities (\Entity Model\Saleslogix Application Entities\SalesLogix Application Entities.T.package.xml) terminée
+INFO  2014-11-27 11:36:31,892 - Installation de élément de contexte : Account (\Entity Model\Saleslogix Application Entities\Account\Account.ACCOUNT.entity.xml)
+INFO  2014-11-27 11:36:32,311 - Installation de Account (\Entity Model\Saleslogix Application Entities\Account\Account.ACCOUNT.entity.xml) terminée
+INFO  2014-11-27 11:36:32,317 - Installation de Elément de modèle : AccountContacts (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountContacts.main.quickform.xml)
+INFO  2014-11-27 11:36:32,559 - Installation de AccountContacts (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountContacts.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:32,567 - Installation de Elément de modèle : AccountExtendedDetails (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml)
+INFO  2014-11-27 11:36:32,613 - Installation de AccountExtendedDetails (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:32,643 - Installation de Elément de modèle : InsertAccount (\Entity Model\Saleslogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml)
+INFO  2014-11-27 11:36:32,684 - Installation de InsertAccount (\Entity Model\Saleslogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:32,692 - Installation de élément de contexte : Contact (\Entity Model\Saleslogix Application Entities\Contact\Contact.CONTACT.entity.xml)
+INFO  2014-11-27 11:36:32,847 - Installation de Contact (\Entity Model\Saleslogix Application Entities\Contact\Contact.CONTACT.entity.xml) terminée
+INFO  2014-11-27 11:36:32,855 - Installation de Elément de modèle : ContactDetails (\Entity Model\Saleslogix Application Entities\Contact\QuickForms\ContactDetails.main.quickform.xml)
+INFO  2014-11-27 11:36:32,902 - Installation de ContactDetails (\Entity Model\Saleslogix Application Entities\Contact\QuickForms\ContactDetails.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:32,910 - Installation de élément de contexte : ContactLeadSource (\Entity Model\Saleslogix Application Entities\ContactLeadSource\ContactLeadSource.CONTACT_LEADSOURCE.entity.xml)
+INFO  2014-11-27 11:36:32,944 - Installation de ContactLeadSource (\Entity Model\Saleslogix Application Entities\ContactLeadSource\ContactLeadSource.CONTACT_LEADSOURCE.entity.xml) terminée
+INFO  2014-11-27 11:36:32,973 - Installation de Elément de modèle : AddEditContactLeadSource (\Entity Model\Saleslogix Application Entities\ContactLeadSource\QuickForms\AddEditContactLeadSource.main.quickform.xml)
+INFO  2014-11-27 11:36:33,029 - Installation de AddEditContactLeadSource (\Entity Model\Saleslogix Application Entities\ContactLeadSource\QuickForms\AddEditContactLeadSource.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:33,037 - Installation de élément de contexte : Integration (\Entity Model\Saleslogix Application Entities\Integration\Integration.INTEGRATION.entity.xml)
+INFO  2014-11-27 11:36:33,075 - Installation de Integration (\Entity Model\Saleslogix Application Entities\Integration\Integration.INTEGRATION.entity.xml) terminée
+INFO  2014-11-27 11:36:33,085 - Installation de Elément de modèle : IntegrationDetail (\Entity Model\Saleslogix Application Entities\Integration\QuickForms\IntegrationDetail.main.quickform.xml)
+INFO  2014-11-27 11:36:33,154 - Installation de IntegrationDetail (\Entity Model\Saleslogix Application Entities\Integration\QuickForms\IntegrationDetail.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:33,163 - Installation de Elément de modèle : IntegrationLinks (\Entity Model\Saleslogix Application Entities\Integration\QuickForms\IntegrationLinks.main.quickform.xml)
+INFO  2014-11-27 11:36:33,217 - Installation de IntegrationLinks (\Entity Model\Saleslogix Application Entities\Integration\QuickForms\IntegrationLinks.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:33,227 - Installation de élément de contexte : Lead (\Entity Model\Saleslogix Application Entities\Lead\Lead.LEAD.entity.xml)
+INFO  2014-11-27 11:36:33,348 - Installation de Lead (\Entity Model\Saleslogix Application Entities\Lead\Lead.LEAD.entity.xml) terminée
+INFO  2014-11-27 11:36:33,358 - Installation de Elément de modèle : InsertLead (\Entity Model\Saleslogix Application Entities\Lead\QuickForms\InsertLead.main.quickform.xml)
+INFO  2014-11-27 11:36:33,407 - Installation de InsertLead (\Entity Model\Saleslogix Application Entities\Lead\QuickForms\InsertLead.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:33,416 - Installation de Elément de modèle : LeadDetails (\Entity Model\Saleslogix Application Entities\Lead\QuickForms\LeadDetails.main.quickform.xml)
+INFO  2014-11-27 11:36:33,473 - Installation de LeadDetails (\Entity Model\Saleslogix Application Entities\Lead\QuickForms\LeadDetails.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:33,482 - Installation de élément de contexte : Opportunity (\Entity Model\Saleslogix Application Entities\Opportunity\Opportunity.OPPORTUNITY.entity.xml)
+INFO  2014-11-27 11:36:33,579 - Installation de Opportunity (\Entity Model\Saleslogix Application Entities\Opportunity\Opportunity.OPPORTUNITY.entity.xml) terminée
+INFO  2014-11-27 11:36:33,589 - Installation de Elément de modèle : InsertOpportunity (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\InsertOpportunity.main.quickform.xml)
+INFO  2014-11-27 11:36:33,665 - Installation de InsertOpportunity (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\InsertOpportunity.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:33,675 - Installation de Elément de modèle : OpportunityContacts (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\OpportunityContacts.main.quickform.xml)
+INFO  2014-11-27 11:36:33,719 - Installation de OpportunityContacts (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\OpportunityContacts.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:33,729 - Installation de Elément de modèle : OpportunityDetails (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\OpportunityDetails.main.quickform.xml)
+INFO  2014-11-27 11:36:33,795 - Installation de OpportunityDetails (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\OpportunityDetails.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:33,805 - Installation de élément de contexte : SalesOrder (\Entity Model\Saleslogix Application Entities\SalesOrder\SalesOrder.SALESORDER.entity.xml)
+INFO  2014-11-27 11:36:33,901 - Installation de SalesOrder (\Entity Model\Saleslogix Application Entities\SalesOrder\SalesOrder.SALESORDER.entity.xml) terminée
+INFO  2014-11-27 11:36:33,910 - Installation de Elément de modèle : InsertSalesOrder (\Entity Model\Saleslogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml)
+INFO  2014-11-27 11:36:34,023 - Installation de InsertSalesOrder (\Entity Model\Saleslogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:34,032 - Installation de Elément de modèle : SalesOrderDetails (\Entity Model\Saleslogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml)
+INFO  2014-11-27 11:36:34,112 - Installation de SalesOrderDetails (\Entity Model\Saleslogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:34,121 - Installation de élément de contexte : Ticket (\Entity Model\Saleslogix Application Entities\Ticket\Ticket.TICKET.entity.xml)
+INFO  2014-11-27 11:36:34,212 - Installation de Ticket (\Entity Model\Saleslogix Application Entities\Ticket\Ticket.TICKET.entity.xml) terminée
+INFO  2014-11-27 11:36:34,223 - Installation de Elément de modèle : TicketDetails (\Entity Model\Saleslogix Application Entities\Ticket\QuickForms\TicketDetails.main.quickform.xml)
+INFO  2014-11-27 11:36:34,274 - Installation de TicketDetails (\Entity Model\Saleslogix Application Entities\Ticket\QuickForms\TicketDetails.main.quickform.xml) terminée
+INFO  2014-11-27 11:36:34,284 - Installation de Elément de modèle : ASP.NET Portal Template (\Portal\PortalTemplates\AspNetPortalTemplate\AspNetPortalTemplate.portaltemplate.xml)
+INFO  2014-11-27 11:36:34,646 - Installation de ASP.NET Portal Template (\Portal\PortalTemplates\AspNetPortalTemplate\AspNetPortalTemplate.portaltemplate.xml) terminée
+INFO  2014-11-27 11:36:34,656 - Installation de élément de contexte : UI Portal Template (\Portal\PortalTemplates\UIPortalTemplate\UIPortalTemplate.portaltemplate.xml)
+INFO  2014-11-27 11:36:34,723 - Installation de UI Portal Template (\Portal\PortalTemplates\UIPortalTemplate\UIPortalTemplate.portaltemplate.xml) terminée
+INFO  2014-11-27 11:36:34,733 - Installation de Elément de modèle : Saleslogix Client (\Portal\SlxClient\SlxClient.cabapp.ptl.xml)
+INFO  2014-11-27 11:36:36,063 - Installation de Saleslogix Client (\Portal\SlxClient\SlxClient.cabapp.ptl.xml) terminée
+INFO  2014-11-27 11:36:36,072 - Installation de élément de contexte : Reports (\Portal\SlxClient\ChildPages\ReportManager\ReportManager.page.xml)
+INFO  2014-11-27 11:36:36,081 - Installation de Reports (\Portal\SlxClient\ChildPages\ReportManager\ReportManager.page.xml) terminée
+INFO  2014-11-27 11:36:36,089 - Installation de Elément de modèle : ReportManagerFilters (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\ReportManagerFilters.smartpart.xml)
+INFO  2014-11-27 11:36:36,214 - Installation de ReportManagerFilters (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\ReportManagerFilters.smartpart.xml) terminée
+INFO  2014-11-27 11:36:36,223 - Installation de Elément de modèle : ReportManagerTasks (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\ReportManagerTasks.smartpart.xml)
+INFO  2014-11-27 11:36:36,278 - Installation de ReportManagerTasks (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\ReportManagerTasks.smartpart.xml) terminée
+INFO  2014-11-27 11:36:36,286 - Installation de Elément de modèle : SDataListViewer (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\SDataListViewer.smartpart.xml)
+INFO  2014-11-27 11:36:36,325 - Installation de SDataListViewer (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\SDataListViewer.smartpart.xml) terminée
+INFO  2014-11-27 11:36:36,335 - Installation de Elément de modèle : Secured Actions (\Portal\SlxClient\ChildPages\SecuredAction\SecuredAction.page.xml)
+INFO  2014-11-27 11:36:41,280 - Installation de Secured Actions (\Portal\SlxClient\ChildPages\SecuredAction\SecuredAction.page.xml) terminée
+INFO  2014-11-27 11:36:41,289 - Installation de élément de contexte : Security Manager (\Portal\SlxClient\ChildPages\SecurityManager\SecurityManager.page.xml)
+INFO  2014-11-27 11:36:41,298 - Installation de Security Manager (\Portal\SlxClient\ChildPages\SecurityManager\SecurityManager.page.xml) terminée
+INFO  2014-11-27 11:36:41,309 - Installation de Elément de modèle : SDataListViewer (Custom) (\Portal\SlxClient\ChildPages\SecurityManager\SmartParts\SDataListViewer.smartpart.xml)
+INFO  2014-11-27 11:36:41,423 - Installation de SDataListViewer (Custom) (\Portal\SlxClient\ChildPages\SecurityManager\SmartParts\SDataListViewer.smartpart.xml) terminée
+INFO  2014-11-27 11:36:41,433 - Installation de Elément de modèle : Report Manager (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ReportManagerListContextMenu.contextmenu.xml)
+INFO  2014-11-27 11:36:41,506 - Installation de Report Manager (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ReportManagerListContextMenu.contextmenu.xml) terminée
+INFO  2014-11-27 11:36:41,516 - Installation de Elément de modèle : History List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\HistoryListContextMenu\HistoryListContextMenu.contextmenu.xml)
+INFO  2014-11-27 11:36:41,564 - Installation de History List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\HistoryListContextMenu\HistoryListContextMenu.contextmenu.xml) terminée
+INFO  2014-11-27 11:36:41,573 - Installation de Elément de modèle : Delete History... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\HistoryListContextMenu\ContextMenuItems\mnuArchiveListDeleteArchive\mnuArchiveListDeleteArchive.contextmenu.xml)
+INFO  2014-11-27 11:36:41,637 - Installation de Delete History... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\HistoryListContextMenu\ContextMenuItems\mnuArchiveListDeleteArchive\mnuArchiveListDeleteArchive.contextmenu.xml) terminée
+INFO  2014-11-27 11:36:41,647 - Installation de Elément de modèle : Schedules List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ReportSchedulesListContextMenu.contextmenu.xml)
+INFO  2014-11-27 11:36:41,697 - Installation de Schedules List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ReportSchedulesListContextMenu.contextmenu.xml) terminée
+INFO  2014-11-27 11:36:41,706 - Installation de Elément de modèle : Delete Schedule... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ContextMenuItems\mnuSchedulesListDeleteSchedule\mnuSchedulesListDeleteSchedule.contextmenu.xml)
+INFO  2014-11-27 11:36:41,759 - Installation de Delete Schedule... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ContextMenuItems\mnuSchedulesListDeleteSchedule\mnuSchedulesListDeleteSchedule.contextmenu.xml) terminée
+INFO  2014-11-27 11:36:41,802 - Installation de Elément de modèle : Edit Schedule... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ContextMenuItems\mnuSchedulesListEditSchedule\mnuSchedulesListEditSchedule.contextmenu.xml)
+INFO  2014-11-27 11:36:41,858 - Installation de Edit Schedule... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ContextMenuItems\mnuSchedulesListEditSchedule\mnuSchedulesListEditSchedule.contextmenu.xml) terminée
+INFO  2014-11-27 11:36:41,868 - Installation de Elément de modèle : Reports List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ReportsListContextMenu.contextmenu.xml)
+INFO  2014-11-27 11:36:41,913 - Installation de Reports List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ReportsListContextMenu.contextmenu.xml) terminée
+INFO  2014-11-27 11:36:41,945 - Installation de Elément de modèle : Run Report... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ContextMenuItems\mnuReportsListRunReport\mnuReportsListRunReport.contextmenu.xml)
+INFO  2014-11-27 11:36:41,994 - Installation de Run Report... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ContextMenuItems\mnuReportsListRunReport\mnuReportsListRunReport.contextmenu.xml) terminée
+INFO  2014-11-27 11:36:42,005 - Installation de Elément de modèle : Schedule Report... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ContextMenuItems\mnuReportsListScheduleReport\mnuReportsListScheduleReport.contextmenu.xml)
+INFO  2014-11-27 11:36:42,066 - Installation de Schedule Report... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ContextMenuItems\mnuReportsListScheduleReport\mnuReportsListScheduleReport.contextmenu.xml) terminée
+INFO  2014-11-27 11:36:42,076 - Installation de Elément de modèle : Integration (\Portal\SlxClient\NavGroups\navIntegration\navIntegration.navgroup.xml)
+INFO  2014-11-27 11:36:42,120 - Installation de Integration (\Portal\SlxClient\NavGroups\navIntegration\navIntegration.navgroup.xml) terminée
+INFO  2014-11-27 11:36:42,130 - Installation de élément de contexte : Saleslogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml)
+INFO  2014-11-27 11:36:42,218 - Installation de Saleslogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml) terminée
+INFO  2014-11-27 11:36:42,228 - Enregistrement de Elément de modèle : Default-Mapping-SalesLogix (\Entity Model\CodeTemplates\Entity\Default-Mapping-Saleslogix.Mapping.codetemplate.xml)
+INFO  2014-11-27 11:36:42,237 - Default-Mapping-SalesLogix (\Entity Model\CodeTemplates\Entity\Default-Mapping-Saleslogix.Mapping.codetemplate.xml) a bien été enregistré
+INFO  2014-11-27 11:36:42,246 - Enregistrement de Elément de modèle : Default-SData-SalesLogix (\Entity Model\CodeTemplates\Entity\Default-SData-Saleslogix.sdata.codetemplate.xml)
+INFO  2014-11-27 11:36:42,256 - Default-SData-SalesLogix (\Entity Model\CodeTemplates\Entity\Default-SData-Saleslogix.sdata.codetemplate.xml) a bien été enregistré
+INFO  2014-11-27 11:36:42,265 - Enregistrement de élément de contexte : Saleslogix Application Entities (\Entity Model\Saleslogix Application Entities\SalesLogix Application Entities.T.package.xml)
+INFO  2014-11-27 11:36:42,273 - Saleslogix Application Entities (\Entity Model\Saleslogix Application Entities\SalesLogix Application Entities.T.package.xml) a bien été enregistré
+INFO  2014-11-27 11:36:42,300 - Enregistrement de élément de contexte : Account (\Entity Model\Saleslogix Application Entities\Account\Account.ACCOUNT.entity.xml)
+INFO  2014-11-27 11:38:09,557 - Account (\Entity Model\Saleslogix Application Entities\Account\Account.ACCOUNT.entity.xml) a bien été enregistré
+INFO  2014-11-27 11:38:09,570 - Enregistrement de Elément de modèle : AccountContacts (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountContacts.main.quickform.xml)
+INFO  2014-11-27 11:38:09,583 - AccountContacts (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountContacts.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:09,592 - Enregistrement de Elément de modèle : AccountExtendedDetails (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml)
+INFO  2014-11-27 11:38:09,601 - AccountExtendedDetails (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:09,610 - Enregistrement de Elément de modèle : InsertAccount (\Entity Model\Saleslogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml)
+INFO  2014-11-27 11:38:09,618 - InsertAccount (\Entity Model\Saleslogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:09,629 - Enregistrement de élément de contexte : Contact (\Entity Model\Saleslogix Application Entities\Contact\Contact.CONTACT.entity.xml)
+INFO  2014-11-27 11:38:10,065 - Contact (\Entity Model\Saleslogix Application Entities\Contact\Contact.CONTACT.entity.xml) a bien été enregistré
+INFO  2014-11-27 11:38:10,074 - Enregistrement de Elément de modèle : ContactDetails (\Entity Model\Saleslogix Application Entities\Contact\QuickForms\ContactDetails.main.quickform.xml)
+INFO  2014-11-27 11:38:10,084 - ContactDetails (\Entity Model\Saleslogix Application Entities\Contact\QuickForms\ContactDetails.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:10,093 - Enregistrement de élément de contexte : ContactLeadSource (\Entity Model\Saleslogix Application Entities\ContactLeadSource\ContactLeadSource.CONTACT_LEADSOURCE.entity.xml)
+INFO  2014-11-27 11:38:10,343 - ContactLeadSource (\Entity Model\Saleslogix Application Entities\ContactLeadSource\ContactLeadSource.CONTACT_LEADSOURCE.entity.xml) a bien été enregistré
+INFO  2014-11-27 11:38:10,355 - Enregistrement de Elément de modèle : AddEditContactLeadSource (\Entity Model\Saleslogix Application Entities\ContactLeadSource\QuickForms\AddEditContactLeadSource.main.quickform.xml)
+INFO  2014-11-27 11:38:10,364 - AddEditContactLeadSource (\Entity Model\Saleslogix Application Entities\ContactLeadSource\QuickForms\AddEditContactLeadSource.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:10,380 - Enregistrement de élément de contexte : Integration (\Entity Model\Saleslogix Application Entities\Integration\Integration.INTEGRATION.entity.xml)
+INFO  2014-11-27 11:38:10,668 - Integration (\Entity Model\Saleslogix Application Entities\Integration\Integration.INTEGRATION.entity.xml) a bien été enregistré
+INFO  2014-11-27 11:38:10,678 - Enregistrement de Elément de modèle : IntegrationDetail (\Entity Model\Saleslogix Application Entities\Integration\QuickForms\IntegrationDetail.main.quickform.xml)
+INFO  2014-11-27 11:38:10,688 - IntegrationDetail (\Entity Model\Saleslogix Application Entities\Integration\QuickForms\IntegrationDetail.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:10,697 - Enregistrement de Elément de modèle : IntegrationLinks (\Entity Model\Saleslogix Application Entities\Integration\QuickForms\IntegrationLinks.main.quickform.xml)
+INFO  2014-11-27 11:38:10,707 - IntegrationLinks (\Entity Model\Saleslogix Application Entities\Integration\QuickForms\IntegrationLinks.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:10,716 - Enregistrement de élément de contexte : Lead (\Entity Model\Saleslogix Application Entities\Lead\Lead.LEAD.entity.xml)
+INFO  2014-11-27 11:38:11,251 - Lead (\Entity Model\Saleslogix Application Entities\Lead\Lead.LEAD.entity.xml) a bien été enregistré
+INFO  2014-11-27 11:38:11,263 - Enregistrement de Elément de modèle : InsertLead (\Entity Model\Saleslogix Application Entities\Lead\QuickForms\InsertLead.main.quickform.xml)
+INFO  2014-11-27 11:38:11,288 - InsertLead (\Entity Model\Saleslogix Application Entities\Lead\QuickForms\InsertLead.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:11,300 - Enregistrement de Elément de modèle : LeadDetails (\Entity Model\Saleslogix Application Entities\Lead\QuickForms\LeadDetails.main.quickform.xml)
+INFO  2014-11-27 11:38:11,311 - LeadDetails (\Entity Model\Saleslogix Application Entities\Lead\QuickForms\LeadDetails.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:11,320 - Enregistrement de élément de contexte : Opportunity (\Entity Model\Saleslogix Application Entities\Opportunity\Opportunity.OPPORTUNITY.entity.xml)
+INFO  2014-11-27 11:38:11,753 - Opportunity (\Entity Model\Saleslogix Application Entities\Opportunity\Opportunity.OPPORTUNITY.entity.xml) a bien été enregistré
+INFO  2014-11-27 11:38:11,766 - Enregistrement de Elément de modèle : InsertOpportunity (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\InsertOpportunity.main.quickform.xml)
+INFO  2014-11-27 11:38:11,775 - InsertOpportunity (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\InsertOpportunity.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:11,784 - Enregistrement de Elément de modèle : OpportunityContacts (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\OpportunityContacts.main.quickform.xml)
+INFO  2014-11-27 11:38:11,795 - OpportunityContacts (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\OpportunityContacts.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:11,805 - Enregistrement de Elément de modèle : OpportunityDetails (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\OpportunityDetails.main.quickform.xml)
+INFO  2014-11-27 11:38:11,815 - OpportunityDetails (\Entity Model\Saleslogix Application Entities\Opportunity\QuickForms\OpportunityDetails.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:11,823 - Enregistrement de élément de contexte : SalesOrder (\Entity Model\Saleslogix Application Entities\SalesOrder\SalesOrder.SALESORDER.entity.xml)
+INFO  2014-11-27 11:38:12,554 - SalesOrder (\Entity Model\Saleslogix Application Entities\SalesOrder\SalesOrder.SALESORDER.entity.xml) a bien été enregistré
+INFO  2014-11-27 11:38:12,565 - Enregistrement de Elément de modèle : InsertSalesOrder (\Entity Model\Saleslogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml)
+INFO  2014-11-27 11:38:12,574 - InsertSalesOrder (\Entity Model\Saleslogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:12,584 - Enregistrement de Elément de modèle : SalesOrderDetails (\Entity Model\Saleslogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml)
+INFO  2014-11-27 11:38:12,597 - SalesOrderDetails (\Entity Model\Saleslogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:12,606 - Enregistrement de élément de contexte : Ticket (\Entity Model\Saleslogix Application Entities\Ticket\Ticket.TICKET.entity.xml)
+INFO  2014-11-27 11:38:13,682 - Ticket (\Entity Model\Saleslogix Application Entities\Ticket\Ticket.TICKET.entity.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,695 - Enregistrement de Elément de modèle : TicketDetails (\Entity Model\Saleslogix Application Entities\Ticket\QuickForms\TicketDetails.main.quickform.xml)
+INFO  2014-11-27 11:38:13,703 - TicketDetails (\Entity Model\Saleslogix Application Entities\Ticket\QuickForms\TicketDetails.main.quickform.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,713 - Enregistrement de Elément de modèle : ASP.NET Portal Template (\Portal\PortalTemplates\AspNetPortalTemplate\AspNetPortalTemplate.portaltemplate.xml)
+INFO  2014-11-27 11:38:13,723 - ASP.NET Portal Template (\Portal\PortalTemplates\AspNetPortalTemplate\AspNetPortalTemplate.portaltemplate.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,732 - Enregistrement de élément de contexte : UI Portal Template (\Portal\PortalTemplates\UIPortalTemplate\UIPortalTemplate.portaltemplate.xml)
+INFO  2014-11-27 11:38:13,741 - UI Portal Template (\Portal\PortalTemplates\UIPortalTemplate\UIPortalTemplate.portaltemplate.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,751 - Enregistrement de Elément de modèle : Saleslogix Client (\Portal\SlxClient\SlxClient.cabapp.ptl.xml)
+INFO  2014-11-27 11:38:13,774 - Saleslogix Client (\Portal\SlxClient\SlxClient.cabapp.ptl.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,784 - Enregistrement de élément de contexte : Reports (\Portal\SlxClient\ChildPages\ReportManager\ReportManager.page.xml)
+INFO  2014-11-27 11:38:13,796 - Reports (\Portal\SlxClient\ChildPages\ReportManager\ReportManager.page.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,806 - Enregistrement de Elément de modèle : ReportManagerFilters (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\ReportManagerFilters.smartpart.xml)
+INFO  2014-11-27 11:38:13,817 - ReportManagerFilters (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\ReportManagerFilters.smartpart.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,826 - Enregistrement de Elément de modèle : ReportManagerTasks (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\ReportManagerTasks.smartpart.xml)
+INFO  2014-11-27 11:38:13,850 - ReportManagerTasks (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\ReportManagerTasks.smartpart.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,862 - Enregistrement de Elément de modèle : SDataListViewer (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\SDataListViewer.smartpart.xml)
+INFO  2014-11-27 11:38:13,870 - SDataListViewer (Custom) (\Portal\SlxClient\ChildPages\ReportManager\SmartParts\SDataListViewer.smartpart.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,880 - Enregistrement de Elément de modèle : Secured Actions (\Portal\SlxClient\ChildPages\SecuredAction\SecuredAction.page.xml)
+INFO  2014-11-27 11:38:13,891 - Secured Actions (\Portal\SlxClient\ChildPages\SecuredAction\SecuredAction.page.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,901 - Enregistrement de élément de contexte : Security Manager (\Portal\SlxClient\ChildPages\SecurityManager\SecurityManager.page.xml)
+INFO  2014-11-27 11:38:13,913 - Security Manager (\Portal\SlxClient\ChildPages\SecurityManager\SecurityManager.page.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,923 - Enregistrement de Elément de modèle : SDataListViewer (Custom) (\Portal\SlxClient\ChildPages\SecurityManager\SmartParts\SDataListViewer.smartpart.xml)
+INFO  2014-11-27 11:38:13,932 - SDataListViewer (Custom) (\Portal\SlxClient\ChildPages\SecurityManager\SmartParts\SDataListViewer.smartpart.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,942 - Enregistrement de Elément de modèle : Report Manager (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ReportManagerListContextMenu.contextmenu.xml)
+INFO  2014-11-27 11:38:13,956 - Report Manager (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ReportManagerListContextMenu.contextmenu.xml) a bien été enregistré
+INFO  2014-11-27 11:38:13,966 - Enregistrement de Elément de modèle : History List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\HistoryListContextMenu\HistoryListContextMenu.contextmenu.xml)
+INFO  2014-11-27 11:38:13,991 - History List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\HistoryListContextMenu\HistoryListContextMenu.contextmenu.xml) a bien été enregistré
+INFO  2014-11-27 11:38:14,002 - Enregistrement de Elément de modèle : Delete History... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\HistoryListContextMenu\ContextMenuItems\mnuArchiveListDeleteArchive\mnuArchiveListDeleteArchive.contextmenu.xml)
+INFO  2014-11-27 11:38:14,012 - Delete History... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\HistoryListContextMenu\ContextMenuItems\mnuArchiveListDeleteArchive\mnuArchiveListDeleteArchive.contextmenu.xml) a bien été enregistré
+INFO  2014-11-27 11:38:14,022 - Enregistrement de Elément de modèle : Schedules List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ReportSchedulesListContextMenu.contextmenu.xml)
+INFO  2014-11-27 11:38:14,032 - Schedules List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ReportSchedulesListContextMenu.contextmenu.xml) a bien été enregistré
+INFO  2014-11-27 11:38:14,042 - Enregistrement de Elément de modèle : Delete Schedule... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ContextMenuItems\mnuSchedulesListDeleteSchedule\mnuSchedulesListDeleteSchedule.contextmenu.xml)
+INFO  2014-11-27 11:38:14,070 - Delete Schedule... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ContextMenuItems\mnuSchedulesListDeleteSchedule\mnuSchedulesListDeleteSchedule.contextmenu.xml) a bien été enregistré
+INFO  2014-11-27 11:38:14,079 - Enregistrement de Elément de modèle : Edit Schedule... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ContextMenuItems\mnuSchedulesListEditSchedule\mnuSchedulesListEditSchedule.contextmenu.xml)
+INFO  2014-11-27 11:38:14,090 - Edit Schedule... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportSchedulesListContextMenu\ContextMenuItems\mnuSchedulesListEditSchedule\mnuSchedulesListEditSchedule.contextmenu.xml) a bien été enregistré
+INFO  2014-11-27 11:38:14,100 - Enregistrement de Elément de modèle : Reports List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ReportsListContextMenu.contextmenu.xml)
+INFO  2014-11-27 11:38:14,111 - Reports List (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ReportsListContextMenu.contextmenu.xml) a bien été enregistré
+INFO  2014-11-27 11:38:14,121 - Enregistrement de Elément de modèle : Run Report... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ContextMenuItems\mnuReportsListRunReport\mnuReportsListRunReport.contextmenu.xml)
+INFO  2014-11-27 11:38:14,147 - Run Report... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ContextMenuItems\mnuReportsListRunReport\mnuReportsListRunReport.contextmenu.xml) a bien été enregistré
+INFO  2014-11-27 11:38:14,157 - Enregistrement de Elément de modèle : Schedule Report... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ContextMenuItems\mnuReportsListScheduleReport\mnuReportsListScheduleReport.contextmenu.xml)
+INFO  2014-11-27 11:38:14,167 - Schedule Report... (\Portal\SlxClient\ContextMenuItems\ReportManagerListContextMenu\ContextMenuItems\ReportsListContextMenu\ContextMenuItems\mnuReportsListScheduleReport\mnuReportsListScheduleReport.contextmenu.xml) a bien été enregistré
+INFO  2014-11-27 11:38:14,177 - Enregistrement de Elément de modèle : Integration (\Portal\SlxClient\NavGroups\navIntegration\navIntegration.navgroup.xml)
+INFO  2014-11-27 11:38:14,188 - Integration (\Portal\SlxClient\NavGroups\navIntegration\navIntegration.navgroup.xml) a bien été enregistré
+INFO  2014-11-27 11:38:14,209 - Enregistrement de élément de contexte : Saleslogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml)
+INFO  2014-11-27 11:38:14,220 - Saleslogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml) a bien été enregistré
+INFO  2014-11-27 11:38:14,230 - Configuration des éléments installés.
+INFO  2014-11-27 11:38:14,240 - Configuration de ASP.NET Portal Template...
+INFO  2014-11-27 11:38:14,253 - Configuration de UI Portal Template...
+INFO  2014-11-27 11:38:14,270 - Configuration de Saleslogix Client...
+INFO  2014-11-27 11:38:14,287 - Configuration de Reports...
+INFO  2014-11-27 11:38:18,459 - Configuration de ReportManagerFilters (Custom)...
+INFO  2014-11-27 11:38:18,472 - Configuration de ReportManagerTasks (Custom)...
+INFO  2014-11-27 11:38:18,482 - Configuration de SDataListViewer (Custom)...
+INFO  2014-11-27 11:38:18,492 - Configuration de Secured Actions...
+INFO  2014-11-27 11:38:18,503 - Configuration de Security Manager...
+INFO  2014-11-27 11:38:18,513 - Configuration de SDataListViewer (Custom)...
+INFO  2014-11-27 11:38:18,538 - Configuration de Report Manager...
+INFO  2014-11-27 11:38:18,966 - Configuration de History List...
+INFO  2014-11-27 11:38:19,007 - Configuration de Delete History......
+INFO  2014-11-27 11:38:19,041 - Configuration de Schedules List...
+INFO  2014-11-27 11:38:19,051 - Configuration de Delete Schedule......
+INFO  2014-11-27 11:38:19,087 - Configuration de Edit Schedule......
+INFO  2014-11-27 11:38:19,098 - Configuration de Reports List...
+INFO  2014-11-27 11:38:19,108 - Configuration de Run Report......
+INFO  2014-11-27 11:38:19,144 - Configuration de Schedule Report......
+INFO  2014-11-27 11:38:19,155 - Configuration de Integration...
+INFO  2014-11-27 11:38:19,285 - Configuration de Saleslogix Customer Portal...
+INFO  2014-11-27 11:38:19,301 - Exécution d'une pré-validation du projet cible.
+INFO  2014-11-27 11:38:19,333 - Validation des éléments dans le projet cible...
+INFO  2014-11-27 11:38:42,603 - Validation des transactions...
+INFO  2014-11-27 11:38:44,681 - Copie du catalogue de bundle dans le projet.
+INFO  2014-11-27 11:38:46,348 - L'installation est terminée.

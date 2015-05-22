@@ -1,0 +1,136 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\AnalogGauge.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\AnalogGauge.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\AutoRotator.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\AutoRotator.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\BarGauge.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\BarGauge.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Calendar.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Calendar.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Calendar2Pane.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Calendar2Pane.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Calendar3Pane.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Calendar3Pane.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\CalendarFisheye.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\CalendarFisheye.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\CalendarFx.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\CalendarFx.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\CalendarViews.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\CalendarViews.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\ColorPicker.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\ColorPicker.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\DailyCalendar.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\DailyCalendar.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\DataPresentation.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\DataPresentation.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Dialog.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Dialog.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\DialogSimple.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\DialogSimple.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\DocTester.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\DocTester.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\DynamicTooltip.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\DynamicTooltip.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FeedPortlet.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FeedPortlet.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FilePicker.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FilePicker.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FisheyeList.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FisheyeList.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FisheyeListItem.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FisheyeListItem.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FisheyeLite.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FisheyeLite.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Iterator.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Iterator.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Loader.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Loader.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\MonthAndYearlyCalendar.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\MonthAndYearlyCalendar.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\MonthlyCalendar.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\MonthlyCalendar.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\MultiSelectCalendar.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\MultiSelectCalendar.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Pager.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Pager.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\PagerItem.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\PagerItem.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\PlaceholderMenuItem.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\PlaceholderMenuItem.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Portlet.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Portlet.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\PortletDialogSettings.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\PortletDialogSettings.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\PortletSettings.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\PortletSettings.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\README" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Roller.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Roller.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\RollingList.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\RollingList.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Rotator.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Rotator.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Selection.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Selection.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\SortList.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\SortList.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Standby.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Standby.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\TitleGroup.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\TitleGroup.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Toaster.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Toaster.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\UpgradeBar.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\UpgradeBar.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Wizard.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Wizard.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\WizardPane.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\WizardPane.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\YearlyCalendar.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\YearlyCalendar.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarBase.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarBase.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarDay.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarDay.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarDayView.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarDayView.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarMonth.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarMonth.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarMonthView.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarMonthView.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarMonthYear.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarMonthYear.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarMonthYearView.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarMonthYearView.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarView.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarView.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarYear.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarYear.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarYearView.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_CalendarYearView.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_FisheyeFX.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_FisheyeFX.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_Invalidating.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\_Invalidating.js.uncompressed.js" timeStamp="2013-12-27T17:57:58.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Calendar\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\ColorPicker\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Dialog\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\DocTester\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FilePicker\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\FisheyeList\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\gauge\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Loader\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\MultiSelectCalendar\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\nls\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Pager\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Portlet\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\RollingList\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\rotator\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\SortList\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Standby\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\TitleGroup\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Toaster\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\UpgradeBar\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\widget\Wizard\" />
+</exportedFiles>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="31bd8c65-b9ae-4c49-9173-637ff4f2d760" lastModifiedUtc="2015-04-29T12:04:07.6859222Z" name="OnLoad1" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="Pastilles">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="d5c65a94-f758-4192-af98-21909a4c23dd" paramName="form" sequence="0" paramType="IPastilles" />
+    <OrmEntityMethodParam id="16182363-b216-458a-bc49-53ff02f93a95" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="91e32f89-7718-4889-ae4c-b0b4bc5d8abb" lastModifiedUtc="2015-04-29T12:05:04.2573423Z" targetType="Sage.BusinessRules.CodeSnippets.PastillesEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="OnLoad1Step" active="true" codeSnippetId="b2cf2e66-7233-49e7-84e8-66e2cf7266f7">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

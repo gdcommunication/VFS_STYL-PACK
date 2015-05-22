@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CalendarHistorySyncView\CalendarHistorySyncView.CALENDARHISTORYSYNCVIEW.entity.xml" timeStamp="2014-01-07T23:58:37.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CalendarHistorySyncView\OnAfterDelete.method.xml" timeStamp="2014-01-07T23:58:37.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CalendarHistorySyncView\OnAfterInsert.method.xml" timeStamp="2014-01-07T23:58:37.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CalendarHistorySyncView\OnAfterUpdate.method.xml" timeStamp="2014-01-07T23:58:37.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CalendarHistorySyncView\OnBeforeDelete.method.xml" timeStamp="2014-01-07T23:58:37.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CalendarHistorySyncView\OnBeforeInsert.method.xml" timeStamp="2014-01-07T23:58:37.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CalendarHistorySyncView\OnBeforeUpdate.method.xml" timeStamp="2014-01-07T23:58:37.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Contract Sync Entities\CalendarHistorySyncView\OnCreate.method.xml" timeStamp="2014-01-07T23:58:37.0000" />
+</exportedFiles>

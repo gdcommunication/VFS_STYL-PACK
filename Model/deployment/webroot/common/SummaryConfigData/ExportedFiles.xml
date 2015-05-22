@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\AccountSummaryView.xml" timeStamp="2015-04-08T08:29:00.6394" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\ActivityContactSummary.xml" timeStamp="2015-04-08T08:28:49.8688" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\ActivitySummaryList.xml" timeStamp="2015-04-08T08:28:50.2936" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\CampaignSummary.xml" timeStamp="2015-04-08T08:29:09.4530" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\ConfirmationDetailSummary.xml" timeStamp="2015-04-08T08:28:54.0934" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\ConfirmationListSummary.xml" timeStamp="2015-04-08T08:28:54.5319" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\ContactSummaryView.xml" timeStamp="2015-04-08T08:29:15.4522" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\ContractSummary.xml" timeStamp="2015-04-08T08:29:22.2345" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\CopyAccount.xml" timeStamp="2015-04-08T08:29:02.5360" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\CopyContact.xml" timeStamp="2015-04-08T08:29:16.9844" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\DefectSummary.xml" timeStamp="2015-04-08T08:29:30.1409" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\EmailDetails.xml" timeStamp="2014-11-27T14:28:44.0000" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\EventSummary.xml" timeStamp="2015-04-08T08:28:51.6041" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\LeadSummary.xml" timeStamp="2015-04-08T08:29:43.5405" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\LitRequestSummary.xml" timeStamp="2015-04-08T08:29:46.3638" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\OpportunitySummary.xml" timeStamp="2015-04-08T08:29:55.5426" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\ReturnSummary.xml" timeStamp="2015-04-08T08:30:11.4784" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\SalesOrderSummaryView.xml" timeStamp="2015-04-08T08:30:17.3496" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\TicketSummary.xml" timeStamp="2014-11-27T14:28:50.0000" />
+  <exportedFile url="\deployment\webroot\common\SummaryConfigData\UserSummaryView.xml" timeStamp="2014-11-27T14:28:50.0000" />
+</exportedFiles>

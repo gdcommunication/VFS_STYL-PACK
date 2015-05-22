@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<DeletedItem>
+  <id>31c2d0a7-1be6-45ac-a83c-6599e0e54437</id>
+  <url>\Entity Model\Relationships\DefectTicket.DefectId.Defect.ManyToOne.Defect.DefectId.relationship.xml</url>
+  <caption>Defect Ticket.Property1 M:1 Defect</caption>
+  <extension>.relationship.xml</extension>
+  <modelId>a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28</modelId>
+  <dateDeleted>2007-12-14T18:07:35.7240915Z</dateDeleted>
+  <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAAABMUlEQVQ4T2P4//8/Ubh71av/TUte/i+d/eJ/2sTn/8Pbn/73qnuMXTE2DDJg0aH//6fu/Pu/ZfXP/0Xzvv03TD2LXTE2jOqCZ//DgC5wqbiPXTE2vHzbGSCFAD9+/ftv6pmM229AANYYULSBO6hkayrMgD3Hb/xftvHw/9ef/iIMwOa3yPrjrEDNAaGVe//ZhNV/mbvm0P8/f/8BNf75f+PJr/9HbnzH5gKE38Ibr/yzDW965p42xxrkkunLdoM1oGOcfvNIn2cH5GKEBTqGG4DuN9+8lWIwRfjCiQGX31wSJvzzL1wXDTMAWziBDcDlN8+MeW5h1fuBAdjwB1c4gQ0AEbiwa/JUPr/81Z64wgkI8BsAw7jCCSSHVQM6xhVOIDmsGtAxrnACyWHVQDz+zwAAZFfphPYFagQAAAAASUVORK5CYII=</image>
+  <restoreDataType>System.String, mscorlib</restoreDataType>
+  <restoreData>
+    <string>&lt;?xml version="1.0"?&gt;
+&lt;relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="31c2d0a7-1be6-45ac-a83c-6599e0e54437" cardinality="M:1" parentEntityId="113f1bc1-2bc2-4b3f-9aa0-264eb54abb47" childEntityId="aa22326e-6c3b-4a21-9518-0fb886e370d1"&gt;
+  &lt;ExtendedPropertiesCollection&gt;
+    &lt;extendee type="Sage.Platform.Orm.Entities.OrmRelationship" /&gt;
+  &lt;/ExtendedPropertiesCollection&gt;
+  &lt;column&gt;
+    &lt;OrmRelationshipColumn parentPropertyId="a6ce29ce-cacf-48ab-b6e9-d70327307ffa" childPropertyId="0426ea98-4938-4be0-b767-2f0e499fea5f" ordinal="0" /&gt;
+  &lt;/column&gt;
+  &lt;parentProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRelationProperty" id="650fe5e3-5c00-4720-8077-2be8c4cf1984" name="Defect" displayCategory="Intermediate" displayName="Defect" cultureName="en-US" isNullable="false" include="true"&gt;
+    &lt;ExtendedPropertiesCollection&gt;
+      &lt;extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty"&gt;
+        &lt;extender guid="4fc827e6-aa9d-4b12-b836-d0871bc288b8"&gt;
+          &lt;OrmPropertyExtension&gt;
+            &lt;GenerateGetBy&gt;false&lt;/GenerateGetBy&gt;
+          &lt;/OrmPropertyExtension&gt;
+        &lt;/extender&gt;
+      &lt;/extendee&gt;
+    &lt;/ExtendedPropertiesCollection&gt;
+    &lt;SystemDataType guid="ee1eb00b-6fba-362c-bdbf-f6b422710f0a"&gt;
+      &lt;SystemDataTypeBase /&gt;
+    &lt;/SystemDataType&gt;
+  &lt;/parentProperty&gt;
+  &lt;childProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRelationProperty" id="eebee9ae-545d-48fd-b360-ef2179190ab7" name="Property1" displayCategory="Intermediate" displayName="Property1" cultureName="en-US" isNullable="true" include="false"&gt;
+    &lt;ExtendedPropertiesCollection&gt;
+      &lt;extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty"&gt;
+        &lt;extender guid="4fc827e6-aa9d-4b12-b836-d0871bc288b8"&gt;
+          &lt;OrmPropertyExtension&gt;
+            &lt;GenerateGetBy&gt;false&lt;/GenerateGetBy&gt;
+          &lt;/OrmPropertyExtension&gt;
+        &lt;/extender&gt;
+      &lt;/extendee&gt;
+    &lt;/ExtendedPropertiesCollection&gt;
+    &lt;SystemDataType guid="ee1eb00b-6fba-362c-bdbf-f6b422710f0a"&gt;
+      &lt;SystemDataTypeBase /&gt;
+    &lt;/SystemDataType&gt;
+  &lt;/childProperty&gt;
+&lt;/relationship&gt;</string>
+  </restoreData>
+</DeletedItem>

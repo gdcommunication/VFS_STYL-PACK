@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\BooleanParameterEditor.html" timeStamp="2014-11-27T10:10:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\CrystalReportConditionEditor.html" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\CrystalReportConditionsDialog.html" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\CrystalReportParametersDialog.html" timeStamp="2014-11-27T10:10:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\CrystalReportScheduleEditor.html" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\DateParameterEditor.html" timeStamp="2014-11-27T10:10:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\DateRangeParameterEditor.html" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\MultiselectNumberParameterEditor.html" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\MultiSelectParameterEditor.html" timeStamp="2014-11-27T10:10:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\MultiselectStringParameterEditor.html" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\NumberParameterEditor.html" timeStamp="2014-01-08T00:00:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\ParameterHeaderWidget.html" timeStamp="2014-11-27T10:10:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\ParameterRangeWidget.html" timeStamp="2014-11-27T10:10:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\SimpleParameterEditor.html" timeStamp="2014-11-27T10:10:44.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\Sage\MainView\ReportMgr\Crystal\templates\StringParameterEditor.html" timeStamp="2014-01-08T00:00:44.0000" />
+</exportedFiles>

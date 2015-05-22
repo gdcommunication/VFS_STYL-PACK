@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="81ae8691-b213-41d1-93be-35dd0af620f0" lastModifiedUtc="2015-05-20T13:18:14.4836645Z" name="OnLoad1" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="histoventes">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="81b77e26-fc33-456e-a487-ee18415f1c77" paramName="form" sequence="0" paramType="Ihistoventes" />
+    <OrmEntityMethodParam id="88de8e69-cdd8-4235-b786-5df8382d28a0" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="fb9a68ea-92a4-49e6-8ebf-6c45a47ce877" lastModifiedUtc="2015-05-20T13:54:39.0647232Z" targetType="Sage.BusinessRules.CodeSnippets.histoventesEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="OnLoad1Step" active="true" codeSnippetId="8e7c419f-31f6-49c4-9a0c-106be54181c3">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

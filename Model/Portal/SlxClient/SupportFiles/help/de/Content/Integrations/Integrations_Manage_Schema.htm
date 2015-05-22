@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>&#160;Verwalten eines Schemas</title>
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Borders.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/SALESLOGIX.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor511"></a>&#160;<a name="kanchor512"></a>Verwalten eines Schemas</h1>
+        <p>Verwenden Sie das Dialogfeld "Schema verwalten", um das Datenbankschema in <span class="MyVariablesCompanyNameFull">Saleslogix</span> mit Ihrem Integrationsschema zu vergleichen und die Datenintegrität sicherzustellen. Sie können Daten verschiedener Ressourcen vergleichen, um festzustellen, ob Unterschiede bei der Länge von Zeichenfolgen zwischen den Systemen vorhanden sind.</p>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_640495093_0" onclick="FMCDropDown( this ); return false;">Weitere Informationen dazu, wie sich <span class="MyVariablesCompanyNameFull">Saleslogix</span> bei Schemaunterschieden verhält...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_640495093_0" style="display: none;">
+                <p><span class="SLXBold">Max. Länge</span> – Wenn Daten mit <span class="MyVariablesCompanyNameFull">Saleslogix</span> synchronisiert werden, die die maximale Länge eines Felds überschreiten, wird die gesamte Zeile zurückgewiesen.</p>
+                <p><span class="SLXBold">Nachkommastellen</span> – Wenn Daten mit <span class="MyVariablesCompanyNameFull">Saleslogix</span> synchronisiert werden, die die Anzahl der Nachkommastellen überschreiten, wird der Wert auf die maximale Anzahl von Nachkommastellen gerundet. Wenn beispielsweise ein Währungsfeld als 17,4 definiert ist, wird der Wert 123,12348 als 123,1235 und der Wert 123,12343 als 123,1234 gespeichert.</p>
+            </div>
+        </div>
+        <p class="RelatedTopics">Vorgehensweise</p>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_640495093_1" onclick="FMCDropDown( this ); return false;">Öffnen des Dialogfeldes "Schema verwalten"<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_640495093_1" style="display: none;">
+                <ul>
+                    <li value="1">Klicken Sie in der Detailansicht <span class="SLXBold">Integration</span> auf der Registerkarte <a href="Integrations_Resources_Tab.htm">Ressourcen</a> auf die Schaltfläche <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Schema verwalten<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/ManageSchema.png" /></span></span>.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_640495093_2" onclick="FMCDropDown( this ); return false;">Schema für Ressourcen verwalten<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_640495093_2" style="display: none;">
+                <ol>
+                    <li value="1">Wählen Sie im Dialogfeld <span class="SLXBold">Schema verwalten</span> im Feld <span class="SLXBold">Filtern nach Ressource</span> den Ressourcentyp aus.</li>
+                    <li value="2">Klicken Sie auf <span class="SLXBold">Ausführen</span>.</li>
+                    <li value="3">Überprüfen Sie im Raster die Unterschiede.<br /> Prüfen Sie sämtliche Daten, die Integritätsprobleme verursachen könnten. Ein Feld im Buchhaltungssystem akzeptiert beispielsweise nur drei Zeichen, während dasselbe Feld in <span class="MyVariablesProduct Name">Saleslogix</span> die freie Texteingabe unterstützt.</li>
+                    <li value="4">Wiederholen Sie den Schritt für alle Ressourcentypen.</li>
+                    <li value="5">Klicken Sie auf <span class="SLXBold">Schließen</span>.</li>
+                </ol>
+            </div>
+        </div>
+        <p>&#160;</p>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/Borders.css');width: 100%;border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;margin-left: 0;margin-right: auto;" class="TableStyle_Borders" cellspacing="0">
+            <col style="width: 100%;" />
+            <tbody>
+                <tr MadCap:conditions="">
+                    <td style="font-size: 8pt;border-left-style: solid;border-left-width: 0px;border-right-style: solid;border-right-width: 0px;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;" class="TableStyle_Borders_Body_0_0_RowEnd_ColEnd">
+                        <p style="font-family: Verdana;font-size: 8pt;"><a href="../General/feedback.htm">Haben Sie Vorschläge zur Verbesserung der Hilfe?</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

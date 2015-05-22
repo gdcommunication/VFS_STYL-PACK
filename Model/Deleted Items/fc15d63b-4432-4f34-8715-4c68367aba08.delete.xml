@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<DeletedItem>
+  <id>fc15d63b-4432-4f34-8715-4c68367aba08</id>
+  <url>\Entity Model\Relationships\CampaignTask.CampaignStageId.CampaignStage.ManyToOne.CampaignStage.CampaignStageId.relationship.xml</url>
+  <caption>CampaignTask.Property1 M:1 CampaignStage</caption>
+  <extension>.relationship.xml</extension>
+  <modelId>a7bdd2d9-93b0-499d-9fd4-c3f7a5f94e28</modelId>
+  <dateDeleted>2007-12-14T18:04:50.2438148Z</dateDeleted>
+  <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAAABMUlEQVQ4T2P4//8/Ubh71av/TUte/i+d/eJ/2sTn/8Pbn/73qnuMXTE2DDJg0aH//6fu/Pu/ZfXP/0Xzvv03TD2LXTE2jOqCZ//DgC5wqbiPXTE2vHzbGSCFAD9+/ftv6pmM229AANYYULSBO6hkayrMgD3Hb/xftvHw/9ef/iIMwOa3yPrjrEDNAaGVe//ZhNV/mbvm0P8/f/8BNf75f+PJr/9HbnzH5gKE38Ibr/yzDW965p42xxrkkunLdoM1oGOcfvNIn2cH5GKEBTqGG4DuN9+8lWIwRfjCiQGX31wSJvzzL1wXDTMAWziBDcDlN8+MeW5h1fuBAdjwB1c4gQ0AEbiwa/JUPr/81Z64wgkI8BsAw7jCCSSHVQM6xhVOIDmsGtAxrnACyWHVQDz+zwAAZFfphPYFagQAAAAASUVORK5CYII=</image>
+  <restoreDataType>System.String, mscorlib</restoreDataType>
+  <restoreData>
+    <string>&lt;?xml version="1.0"?&gt;
+&lt;relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="fc15d63b-4432-4f34-8715-4c68367aba08" cardinality="M:1" parentEntityId="aa715db7-90bb-4a68-928b-77c04f54c43b" childEntityId="f7c5988f-bebd-4587-a735-c13fc919958d"&gt;
+  &lt;ExtendedPropertiesCollection&gt;
+    &lt;extendee type="Sage.Platform.Orm.Entities.OrmRelationship" /&gt;
+  &lt;/ExtendedPropertiesCollection&gt;
+  &lt;column&gt;
+    &lt;OrmRelationshipColumn parentPropertyId="538de143-5561-4d07-86a9-50a28c03e4c3" childPropertyId="281dff1d-f48c-42fe-b529-3edd605e67d9" ordinal="0" /&gt;
+  &lt;/column&gt;
+  &lt;parentProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRelationProperty" id="47c6a9b4-1446-4b20-aa75-1bf6dd2b0488" name="CampaignStage" displayCategory="Intermediate" displayName="CampaignStage" cultureName="en-US" isNullable="true" include="true"&gt;
+    &lt;ExtendedPropertiesCollection&gt;
+      &lt;extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty"&gt;
+        &lt;extender guid="4fc827e6-aa9d-4b12-b836-d0871bc288b8"&gt;
+          &lt;OrmPropertyExtension&gt;
+            &lt;GenerateGetBy&gt;false&lt;/GenerateGetBy&gt;
+          &lt;/OrmPropertyExtension&gt;
+        &lt;/extender&gt;
+      &lt;/extendee&gt;
+    &lt;/ExtendedPropertiesCollection&gt;
+    &lt;SystemDataType guid="ee1eb00b-6fba-362c-bdbf-f6b422710f0a"&gt;
+      &lt;SystemDataTypeBase /&gt;
+    &lt;/SystemDataType&gt;
+  &lt;/parentProperty&gt;
+  &lt;childProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRelationProperty" id="5a8b9de0-e4c6-432b-9505-e0251a71934e" name="Property2" displayCategory="Intermediate" displayName="Property2" cultureName="en-US" isNullable="true" include="false"&gt;
+    &lt;ExtendedPropertiesCollection&gt;
+      &lt;extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty"&gt;
+        &lt;extender guid="4fc827e6-aa9d-4b12-b836-d0871bc288b8"&gt;
+          &lt;OrmPropertyExtension&gt;
+            &lt;GenerateGetBy&gt;false&lt;/GenerateGetBy&gt;
+          &lt;/OrmPropertyExtension&gt;
+        &lt;/extender&gt;
+      &lt;/extendee&gt;
+    &lt;/ExtendedPropertiesCollection&gt;
+    &lt;SystemDataType guid="ee1eb00b-6fba-362c-bdbf-f6b422710f0a"&gt;
+      &lt;SystemDataTypeBase /&gt;
+    &lt;/SystemDataType&gt;
+  &lt;/childProperty&gt;
+&lt;/relationship&gt;</string>
+  </restoreData>
+</DeletedItem>

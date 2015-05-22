@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\add_subtract.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\create.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\days_in_month.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\diff.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\duration.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\format.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\getters_setters.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\is_after.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\is_before.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\is_moment.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\is_same.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\is_valid.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\lang.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\leapyear.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\min_max.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\mutable.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\preparse_postformat.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\sod_eod.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\string_prototype.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\utc.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\weekday.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\weeks.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\week_year.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\moment\zones.js" timeStamp="2013-12-27T17:57:59.0000" />
+</exportedFiles>

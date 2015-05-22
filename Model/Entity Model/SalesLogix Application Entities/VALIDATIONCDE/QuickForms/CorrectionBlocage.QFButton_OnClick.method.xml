@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="6ba96788-ad8f-462d-a0e4-8d030e4e71b2" lastModifiedUtc="2015-05-15T10:29:22.145316Z" name="QFButton_OnClick" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="CorrectionBlocage">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="8b2348df-2a36-43f5-a729-40559ef73028" paramName="form" sequence="0" paramType="ICorrectionBlocage" />
+    <OrmEntityMethodParam id="3d439cbb-1fae-442a-9893-6bfa4c8216d5" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets />
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

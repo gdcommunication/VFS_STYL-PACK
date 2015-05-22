@@ -1,0 +1,36 @@
+11/02/2015 16:48:00
+INFO  2015-02-11 17:47:49,508 - Installation du bundle...
+INFO  2015-02-11 17:47:49,538 - Exécution de la pré-installation.
+INFO  2015-02-11 17:47:49,548 - Installation de élément de contexte : Saleslogix Application Entities (\Entity Model\Saleslogix Application Entities\SalesLogix Application Entities.T.package.xml)
+INFO  2015-02-11 17:47:49,554 - Installation de Saleslogix Application Entities (\Entity Model\Saleslogix Application Entities\SalesLogix Application Entities.T.package.xml) terminée
+INFO  2015-02-11 17:47:49,596 - Installation de élément de contexte : Account (\Entity Model\Saleslogix Application Entities\Account\Account.ACCOUNT.entity.xml)
+INFO  2015-02-11 17:47:49,608 - Installation de Account (\Entity Model\Saleslogix Application Entities\Account\Account.ACCOUNT.entity.xml) terminée
+INFO  2015-02-11 17:47:49,612 - Installation de Elément de modèle : AccountDetails (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountDetails.main.quickform.xml)
+INFO  2015-02-11 17:47:49,937 - Installation de AccountDetails (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountDetails.main.quickform.xml) terminée
+INFO  2015-02-11 17:47:49,944 - Installation de élément de contexte : Client SalesLogix (\Portal\SlxClient\SlxClient.cabapp.ptl.xml)
+INFO  2015-02-11 17:47:50,059 - Installation de Client SalesLogix (\Portal\SlxClient\SlxClient.cabapp.ptl.xml) terminée
+INFO  2015-02-11 17:47:50,065 - Installation de élément de contexte : Account Detail (\Portal\SlxClient\ChildPages\Account\Account.page.xml)
+INFO  2015-02-11 17:47:50,071 - Installation de Account Detail (\Portal\SlxClient\ChildPages\Account\Account.page.xml) terminée
+INFO  2015-02-11 17:47:50,077 - Installation de Elément de modèle : AccountDetails (\Portal\SlxClient\ChildPages\Account\SmartParts\AccountDetails.smartpart.xml)
+INFO  2015-02-11 17:47:50,518 - Installation de AccountDetails (\Portal\SlxClient\ChildPages\Account\SmartParts\AccountDetails.smartpart.xml) terminée
+INFO  2015-02-11 17:47:50,524 - Enregistrement de élément de contexte : Saleslogix Application Entities (\Entity Model\Saleslogix Application Entities\SalesLogix Application Entities.T.package.xml)
+INFO  2015-02-11 17:47:50,530 - Saleslogix Application Entities (\Entity Model\Saleslogix Application Entities\SalesLogix Application Entities.T.package.xml) a bien été enregistré
+INFO  2015-02-11 17:47:50,537 - Enregistrement de élément de contexte : Account (\Entity Model\Saleslogix Application Entities\Account\Account.ACCOUNT.entity.xml)
+INFO  2015-02-11 17:47:59,102 - Account (\Entity Model\Saleslogix Application Entities\Account\Account.ACCOUNT.entity.xml) a bien été enregistré
+INFO  2015-02-11 17:47:59,110 - Enregistrement de Elément de modèle : AccountDetails (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountDetails.main.quickform.xml)
+INFO  2015-02-11 17:47:59,117 - AccountDetails (\Entity Model\Saleslogix Application Entities\Account\QuickForms\AccountDetails.main.quickform.xml) a bien été enregistré
+INFO  2015-02-11 17:47:59,125 - Enregistrement de élément de contexte : Client SalesLogix (\Portal\SlxClient\SlxClient.cabapp.ptl.xml)
+INFO  2015-02-11 17:47:59,135 - Client SalesLogix (\Portal\SlxClient\SlxClient.cabapp.ptl.xml) a bien été enregistré
+INFO  2015-02-11 17:47:59,160 - Enregistrement de élément de contexte : Account Detail (\Portal\SlxClient\ChildPages\Account\Account.page.xml)
+INFO  2015-02-11 17:47:59,170 - Account Detail (\Portal\SlxClient\ChildPages\Account\Account.page.xml) a bien été enregistré
+INFO  2015-02-11 17:47:59,180 - Enregistrement de Elément de modèle : AccountDetails (\Portal\SlxClient\ChildPages\Account\SmartParts\AccountDetails.smartpart.xml)
+INFO  2015-02-11 17:47:59,187 - AccountDetails (\Portal\SlxClient\ChildPages\Account\SmartParts\AccountDetails.smartpart.xml) a bien été enregistré
+INFO  2015-02-11 17:47:59,200 - Configuration des éléments installés.
+INFO  2015-02-11 17:47:59,211 - Configuration de Client SalesLogix...
+INFO  2015-02-11 17:47:59,227 - Configuration de Account Detail...
+INFO  2015-02-11 17:47:59,648 - Configuration de AccountDetails...
+INFO  2015-02-11 17:47:59,657 - Exécution d'une pré-validation du projet cible.
+INFO  2015-02-11 17:47:59,724 - Validation des éléments dans le projet cible...
+INFO  2015-02-11 17:47:59,793 - Validation des transactions...
+INFO  2015-02-11 17:48:00,900 - Copie du catalogue de bundle dans le projet.
+INFO  2015-02-11 17:48:03,024 - L'installation est terminée.

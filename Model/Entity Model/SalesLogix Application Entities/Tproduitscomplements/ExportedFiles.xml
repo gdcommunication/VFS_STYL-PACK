@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Tproduitscomplements\OnAfterDelete.method.xml" timeStamp="2014-12-03T08:47:57.0370" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Tproduitscomplements\OnAfterInsert.method.xml" timeStamp="2014-12-03T08:47:56.7870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Tproduitscomplements\OnAfterUpdate.method.xml" timeStamp="2014-12-03T08:47:56.9891" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Tproduitscomplements\OnBeforeDelete.method.xml" timeStamp="2014-12-03T08:47:57.0155" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Tproduitscomplements\OnBeforeInsert.method.xml" timeStamp="2014-12-03T08:47:56.7645" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Tproduitscomplements\OnBeforeUpdate.method.xml" timeStamp="2014-12-03T08:47:56.9657" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Tproduitscomplements\OnCreate.method.xml" timeStamp="2014-12-03T08:47:57.1795" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Tproduitscomplements\Tproduitscomplements.Product.T_PRODUCT_COMP.entity.xml" timeStamp="2014-12-03T08:49:43.2304" />
+</exportedFiles>

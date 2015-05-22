@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SmartParts\Lead\InsertLead.ascx" timeStamp="2015-04-08T08:29:40.9428" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Lead\LeadDetails.ascx" timeStamp="2015-04-08T08:29:41.7240" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Lead\LeadExtendedDetails.ascx" timeStamp="2015-04-08T08:29:42.2524" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Lead\LeadResponses.ascx" timeStamp="2015-04-08T08:29:43.0043" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Lead\LeadResponses.js" timeStamp="2015-04-08T08:29:42.9643" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Lead\App_LocalResources\" />
+</exportedFiles>

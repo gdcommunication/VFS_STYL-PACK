@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THISTOPCL\OnAfterDelete.method.xml" timeStamp="2014-12-03T09:02:57.3818" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THISTOPCL\OnAfterInsert.method.xml" timeStamp="2014-12-03T09:02:57.2930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THISTOPCL\OnAfterUpdate.method.xml" timeStamp="2014-12-03T09:02:57.3438" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THISTOPCL\OnBeforeDelete.method.xml" timeStamp="2014-12-03T09:02:57.3623" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THISTOPCL\OnBeforeInsert.method.xml" timeStamp="2014-12-03T09:02:57.2705" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THISTOPCL\OnBeforeUpdate.method.xml" timeStamp="2014-12-03T09:02:57.3233" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THISTOPCL\OnCreate.method.xml" timeStamp="2014-12-03T09:02:57.3994" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THISTOPCL\THISTOPCL.T_HISTOPCL.entity.xml" timeStamp="2015-03-21T12:54:06.8440" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THISTOPCL\QuickForms\" />
+</exportedFiles>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\BidiSupport.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\BidiSupport.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\BidiSupport3D.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\BidiSupport3D.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Chart.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Chart.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Chart2D.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Chart2D.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Chart3D.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Chart3D.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\DataChart.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\DataChart.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\DataSeries.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\DataSeries.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Element.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Element.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\README" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Series.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Series.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\SimpleTheme.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\SimpleTheme.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\StoreSeries.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\StoreSeries.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Theme.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\Theme.js.uncompressed.js" timeStamp="2013-12-27T17:57:48.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\action2d\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\axis2d\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\bidi\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\plot2d\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\plot3d\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\resources\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\scaler\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\themes\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\charting\widget\" />
+</exportedFiles>

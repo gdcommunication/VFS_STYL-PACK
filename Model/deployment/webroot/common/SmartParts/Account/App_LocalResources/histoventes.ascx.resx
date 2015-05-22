@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="eba31e165e524cf6b38aa4995f6dc50b.Caption" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="ca8d2d0c46342838ca7b8e958fb4db2.Caption" xml:space="preserve">
+    <value>Année de Livraison</value>
+  </data>
+  <data name="c320adc53694cb6b15d78ee12e9fafe.Caption" xml:space="preserve">
+    <value>Année Pièce</value>
+  </data>
+  <data name="e2a03088f75441fc9fbcf21855ca06d8.Caption" xml:space="preserve">
+    <value>CA12MOIS</value>
+  </data>
+  <data name="79e08ae01f4ce29011158e495754b1.Caption" xml:space="preserve">
+    <value>Code Article</value>
+  </data>
+  <data name="e6f6073fab244d68d46f55152b647c1.Caption" xml:space="preserve">
+    <value>Code Representant</value>
+  </data>
+  <data name="aa9481c6444a359536d5d971e80a71.Caption" xml:space="preserve">
+    <value>Couleurs Recto</value>
+  </data>
+  <data name="cc7d75057bde4ae4ab94a46fc0942de1.Caption" xml:space="preserve">
+    <value>Couleurs Verso</value>
+  </data>
+  <data name="400a5ce3f3474896ff7b0e795c518a.Caption" xml:space="preserve">
+    <value>Createdate</value>
+  </data>
+  <data name="f718ab46851441c9b53bbe17545b5ed5.Caption" xml:space="preserve">
+    <value>Createuser</value>
+  </data>
+  <data name="b0633a25a4bd4dd9a54248ab06aaa561.Caption" xml:space="preserve">
+    <value>Date livraison prevue</value>
+  </data>
+  <data name="e7461c46774780a806a4f6973d35d5.Caption" xml:space="preserve">
+    <value>Date Pièce</value>
+  </data>
+  <data name="c1071f06c194eb292a72f52ebfa71ed.Caption" xml:space="preserve">
+    <value>Désignation 1</value>
+  </data>
+  <data name="b23a896190f540a0b8f4e051c38c17ce.Caption" xml:space="preserve">
+    <value>Désignation 2</value>
+  </data>
+  <data name="be8095f8b26743949d37cda1a7d0a3e1.Caption" xml:space="preserve">
+    <value>Désignation 3</value>
+  </data>
+  <data name="d85fdf1054a4e1a927211addc9dd58b.Caption" xml:space="preserve">
+    <value>Désignation 4</value>
+  </data>
+  <data name="f5688360e94aee938e5c725935ce14.Caption" xml:space="preserve">
+    <value>Désignation 5</value>
+  </data>
+  <data name="e7bc177b95440fcb4ed4875f7a38eab.Caption" xml:space="preserve">
+    <value>GAMME</value>
+  </data>
+  <data name="fbe04d345341ae92f33a739655f082.Caption" xml:space="preserve">
+    <value>LIVRAISONREELLE</value>
+  </data>
+  <data name="2855e54cec4d5d90ad1d001502abfb.Caption" xml:space="preserve">
+    <value>Mode Règlement 1</value>
+  </data>
+  <data name="9216a2a304407189a1bb8233ad289e.Caption" xml:space="preserve">
+    <value>Mode Règlement 2</value>
+  </data>
+  <data name="a521a11ade404a4b9966afb517043105.Caption" xml:space="preserve">
+    <value>Mode Règlement 3</value>
+  </data>
+  <data name="f5554cc12a84cd996e5196b68d6714c.Caption" xml:space="preserve">
+    <value>Montant global</value>
+  </data>
+  <data name="fe4dab2d926c4abeb78f4283e7c9fe0d.Caption" xml:space="preserve">
+    <value>Montant HT</value>
+  </data>
+  <data name="c7d79c0f4baf4ff3a91d249a4991a67b.Caption" xml:space="preserve">
+    <value>Numéro Commande</value>
+  </data>
+  <data name="fbc1cfc88a414c97fd0a819fc81157.Caption" xml:space="preserve">
+    <value>Numéro Ligne</value>
+  </data>
+  <data name="a4511a591701498897240f86206ff369.Caption" xml:space="preserve">
+    <value>ORIGINE</value>
+  </data>
+  <data name="c9f60f2399b4959a20d97801aa5bd2b.Caption" xml:space="preserve">
+    <value>PersistentState</value>
+  </data>
+  <data name="cce5500f78440849e4aa79428932cd5.Caption" xml:space="preserve">
+    <value>Pourcent Règlement 1</value>
+  </data>
+  <data name="e091981efa2470c9e7e0f602c87761b.Caption" xml:space="preserve">
+    <value>Pourcent Règlement 2</value>
+  </data>
+  <data name="169fd473e6401799a04939682430c6.Caption" xml:space="preserve">
+    <value>Pourcent Règlement 3</value>
+  </data>
+  <data name="82431f265a4ba0ad151d315fb3b3da.Caption" xml:space="preserve">
+    <value>Prix unitaire</value>
+  </data>
+  <data name="d6a07917f9d4b0e8c9b48431924b285.Caption" xml:space="preserve">
+    <value>Quantité commandée</value>
+  </data>
+  <data name="ad25f69ccd4971af82c2ed59f760a8.Caption" xml:space="preserve">
+    <value>Quantite Livrée</value>
+  </data>
+  <data name="a4fb18801d4541d18a3bf812033b0ce4.Caption" xml:space="preserve">
+    <value>RAE</value>
+  </data>
+  <data name="b31a4950ec19482c9e369b2848651a62.Caption" xml:space="preserve">
+    <value>Remise Commerciale (%)</value>
+  </data>
+  <data name="c4512cf5f24bee848d7dd5d3113f96.Caption" xml:space="preserve">
+    <value>Remise Groupement (%)</value>
+  </data>
+  <data name="243ef1bd1b4447980fd348c5d5e687.Caption" xml:space="preserve">
+    <value>Rest à Livrer</value>
+  </data>
+  <data name="e7d060d659e47ecbb240454fd969b10.Caption" xml:space="preserve">
+    <value>Taux de Comm</value>
+  </data>
+  <data name="dfb0c529217c492d94e229c88bab0fa6.Caption" xml:space="preserve">
+    <value>Taux Remise</value>
+  </data>
+  <data name="e215b271bfc84c28b5b02c2e941d3840.Caption" xml:space="preserve">
+    <value>Type Commande</value>
+  </data>
+</root>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="293606d9-9bdf-4b15-a047-d8ba456ac33d" lastModifiedUtc="2015-05-15T11:00:50.7115703Z" name="QFSAVE_OnClick" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="CorrectionBlocage">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="78e53db3-bdc1-46ab-a88e-2efa8119b856" paramName="form" sequence="0" paramType="ICorrectionBlocage" />
+    <OrmEntityMethodParam id="cdbc51e6-7402-4f42-a739-a93e336d9452" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="1b991e93-be97-4789-8709-7bad9052dc4e" lastModifiedUtc="2015-05-15T11:12:38.6479171Z" targetType="Sage.BusinessRules.CodeSnippets.CorrectionBlocageEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="QFSAVE_OnClickStep" active="true" codeSnippetId="8a776c58-bfae-4f41-b46d-f0f2ab56ca33">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

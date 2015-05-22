@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\EditSalesPotential.ascx" timeStamp="2015-03-27T08:13:11.5390" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\InsertOpportunity.ascx" timeStamp="2015-03-27T08:13:11.7344" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\OpportunityCampaigns.ascx" timeStamp="2015-03-27T08:13:11.9053" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\OpportunityClosedLost.ascx" timeStamp="2015-03-27T08:13:12.0986" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\OpportunityClosedWon.ascx" timeStamp="2015-03-27T08:13:12.2910" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\OpportunityCompetitors.ascx" timeStamp="2015-03-27T08:13:12.4092" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\OpportunityContacts.ascx" timeStamp="2015-03-27T08:13:12.7256" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\OpportunityContacts.js" timeStamp="2015-03-27T08:13:12.7109" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\OpportunityDetails.ascx" timeStamp="2015-03-27T08:13:12.8926" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\OpportunityProducts.ascx" timeStamp="2015-03-27T08:13:13.5469" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\OpportunityProducts.js" timeStamp="2015-03-27T08:13:13.5303" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\SalesOrders.ascx" timeStamp="2015-03-27T08:13:14.1152" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Opportunity\App_LocalResources\" />
+</exportedFiles>

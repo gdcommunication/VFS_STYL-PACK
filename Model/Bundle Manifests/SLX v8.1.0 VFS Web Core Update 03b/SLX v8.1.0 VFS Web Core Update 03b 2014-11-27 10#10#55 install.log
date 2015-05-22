@@ -1,0 +1,45 @@
+27/11/2014 10:10:55
+INFO  2014-11-27 11:07:57,939 - Installation du bundle...
+INFO  2014-11-27 11:07:57,951 - Exécution de la pré-installation.
+INFO  2014-11-27 11:07:57,960 - Executing delete item actions
+INFO  2014-11-27 11:07:58,017 - Installation de élément de contexte : Service Portal Template (\Portal\PortalTemplates\ServicePortalTemplate\ServicePortalTemplate.portaltemplate.xml)
+INFO  2014-11-27 11:07:58,502 - Installation de Service Portal Template (\Portal\PortalTemplates\ServicePortalTemplate\ServicePortalTemplate.portaltemplate.xml) terminée
+INFO  2014-11-27 11:07:58,508 - Installation de élément de contexte : UI Portal Template (\Portal\PortalTemplates\UIPortalTemplate\UIPortalTemplate.portaltemplate.xml)
+INFO  2014-11-27 11:07:58,815 - Installation de UI Portal Template (\Portal\PortalTemplates\UIPortalTemplate\UIPortalTemplate.portaltemplate.xml) terminée
+INFO  2014-11-27 11:07:58,821 - Installation de élément de contexte : Process Host (\Portal\ProcessHost\ProcessHost.cabsvc.ptl.xml)
+INFO  2014-11-27 11:07:59,185 - Installation de Process Host (\Portal\ProcessHost\ProcessHost.cabsvc.ptl.xml) terminée
+INFO  2014-11-27 11:07:59,190 - Installation de élément de contexte : SData Integration Host (\Portal\sdata\sdata.cabsvc.ptl.xml)
+INFO  2014-11-27 11:08:00,079 - Installation de SData Integration Host (\Portal\sdata\sdata.cabsvc.ptl.xml) terminée
+INFO  2014-11-27 11:08:00,085 - Installation de élément de contexte : Saleslogix Client (\Portal\SlxClient\SlxClient.cabapp.ptl.xml)
+INFO  2014-11-27 11:08:04,517 - Installation de Saleslogix Client (\Portal\SlxClient\SlxClient.cabapp.ptl.xml) terminée
+INFO  2014-11-27 11:08:04,523 - Installation de élément de contexte : Saleslogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml)
+INFO  2014-11-27 11:08:08,394 - Installation de Saleslogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml) terminée
+INFO  2014-11-27 11:08:08,400 - Installation de élément de contexte : Saleslogix Job Service (\Portal\SlxJobService\SlxJobService.cabsch.ptl.xml)
+INFO  2014-11-27 11:08:08,890 - Installation de Saleslogix Job Service (\Portal\SlxJobService\SlxJobService.cabsch.ptl.xml) terminée
+INFO  2014-11-27 11:08:08,896 - Enregistrement de élément de contexte : Service Portal Template (\Portal\PortalTemplates\ServicePortalTemplate\ServicePortalTemplate.portaltemplate.xml)
+INFO  2014-11-27 11:08:08,903 - Service Portal Template (\Portal\PortalTemplates\ServicePortalTemplate\ServicePortalTemplate.portaltemplate.xml) a bien été enregistré
+INFO  2014-11-27 11:08:08,909 - Enregistrement de élément de contexte : UI Portal Template (\Portal\PortalTemplates\UIPortalTemplate\UIPortalTemplate.portaltemplate.xml)
+INFO  2014-11-27 11:08:08,916 - UI Portal Template (\Portal\PortalTemplates\UIPortalTemplate\UIPortalTemplate.portaltemplate.xml) a bien été enregistré
+INFO  2014-11-27 11:08:08,924 - Enregistrement de élément de contexte : Process Host (\Portal\ProcessHost\ProcessHost.cabsvc.ptl.xml)
+INFO  2014-11-27 11:08:08,931 - Process Host (\Portal\ProcessHost\ProcessHost.cabsvc.ptl.xml) a bien été enregistré
+INFO  2014-11-27 11:08:08,938 - Enregistrement de élément de contexte : SData Integration Host (\Portal\sdata\sdata.cabsvc.ptl.xml)
+INFO  2014-11-27 11:08:08,948 - SData Integration Host (\Portal\sdata\sdata.cabsvc.ptl.xml) a bien été enregistré
+INFO  2014-11-27 11:08:08,956 - Enregistrement de élément de contexte : Saleslogix Client (\Portal\SlxClient\SlxClient.cabapp.ptl.xml)
+INFO  2014-11-27 11:08:08,983 - Saleslogix Client (\Portal\SlxClient\SlxClient.cabapp.ptl.xml) a bien été enregistré
+INFO  2014-11-27 11:08:08,991 - Enregistrement de élément de contexte : Saleslogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml)
+INFO  2014-11-27 11:08:09,000 - Saleslogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.cabapp.ptl.xml) a bien été enregistré
+INFO  2014-11-27 11:08:09,008 - Enregistrement de élément de contexte : Saleslogix Job Service (\Portal\SlxJobService\SlxJobService.cabsch.ptl.xml)
+INFO  2014-11-27 11:08:09,016 - Saleslogix Job Service (\Portal\SlxJobService\SlxJobService.cabsch.ptl.xml) a bien été enregistré
+INFO  2014-11-27 11:08:09,027 - Configuration des éléments installés.
+INFO  2014-11-27 11:08:09,035 - Configuration de Service Portal Template...
+INFO  2014-11-27 11:08:09,053 - Configuration de UI Portal Template...
+INFO  2014-11-27 11:08:09,067 - Configuration de Process Host...
+INFO  2014-11-27 11:08:09,089 - Configuration de SData Integration Host...
+INFO  2014-11-27 11:08:09,104 - Configuration de Saleslogix Client...
+INFO  2014-11-27 11:08:09,119 - Configuration de Saleslogix Customer Portal...
+INFO  2014-11-27 11:08:09,129 - Configuration de Saleslogix Job Service...
+INFO  2014-11-27 11:08:09,139 - Exécution d'une pré-validation du projet cible.
+INFO  2014-11-27 11:08:09,309 - Validation des éléments dans le projet cible...
+INFO  2014-11-27 11:10:53,701 - Validation des transactions...
+INFO  2014-11-27 11:10:55,046 - Copie du catalogue de bundle dans le projet.
+INFO  2014-11-27 11:10:56,827 - L'installation est terminée.

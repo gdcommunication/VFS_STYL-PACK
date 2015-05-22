@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\IntegrationDetail.ascx" timeStamp="2015-04-08T08:29:36.1029" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\IntegrationExtendedDetails.ascx" timeStamp="2015-04-08T08:29:36.6038" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\IntegrationLinks.ascx" timeStamp="2015-04-08T08:29:37.3685" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\IntegrationLinks.js" timeStamp="2015-04-08T08:29:37.3265" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\IntegrationOptions.ascx" timeStamp="2015-04-08T08:29:38.1244" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\IntegrationOptions.js" timeStamp="2015-04-08T08:29:38.0892" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\IntegrationResources.ascx" timeStamp="2015-04-08T08:29:38.8802" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\IntegrationResources.js" timeStamp="2015-04-08T08:29:38.8431" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\IntegrationUsers.ascx" timeStamp="2015-04-08T08:29:39.6478" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\IntegrationUsers.js" timeStamp="2015-04-08T08:29:39.3871" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\ProviderScopes.ascx" timeStamp="2015-04-08T08:29:40.1830" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\ProviderScopes.js" timeStamp="2015-04-08T08:29:40.1488" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Integration\App_LocalResources\" />
+</exportedFiles>

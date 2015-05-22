@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactDetails.ascx" timeStamp="2015-03-27T08:12:59.2958" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactExtendedDetails.ascx" timeStamp="2015-03-27T08:12:59.4657" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactLeadSources.ascx" timeStamp="2015-03-27T08:12:59.6161" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactLeadSources.js" timeStamp="2015-03-27T08:12:59.6005" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactLiteratureRequests.ascx" timeStamp="2015-03-27T08:12:59.9091" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactLiteratureRequests.js" timeStamp="2015-03-27T08:12:59.8973" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactOpportunities.ascx" timeStamp="2015-03-27T08:13:00.0674" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactOpportunities.js" timeStamp="2015-03-27T08:13:00.0321" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactProcesses.ascx" timeStamp="2015-03-27T08:13:00.3065" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactProcesses.js" timeStamp="2015-03-27T08:13:00.2880" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactResponses.ascx" timeStamp="2015-03-27T08:13:00.4804" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactResponses.js" timeStamp="2015-03-27T08:13:00.4657" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactTickets.ascx" timeStamp="2015-03-27T08:13:00.9755" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\ContactTickets.js" timeStamp="2015-03-27T08:13:00.9647" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\QuickInsertAccountContact.ascx" timeStamp="2015-03-27T08:13:01.4286" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\SelectAccountAddress.ascx" timeStamp="2015-03-27T08:13:01.6386" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Contact\App_LocalResources\" />
+</exportedFiles>

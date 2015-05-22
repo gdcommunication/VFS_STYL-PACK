@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SmartParts\Campaign\AddEditMarketingServicesUser.ascx" timeStamp="2015-04-08T08:29:06.0819" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Campaign\CampaignBudgetResults.ascx" timeStamp="2015-04-08T08:29:06.6219" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Campaign\CampaignDetails.ascx" timeStamp="2015-04-08T08:29:07.3495" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Campaign\CampaignOpportunities.ascx" timeStamp="2015-04-08T08:29:07.8466" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Campaign\CampaignOpportunities.js" timeStamp="2015-04-08T08:29:07.8143" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Campaign\CampaignProducts.ascx" timeStamp="2015-04-08T08:29:08.6386" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Campaign\CampaignProducts.js" timeStamp="2015-04-08T08:29:08.5829" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Campaign\InsertCampaign.ascx" timeStamp="2015-04-08T08:29:10.0009" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Campaign\App_LocalResources\" />
+</exportedFiles>

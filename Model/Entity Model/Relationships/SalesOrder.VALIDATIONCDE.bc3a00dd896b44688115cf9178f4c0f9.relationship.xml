@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="bc3a00dd-896b-4468-8115-cf9178f4c0f9" lastModifiedUtc="2015-05-14T07:01:25.4214479Z" parentEntityId="9b47425f-3b70-4f38-a4cf-574c64d46086" childEntityId="bf221628-a210-4071-9f7b-5b4e856fe85d">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="e5f82c49-5359-46db-ad25-5c38ead8cce1" lastModifiedUtc="2015-05-14T07:00:12.3275103Z" name="VALIDATIONCDESS" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+          <OrmEntityPropertySDataExtension generate="true" />
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="c3a1c3e0-9ced-4608-ba7a-5f81ae1f0732" lastModifiedUtc="2015-05-14T07:00:25.0785309Z" name="SalesOrder" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+          <OrmEntityPropertySDataExtension generate="true" />
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="3774ca50-9e15-42e9-9e87-7e84ffd4934c" parentPropertyId="17935caf-63d3-493c-a723-467cd86393d3" childPropertyId="6abf5003-2d8b-4f3d-8993-7379fa11c869" ordinal="0" />
+  </column>
+</relationship>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SmartParts\Contract\ContractComments.ascx" timeStamp="2015-04-08T08:29:19.4239" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Contract\ContractCoveredAssets.ascx" timeStamp="2015-04-08T08:29:20.2325" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Contract\ContractCoveredAssets.js" timeStamp="2015-04-08T08:29:20.1983" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Contract\ContractDetail.ascx" timeStamp="2015-04-08T08:29:20.7647" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Contract\ContractReferenceDuplicate.ascx" timeStamp="2015-04-08T08:29:21.4493" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Contract\ContractTickets.ascx" timeStamp="2015-04-08T08:29:22.7784" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Contract\InsertContract.ascx" timeStamp="2015-04-08T08:29:23.5333" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Contract\App_LocalResources\" />
+</exportedFiles>

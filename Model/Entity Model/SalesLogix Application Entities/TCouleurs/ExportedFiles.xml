@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCouleurs\OnAfterDelete.method.xml" timeStamp="2015-03-26T14:52:29.1922" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCouleurs\OnAfterInsert.method.xml" timeStamp="2015-03-26T14:52:29.1131" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCouleurs\OnAfterUpdate.method.xml" timeStamp="2015-03-26T14:52:29.1541" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCouleurs\OnBeforeDelete.method.xml" timeStamp="2015-03-26T14:52:29.1727" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCouleurs\OnBeforeInsert.method.xml" timeStamp="2015-03-26T14:52:29.0887" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCouleurs\OnBeforeUpdate.method.xml" timeStamp="2015-03-26T14:52:29.1336" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCouleurs\OnCreate.method.xml" timeStamp="2015-03-26T14:52:29.2127" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCouleurs\TCouleurs.T_COULEURS.entity.xml" timeStamp="2015-03-26T14:52:57.1212" />
+</exportedFiles>

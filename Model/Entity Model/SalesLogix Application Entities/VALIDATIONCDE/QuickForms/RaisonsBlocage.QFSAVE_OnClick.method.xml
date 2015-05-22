@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="f4454840-10ec-4c2e-8af7-46b88225fc28" lastModifiedUtc="2015-05-15T07:46:29.8161625Z" name="QFSAVE_OnClick" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="RaisonsBlocage">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="c1076708-ce43-4fdb-a55f-a274f569766b" paramName="form" sequence="0" paramType="IRaisonsBlocage" />
+    <OrmEntityMethodParam id="6550063f-6594-4086-b9af-ec4f4bad5688" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="97aa4620-9473-4743-87b9-b5d640e63155" lastModifiedUtc="2015-05-15T07:53:50.9158918Z" targetType="Sage.BusinessRules.CodeSnippets.RaisonsBlocageEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="QFSAVE_OnClickStep" active="true" codeSnippetId="52642a9b-60fd-4964-bc7a-0c95fabd61f7">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

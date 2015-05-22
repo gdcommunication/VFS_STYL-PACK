@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\CircularGauge.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\CircularGauge.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\CircularRangeIndicator.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\CircularRangeIndicator.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\CircularScale.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\CircularScale.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\CircularValueIndicator.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\CircularValueIndicator.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\CONTRIBUTING.md" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\GaugeBase.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\GaugeBase.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\IndicatorBase.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\IndicatorBase.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\LICENSE" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\LinearScaler.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\LinearScaler.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\LogScaler.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\LogScaler.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\MultiLinearScaler.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\MultiLinearScaler.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\README" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\RectangularGauge.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\RectangularGauge.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\RectangularRangeIndicator.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\RectangularRangeIndicator.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\RectangularScale.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\RectangularScale.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\RectangularSegmentedRangeIndicator.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\RectangularSegmentedRangeIndicator.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\RectangularValueIndicator.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\RectangularValueIndicator.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\ScaleBase.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\ScaleBase.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\ScaleIndicatorBase.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\ScaleIndicatorBase.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\TextIndicator.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\TextIndicator.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\_circularUtils.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\_circularUtils.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\dgauges\components\" />
+</exportedFiles>

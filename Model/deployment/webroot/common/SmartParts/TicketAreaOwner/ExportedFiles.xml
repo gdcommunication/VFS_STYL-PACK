@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SmartParts\TicketAreaOwner\InsertTicketAreaOwner.ascx" timeStamp="2014-11-27T14:28:45.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\TicketAreaOwner\TicketAreaOwnerDetail.ascx" timeStamp="2014-11-27T14:28:49.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\TicketAreaOwner\TicketAreaOwnerExtendedDetail.ascx" timeStamp="2014-11-27T14:28:49.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\TicketAreaOwner\TicketAreaOwners.ascx" timeStamp="2014-11-27T14:28:49.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\TicketAreaOwner\App_LocalResources\" />
+</exportedFiles>

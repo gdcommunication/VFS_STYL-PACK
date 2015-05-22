@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="de" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="de" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Grundlegendes zur Kalenderintegration</title>
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Borders.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/SALESLOGIX.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body><![CDATA[
+        ]]><h1>Grundlegendes zur Kalenderintegration</h1> <![CDATA[      ]]><p>Mit der Kalenderintegration können Sie Ihren Kalender zwischen <span class="MyVariablesProduct Name">Saleslogix</span> und einer unterstützten <MadCap:conditionalText MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><a href="Using_External_Integrations.htm">Integration</a></MadCap:conditionalText> synchronisieren. Ihr Administrator muss eine Berechtigung konfigurieren und gewähren, bevor Sie Kalender mit einer Integration synchronisieren können.</p> <![CDATA[       ]]><p>During a synchronization cycle, <span class="MyVariablesProduct Name">Saleslogix</span> compares fields in both systems, and makes changes to ensure both systems contain the same information. Only data in mapped fields between the applications is transferred. The data is compared and changes are made to ensure the information <a href="Matching_Records.htm">matches</a>. For example, if a record has been added to one system and not to the other, that record is added to the incomplete system.</p> <![CDATA[       ]]><table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%" MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN"> <![CDATA[
+            ]]><col style="width: 45px;" /> <![CDATA[
+            ]]><col /> <![CDATA[
+            ]]><tr MadCap:conditions=""> <![CDATA[
+                ]]><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"> <![CDATA[
+                    ]]><p style="text-align: center;margin-bottom: 0;" align="center"> <![CDATA[
+                        ]]><img src="../image/note.gif" /> <![CDATA[
+                    ]]></p> <![CDATA[
+                ]]></td> <![CDATA[
+                ]]><td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">Die integrierte Datensicherheit, die mit dem bei <span class="MyVariablesProduct Name">Saleslogix</span> angemeldeten Benutzer verknüpft ist, wirkt sich ebenfalls auf die Synchronisierung aus. Die Sicherheitsrechte des angemeldeten Benutzers begrenzen die Menge der übertragbaren Daten.</td> <![CDATA[
+            ]]></tr> <![CDATA[
+        ]]></table> <![CDATA[
+        ]]><p class="subheading">Kalender-Synchronisierungsverhalten</p> <![CDATA[
+        ]]><ul><![CDATA[
+            ]]><li value="1">Wenn derselbe Datensatz während desselben Synchronisierungszyklus aktualisiert wird, gewinnt die letzte Änderung.</li> <![CDATA[
+            ]]><li value="2">Durch Löschen einer Aktivität in einem der Systeme wird die Aktivität in beiden Anwendungen gelöscht.</li> <![CDATA[
+            ]]><li value="3">Mitglieder und Ressourcen von Aktivitätsorganisatoren:<ul><li value="1">Mitglieder- und Ressourceninformationen werden nicht synchronisiert. </li><li value="2">Wenn der Benutzer ein Mitglied oder ein Organisator einer Aktivität ist und die Aktivität synchronisiert wird, wird der Benutzer als Organisator aufgelistet.</li></ul></li> <![CDATA[
+            ]]><li value="4">Nicht bestätigte und bestätigte Aktivitäten werden synchronisiert.</li> <![CDATA[
+            ]]><li value="5">Abgelehnte Aktivitäten:<ul><li value="1">Aktivitäten, die vor einem Synchronisierungszyklus abgelehnt werden, werden nicht synchronisiert. </li><li value="2">Aktivitäten, die nach einem Synchronisierungszyklus abgelehnt werden, werden in beiden Anwendungen aus dem Kalender des Benutzers entfernt.</li></ul></li> <![CDATA[
+            ]]><li value="6">Aktivitätentypen in <span class="MyVariablesCompanyNameFull">Saleslogix</span> können in einer integrierten Anwendung zu verschiedenen Aktivitätentypen synchronisiert werden. Einzelheiten entnehmen Sie bitte der Tabelle "Grundlegendes zum Kalender-Datenaustausch".</li> <![CDATA[
+        ]]></ul> <![CDATA[
+        ]]><p><MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">Spezifische Kalenderintegrationsszenarien finden Sie unter <a href="Synchronizing_Calendars.htm">Kalendersynchronisierungsszenarien</a>.</MadCap:conditionalText> <![CDATA[ ]]></p> <![CDATA[
+        ]]><p class="subheading">Grundlegendes zum Kalender-Datenaustausch</p> <![CDATA[
+        ]]><p MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Die folgende Tabelle listet auf, wie <span class="MyVariablesProduct Name">Saleslogix</span>-Kalenderdaten mit externen Integrationen synchronisiert werden:</p> <![CDATA[
+        ]]><table style="width: 95%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"> <![CDATA[
+            ]]><col class="Column-Column1"> <![CDATA[
+            ]]></col> <![CDATA[
+            ]]><col class="Column-Column1"> <![CDATA[
+            ]]></col> <![CDATA[
+            ]]><col class="Column-Column1"> <![CDATA[
+            ]]></col> <![CDATA[
+            ]]><thead><![CDATA[
+                ]]><tr class="Head-Header1"> <![CDATA[
+                    ]]><th class="HeadE-Column1-Header1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><span class="MyVariablesProduct Name">Saleslogix</span> <![CDATA[
+                    ]]></th> <![CDATA[
+                    ]]><th class="HeadE-Column1-Header1">Synchronisiert als</th> <![CDATA[
+                    ]]><th class="HeadD-Column1-Header1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Outlook</th> <![CDATA[
+                ]]></tr> <![CDATA[
+            ]]></thead> <![CDATA[
+            ]]><tbody><![CDATA[
+                ]]><tr class="Body-Body1"> <![CDATA[
+                    ]]><td class="BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Meetings</td> <![CDATA[
+                    ]]><td class="BodyE-Column1-Body1">synchronisiert als</td> <![CDATA[
+                    ]]><td class="BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Termine</td> <![CDATA[
+                ]]></tr> <![CDATA[
+                ]]><tr class="Body-Body1"> <![CDATA[
+                    ]]><td class="BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Anrufe</td> <![CDATA[
+                    ]]><td class="BodyE-Column1-Body1">synchronisiert als</td> <![CDATA[
+                    ]]><td class="BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Termine</td> <![CDATA[
+                ]]></tr> <![CDATA[
+                ]]><tr class="Body-Body1"> <![CDATA[
+                    ]]><td class="BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Persönliche Aktivitäten</td> <![CDATA[
+                    ]]><td class="BodyE-Column1-Body1">synchronisiert als</td> <![CDATA[
+                    ]]><td class="BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Termine, als privat gekennzeichnet</td> <![CDATA[
+                ]]></tr> <![CDATA[
+                ]]><tr class="Body-Body1"> <![CDATA[
+                    ]]><td class="BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Aufgaben</td> <![CDATA[
+                    ]]><td class="BodyE-Column1-Body1">synchronisiert als</td> <![CDATA[
+                    ]]><td class="BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Aufgaben</td> <![CDATA[
+                ]]></tr> <![CDATA[
+                ]]><tr class="Body-Body1"> <![CDATA[
+                    ]]><td class="BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Ereignisse</td> <![CDATA[
+                    ]]><td class="BodyE-Column1-Body1">synchronisiert als</td> <![CDATA[
+                    ]]><td class="BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">nicht synchronisieren</td> <![CDATA[
+                ]]></tr> <![CDATA[
+                ]]><tr class="Body-Body1"> <![CDATA[
+                    ]]><td class="BodyB-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Anruf, Meeting oder persönliche Aktivität ohne Zeitangabe</td> <![CDATA[
+                    ]]><td class="BodyB-Column1-Body1">synchronisiert als</td> <![CDATA[
+                    ]]><td class="BodyA-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Ganztätiges Ereignis</td> <![CDATA[
+                ]]></tr> <![CDATA[
+            ]]></tbody> <![CDATA[
+        ]]></table> <![CDATA[
+        ]]><p class="RelatedTopics">Vorgehensweise</p> <![CDATA[
+        ]]><ul><![CDATA[
+            ]]><li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="1"><a href="../Outlook/Configuring_Outlook_Sync.htm">Festlegen von Kalenderoptionen</a></li> <![CDATA[
+            ]]><li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="2">Manuelle Synchronisierung des Kalenders und der Kontakte</li> <![CDATA[
+        ]]></ul> <![CDATA[
+        ]]><![CDATA[
+        ]]><![CDATA[
+        ]]><![CDATA[
+        ]]><ul><![CDATA[
+            ]]><![CDATA[
+        ]]></ul> <![CDATA[
+        ]]><![CDATA[
+        ]]><table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%"> <![CDATA[
+            ]]><tr><![CDATA[
+                ]]><td style="width: 10%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="10%"> <![CDATA[
+                    ]]><![CDATA[
+                ]]></td> <![CDATA[
+                ]]><td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%"> <![CDATA[
+                    ]]><![CDATA[
+                ]]></td> <![CDATA[
+            ]]></tr> <![CDATA[
+        ]]></table> <![CDATA[
+        ]]><ul><![CDATA[
+            ]]><![CDATA[
+            ]]><![CDATA[
+        ]]></ul> <![CDATA[
+        ]]><table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%" MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN"> <![CDATA[
+            ]]><col style="width: 45px;"> <![CDATA[
+            ]]></col> <![CDATA[
+            ]]><col><![CDATA[
+            ]]></col> <![CDATA[
+            ]]><tr><![CDATA[
+                ]]><td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top"> <![CDATA[
+                    ]]><p style="text-align: center;margin-bottom: 0;" align="center"> <![CDATA[
+                        ]]><img src="../image/caution.gif"> <![CDATA[
+                        ]]></img> <![CDATA[
+                    ]]></p> <![CDATA[
+                ]]></td> <![CDATA[
+                ]]><td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%"> <![CDATA[
+                    ]]><p class="Tip-Note-Text" style="margin-bottom: 0;">Es empfiehlt sich nicht, den Remote Client gleichzeitig mit der Datenbank der Zentrale und mit Microsoft Outlook zu synchronisieren. Dies reduziert die Synchronisierungsgeschwindigkeit deutlich und verursacht Speicherprobleme. <span class="MyVariablesProduct Name">Saleslogix</span> empfiehlt empfiehlt, die Synchronisierung mit Outlook vor oder nach der Synchronisierung mit der Remote-Datenbank durchzuführen.</p> <![CDATA[
+                ]]></td> <![CDATA[
+            ]]></tr> <![CDATA[
+        ]]></table> <![CDATA[
+        ]]><p class="RelatedTopics">Verwandte Themen</p> <![CDATA[
+        ]]><p MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><a href="Synchronizing_Calendars.htm">Kalendersynchronisierungsszenarien</a></p> <![CDATA[
+    ]]><p>&#160;</p><table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/Borders.css');width: 100%;border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;margin-left: 0;margin-right: auto;" class="TableStyle_Borders" cellspacing="0"><col style="width: 100%;" /><tbody><tr MadCap:conditions=""><td style="font-size: 8pt;border-left-style: solid;border-left-width: 0px;border-right-style: solid;border-right-width: 0px;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;" class="TableStyle_Borders_Body_0_0_RowEnd_ColEnd"><p style="font-family: Verdana;font-size: 8pt;"><a href="../General/feedback.htm">Haben Sie Vorschläge zur Verbesserung der Hilfe?</a></p></td></tr></tbody></table><script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js"></script></body>
+</html>

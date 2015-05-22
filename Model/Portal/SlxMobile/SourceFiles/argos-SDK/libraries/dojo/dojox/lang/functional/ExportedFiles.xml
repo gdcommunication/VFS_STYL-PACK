@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\array.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\array.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\binrec.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\binrec.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\curry.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\curry.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\fold.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\fold.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\lambda.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\lambda.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\linrec.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\linrec.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\listcomp.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\listcomp.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\multirec.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\multirec.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\numrec.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\numrec.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\object.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\object.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\reversed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\reversed.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\scan.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\scan.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\sequence.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\sequence.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\tailrec.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\tailrec.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\util.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\util.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\zip.js" timeStamp="2013-12-27T17:57:53.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\lang\functional\zip.js.uncompressed.js" timeStamp="2013-12-27T17:57:53.0000" />
+</exportedFiles>

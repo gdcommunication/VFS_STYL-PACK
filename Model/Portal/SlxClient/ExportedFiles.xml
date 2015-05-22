@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems.order.xml" timeStamp="2015-02-24T11:52:23.6506" />
+  <exportedFile url="\Portal\SlxClient\MenuItems.order.xml" timeStamp="2015-02-24T11:52:23.6497" />
+  <exportedFile url="\Portal\SlxClient\Modules.order.xml" timeStamp="2015-02-24T11:52:23.6204" />
+  <exportedFile url="\Portal\SlxClient\NavigationGroups.order.xml" timeStamp="2015-02-24T11:52:23.6233" />
+  <exportedFile url="\Portal\SlxClient\Services.order.xml" timeStamp="2015-02-24T11:52:23.6194" />
+  <exportedFile url="\Portal\SlxClient\SlxClient.cabapp.ptl.xml" timeStamp="2015-02-24T11:52:23.6057" />
+  <exportedFile url="\Portal\SlxClient\SlxClient.cabapp.ptl.xml.de.resx" timeStamp="2014-11-27T10:38:26.0000" />
+  <exportedFile url="\Portal\SlxClient\SlxClient.cabapp.ptl.xml.fr.resx" timeStamp="2014-11-27T10:38:26.0000" />
+  <exportedFile url="\Portal\SlxClient\SlxClient.cabapp.ptl.xml.it.resx" timeStamp="2014-11-27T10:38:26.0000" />
+  <exportedFile url="\Portal\SlxClient\SlxClient.cabapp.ptl.xml.resx" timeStamp="2014-11-27T10:38:26.0000" />
+  <exportedFile url="\Portal\SlxClient\SlxClient.cabapp.ptl.xml.ru.resx" timeStamp="2014-11-27T10:38:26.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles.def.xml" timeStamp="2015-02-24T11:52:23.6135" />
+  <exportedFile url="\Portal\SlxClient\Tasklets.order.xml" timeStamp="2015-02-24T11:52:23.6213" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\" />
+  <exportedFile url="\Portal\SlxClient\Deployment\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\" />
+  <exportedFile url="\Portal\SlxClient\Modules\" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\" />
+  <exportedFile url="\Portal\SlxClient\Services\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\" />
+  <exportedFile url="\Portal\SlxClient\Tasklets\" />
+</exportedFiles>

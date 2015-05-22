@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="85399cdc-c9c3-41c4-9fb6-77658272f35b" lastModifiedUtc="2015-05-14T12:53:47.587335Z" name="QFNEWREASON_OnClick" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="ListeBlocages">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="62289650-70ba-4288-b11c-965505fb9ec5" paramName="form" sequence="0" paramType="IListeBlocages" />
+    <OrmEntityMethodParam id="e535cbac-efcd-4c05-995a-fbe5b257db2f" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="5742230c-e50c-489a-84ec-88fd8aaac3b8" lastModifiedUtc="2015-05-15T07:23:32.8195541Z" targetType="Sage.BusinessRules.CodeSnippets.ListeBlocagesEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="QFNEWREASON_OnClickStep" active="true" codeSnippetId="dd3c103e-bcb8-428b-adef-a309633ae91f">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

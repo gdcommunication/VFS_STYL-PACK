@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SmartParts\Role\RoleActions.ascx" timeStamp="2014-11-27T14:28:47.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Role\RoleActions.js" timeStamp="2014-11-27T14:28:47.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Role\RoleDetails.ascx" timeStamp="2014-11-27T14:28:48.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Role\RoleUsers.ascx" timeStamp="2014-11-27T14:28:48.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Role\RoleUsers.js" timeStamp="2014-11-27T14:28:48.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Role\SelectRole.ascx" timeStamp="2014-11-27T14:28:48.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Role\App_LocalResources\" />
+</exportedFiles>

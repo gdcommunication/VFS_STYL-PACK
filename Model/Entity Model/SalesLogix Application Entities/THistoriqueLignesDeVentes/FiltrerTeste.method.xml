@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="2a71057c-0cc8-498a-b9ea-a491f2be53ba" lastModifiedUtc="2015-05-20T13:25:27.4551601Z" name="FiltrerTeste" returnType="System.Collections.IList" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="c7b0de21-6141-46ef-b3bb-f8d1a06b9c3e" lastModifiedUtc="2015-05-20T13:33:02.2410358Z" targetType="Sage.BusinessRules.CodeSnippets.THistoriqueLignesDeVentesBusinessRules, Sage.SnippetLibrary.CSharp" targetMethod="FiltrerTesteStep" active="true" codeSnippetId="50a9b055-c087-4e3a-b98e-b88233204ad5">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

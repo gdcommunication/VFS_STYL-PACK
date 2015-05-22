@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SmartParts\Department\DepartmentDetails.ascx" timeStamp="2014-11-27T14:28:44.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Department\DepartmentMembers.ascx" timeStamp="2014-11-27T14:28:44.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Department\DepartmentMembers.js" timeStamp="2014-11-27T14:28:44.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Department\DepartmentTeams.ascx" timeStamp="2014-11-27T14:28:44.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Department\DepartmentTeams.js" timeStamp="2014-11-27T14:28:44.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Department\InsertDepartment.ascx" timeStamp="2014-11-27T14:28:45.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Department\App_LocalResources\" />
+</exportedFiles>

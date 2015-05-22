@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="ff50b1cd-5a9a-41eb-a6c6-a4c763925316" lastModifiedUtc="2015-05-15T12:50:39.6309681Z" name="QFButton_OnClick" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="SalesOrderDetails">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="8edbe70a-7a9d-48b2-b767-cb1f488ead4d" paramName="form" sequence="0" paramType="ISalesOrderDetails" />
+    <OrmEntityMethodParam id="4a9e4d38-b433-4e63-9c7c-c1e225aba861" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="0e0e946b-731d-4d6b-b0df-8ec11787568e" lastModifiedUtc="2015-05-15T13:11:06.7619602Z" targetType="Sage.BusinessRules.CodeSnippets.SalesOrderDetailsEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="QFButton_OnClickStep" active="true" codeSnippetId="65582cd2-e126-48e2-aab5-3ac54d6129fd">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

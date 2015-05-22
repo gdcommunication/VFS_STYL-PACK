@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCompteOpportunitésDeVentes\OnAfterDelete.method.xml" timeStamp="2014-12-02T14:00:09.6146" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCompteOpportunitésDeVentes\OnAfterInsert.method.xml" timeStamp="2014-12-02T14:00:09.5169" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCompteOpportunitésDeVentes\OnAfterUpdate.method.xml" timeStamp="2014-12-02T14:00:09.5648" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCompteOpportunitésDeVentes\OnBeforeDelete.method.xml" timeStamp="2014-12-02T14:00:09.5882" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCompteOpportunitésDeVentes\OnBeforeInsert.method.xml" timeStamp="2014-12-02T14:00:09.4720" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCompteOpportunitésDeVentes\OnBeforeUpdate.method.xml" timeStamp="2014-12-02T14:00:09.5404" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TCompteOpportunitésDeVentes\OnCreate.method.xml" timeStamp="2014-12-02T14:00:09.6380" />
+</exportedFiles>

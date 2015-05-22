@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Collection.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Collection.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Feature.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Feature.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Geometry.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Geometry.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\GeometryFeature.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\GeometryFeature.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\GfxLayer.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\GfxLayer.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\GreatCircle.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\GreatCircle.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\JsonImport.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\JsonImport.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Layer.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Layer.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\LineString.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\LineString.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Map.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Map.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Patch.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Patch.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Point.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\Point.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\TouchInteractionSupport.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\TouchInteractionSupport.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\WidgetFeature.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\WidgetFeature.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\_base.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\_base.js.uncompressed.js" timeStamp="2013-12-27T17:57:52.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\geo\openlayers\widget\" />
+</exportedFiles>

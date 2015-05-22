@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="75ec0ea5-dd75-4bd6-939f-3036037fd6c5" lastModifiedUtc="2015-05-20T06:28:25.1502639Z" name="OnLoad2" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="histoventes">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="97e5ec48-e47c-4dcf-b07b-1bae356b5a82" paramName="form" sequence="0" paramType="Ihistoventes" />
+    <OrmEntityMethodParam id="dc16b9cf-67c0-4c0c-a7bc-fda87bac2bcd" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets />
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

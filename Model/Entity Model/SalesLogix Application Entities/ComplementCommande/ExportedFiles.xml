@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ComplementCommande\ComplementCommande.SalesOrder.T_COMPLEMENT_COMMANDE.entity.xml" timeStamp="2015-04-17T07:10:03.1684" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ComplementCommande\OnAfterDelete.method.xml" timeStamp="2015-03-23T08:02:18.8157" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ComplementCommande\OnAfterInsert.method.xml" timeStamp="2015-03-23T08:02:18.7210" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ComplementCommande\OnAfterUpdate.method.xml" timeStamp="2015-03-23T08:02:18.7737" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ComplementCommande\OnBeforeDelete.method.xml" timeStamp="2015-03-23T08:02:18.7942" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ComplementCommande\OnBeforeInsert.method.xml" timeStamp="2015-03-23T08:02:18.6995" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ComplementCommande\OnBeforeUpdate.method.xml" timeStamp="2015-03-23T08:02:18.7425" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ComplementCommande\OnCreate.method.xml" timeStamp="2015-03-23T08:02:18.8362" />
+</exportedFiles>

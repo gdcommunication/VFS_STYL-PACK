@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="grdItems.a8c6d9fd-1bde-4d02-b2a8-f56adc076935.Text" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="grdItems.a8c6d9fd-1bde-4d02-b2a8-f56adc076935.ColumnHeading" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="grdItems.3160cbc2-c14d-4e58-94c9-5277e17b3951.Text" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="grdItems.3160cbc2-c14d-4e58-94c9-5277e17b3951.ColumnHeading" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="grdItems.eae77157-0570-48d4-bd9a-d78df7b84496.ColumnHeading" xml:space="preserve">
+    <value>Verrouillé</value>
+  </data>
+  <data name="grdItems.530b7cdb-cef1-4e94-a46a-cf8d931ff779.ColumnHeading" xml:space="preserve">
+    <value>Ligne N°</value>
+  </data>
+  <data name="grdItems.0c39de35-d246-4c4b-a1fa-57a0a9be41c6.ColumnHeading" xml:space="preserve">
+    <value>Produit</value>
+  </data>
+  <data name="grdItems.22cd73f1-21d2-4590-96e0-53fed73e6f5d.ColumnHeading" xml:space="preserve">
+    <value>RECTO</value>
+  </data>
+  <data name="grdItems.362d8ce2-8819-40c0-951b-a1237e91c9f5.ColumnHeading" xml:space="preserve">
+    <value>VERSO</value>
+  </data>
+  <data name="grdItems.fe2ef1fa-eb25-45f9-9ef8-ee2cc354205c.ColumnHeading" xml:space="preserve">
+    <value>Envoi BAT Par</value>
+  </data>
+  <data name="grdItems.d49ee9a0-c7d7-4ccd-ad7f-eab371f1bd3b.ColumnHeading" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="grdItems.c5f93125-d027-47bb-a366-5de277101534.ColumnHeading" xml:space="preserve">
+    <value>Cliche de:</value>
+  </data>
+  <data name="grdItems.e4da3290-3837-4580-8ba9-8fbb8243846b.ColumnHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdItems.a74f322c-ebd9-49d4-ad41-3bcd939e8b41.ColumnHeading" xml:space="preserve">
+    <value>Niveau de prix</value>
+  </data>
+  <data name="grdItems.3ef53358-80dd-4e3f-99fb-355cb397a797.ColumnHeading" xml:space="preserve">
+    <value>Prix</value>
+  </data>
+  <data name="grdItems.983c7b9b-3c12-48e3-add2-73ff8cd065c2.ColumnHeading" xml:space="preserve">
+    <value>Remise</value>
+  </data>
+  <data name="grdItems.5cd443a0-928c-44a2-86f2-a4246f8223c7.ColumnHeading" xml:space="preserve">
+    <value>Prix unit. HT</value>
+  </data>
+  <data name="grdItems.28d57a8b-13ca-47c0-b41e-d969ed17dc28.ColumnHeading" xml:space="preserve">
+    <value>Prix unit. HT</value>
+  </data>
+  <data name="grdItems.0fd9479b-1d6f-497f-a870-26efbf44550d.ColumnHeading" xml:space="preserve">
+    <value>Quantité</value>
+  </data>
+  <data name="grdItems.eef3d53b-092f-4f1b-9429-22cfd8dd2bf4.ColumnHeading" xml:space="preserve">
+    <value>Unité</value>
+  </data>
+  <data name="grdItems.68096333-c869-44c2-9b19-51d9058e50d8.ColumnHeading" xml:space="preserve">
+    <value>Montant HT</value>
+  </data>
+  <data name="grdItems.ff4abcfa-992a-4721-8841-c0c0b6e89485.ColumnHeading" xml:space="preserve">
+    <value>Montant HT</value>
+  </data>
+  <data name="grdItems.ca87da6c-54ec-4780-b7c9-ff6e49313f91.ColumnHeading" xml:space="preserve">
+    <value>Type de la ligne</value>
+  </data>
+  <data name="grdItems.7f13becf-d7b7-41ec-82af-24215aec5077.ColumnHeading" xml:space="preserve">
+    <value>Type de produit</value>
+  </data>
+  <data name="grdItems.506f0947-d9d3-441f-bfed-329263b9df81.ColumnHeading" xml:space="preserve">
+    <value>Famille</value>
+  </data>
+  <data name="grdItems.8e673b4f-d883-499f-a1d5-7aca25abe293.ColumnHeading" xml:space="preserve">
+    <value>Ech</value>
+  </data>
+  <data name="grdItems.EmptyTableRowText" xml:space="preserve">
+    <value />
+  </data>
+  <data name=".ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name=".Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddCustomProduct.ActionConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddCustomProduct.ToolTip" xml:space="preserve">
+    <value>Ajouter un produit personnalisé...</value>
+  </data>
+  <data name="btnAddCustomProduct.Caption" xml:space="preserve">
+    <value>Ajouter un produit personnalisé</value>
+  </data>
+  <data name="btnLockAll.ActionConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLockAll.ToolTip" xml:space="preserve">
+    <value>Verrouiller tous les éléments</value>
+  </data>
+  <data name="btnLockAll.Caption" xml:space="preserve">
+    <value>Verrouiller tous les éléments</value>
+  </data>
+  <data name="btnUnlockAll.ActionConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnUnlockAll.ToolTip" xml:space="preserve">
+    <value>Déverrouiller tous les éléments</value>
+  </data>
+  <data name="btnUnlockAll.Caption" xml:space="preserve">
+    <value>Déverrouiller tous les éléments</value>
+  </data>
+  <data name="btnRenumber.ActionConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRenumber.ToolTip" xml:space="preserve">
+    <value>Renuméroter les éléments de la ligne</value>
+  </data>
+  <data name="btnRenumber.Caption" xml:space="preserve">
+    <value>Renuméroter les éléments</value>
+  </data>
+  <data name="grdItems.0540e9e4-228d-44ca-b941-9e377fd3b97c.ColumnHeading" xml:space="preserve">
+    <value>Reference:</value>
+  </data>
+  <data name="grdItems.6210cd5f-3e9d-40cf-8b1d-f8c15476cc79.ColumnHeading" xml:space="preserve">
+    <value />
+  </data>
+</root>

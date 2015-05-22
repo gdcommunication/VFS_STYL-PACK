@@ -1,0 +1,5 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxJobService\Triggers\RolloverActivitiesEveryHourIndefinitely.trigger.xml" timeStamp="2014-01-07T23:59:58.0000" />
+  <exportedFile url="\Portal\SlxJobService\Triggers\UpdateRemainingDaysDailyIndefinitely.trigger.xml" timeStamp="2014-01-07T23:59:58.0000" />
+</exportedFiles>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\AutoSave.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\AutoSave.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\AutoUrlLink.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\AutoUrlLink.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\Blockquote.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\Blockquote.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\Breadcrumb.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\Breadcrumb.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\CollapsibleToolbar.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\CollapsibleToolbar.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\EntityPalette.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\EntityPalette.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\FindReplace.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\FindReplace.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\InsertAnchor.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\InsertAnchor.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\InsertEntity.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\InsertEntity.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\LocalImage.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\LocalImage.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\NormalizeIndentOutdent.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\NormalizeIndentOutdent.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\NormalizeStyle.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\NormalizeStyle.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\PageBreak.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\PageBreak.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\PasteFromWord.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\PasteFromWord.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\PrettyPrint.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\PrettyPrint.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\Preview.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\Preview.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\ResizeTableColumn.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\ResizeTableColumn.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\SafePaste.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\SafePaste.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\Save.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\Save.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\ShowBlockNodes.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\ShowBlockNodes.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\Smiley.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\Smiley.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\SpellCheck.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\SpellCheck.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\StatusBar.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\StatusBar.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\TablePlugins.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\TablePlugins.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\TextColor.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\TextColor.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\ToolbarLineBreak.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\ToolbarLineBreak.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\UploadImage.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\UploadImage.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\_SmileyPalette.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\_SmileyPalette.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\_SpellCheckParser.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\_SpellCheckParser.js.uncompressed.js" timeStamp="2013-12-27T17:57:49.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\nls\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\editor\plugins\resources\" />
+</exportedFiles>

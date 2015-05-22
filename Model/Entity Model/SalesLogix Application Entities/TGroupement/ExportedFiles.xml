@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TGroupement\OnAfterDelete.method.xml" timeStamp="2015-03-21T06:57:35.4929" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TGroupement\OnAfterInsert.method.xml" timeStamp="2015-03-21T06:57:35.4002" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TGroupement\OnAfterUpdate.method.xml" timeStamp="2015-03-21T06:57:35.4422" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TGroupement\OnBeforeDelete.method.xml" timeStamp="2015-03-21T06:57:35.4617" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TGroupement\OnBeforeInsert.method.xml" timeStamp="2015-03-21T06:57:35.3758" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TGroupement\OnBeforeUpdate.method.xml" timeStamp="2015-03-21T06:57:35.4207" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TGroupement\OnCreate.method.xml" timeStamp="2015-03-21T06:57:35.5134" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TGroupement\TGroupement.T_GROUPEMENT.entity.xml" timeStamp="2015-03-21T06:58:08.0430" />
+</exportedFiles>

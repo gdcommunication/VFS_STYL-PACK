@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\DefectComments.ascx" timeStamp="2015-04-08T08:29:25.9758" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\DefectDetails.ascx" timeStamp="2015-04-08T08:29:26.7121" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\DefectExtendedDetails.ascx" timeStamp="2015-04-08T08:29:27.1955" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\DefectHistory.ascx" timeStamp="2015-04-08T08:29:27.9348" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\DefectProducts.ascx" timeStamp="2015-04-08T08:29:28.6799" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\DefectProducts.js" timeStamp="2015-04-08T08:29:28.4299" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\DefectReturns.ascx" timeStamp="2015-04-08T08:29:29.1750" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\DefectTasks.ascx" timeStamp="2015-04-08T08:29:30.9436" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\DefectTasks.js" timeStamp="2015-04-08T08:29:30.9065" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\DefectTickets.ascx" timeStamp="2015-04-08T08:29:31.4485" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\InsertDefect.ascx" timeStamp="2015-04-08T08:29:32.2112" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Defect\App_LocalResources\" />
+</exportedFiles>

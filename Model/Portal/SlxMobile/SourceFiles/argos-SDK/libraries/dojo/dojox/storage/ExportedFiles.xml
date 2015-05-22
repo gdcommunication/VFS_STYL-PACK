@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\AirDBStorageProvider.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\AirDBStorageProvider.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\AirEncryptedLocalStorageProvider.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\AirEncryptedLocalStorageProvider.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\AirFileStorageProvider.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\AirFileStorageProvider.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\BehaviorStorageProvider.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\BehaviorStorageProvider.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\buildFlashStorage.sh" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\CookieStorageProvider.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\CookieStorageProvider.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\FlashStorageProvider.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\FlashStorageProvider.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\GearsStorageProvider.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\GearsStorageProvider.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\LocalStorageProvider.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\LocalStorageProvider.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\manager.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\manager.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\Provider.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\Provider.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\README" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\Storage.as" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\Storage.swf" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\storage_dialog.fla" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\storage_dialog.swf" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\WhatWGStorageProvider.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\WhatWGStorageProvider.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\_common.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\_common.js.uncompressed.js" timeStamp="2013-12-27T17:57:55.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\dojo\dojox\storage\demos\" />
+</exportedFiles>

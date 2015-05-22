@@ -1,0 +1,2429 @@
+<?xml version="1.0"?>
+<QuickForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="50d07985-fb77-4a3d-8791-927b3f96bfc0" DefinitionType="Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms">
+  <ActiveControl />
+  <ImagePath />
+  <LoadActions>
+    <FormActionDefinition>
+      <ResourceKey>ee8412a1-7e48-41a7-a752-c26735f8ece6</ResourceKey>
+      <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+        <CodeSnippetActionItem methodId="5bde27fd-8494-4387-9567-5bee2fb9f9f3">
+          <MethodName>quickformload0</MethodName>
+        </CodeSnippetActionItem>
+      </Action>
+      <IsDialogCloseAction>False</IsDialogCloseAction>
+      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+      <DialogActionResult>NoResult</DialogActionResult>
+      <PerformsUpdate>False</PerformsUpdate>
+      <AppliedSecurity />
+      <RefreshData>False</RefreshData>
+    </FormActionDefinition>
+    <FormActionDefinition>
+      <ResourceKey>6e80f4b1-e44a-40a1-a1bc-a3ea4eaa73c5</ResourceKey>
+      <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+        <CSharpSnippetActionItem>
+          <MethodName>quickformload1</MethodName>
+          <CSharpCodeSnippet>Sage.Entity.Interfaces.ISalesOrderItem salesOrderItem = BindingSource.Current as Sage.Entity.Interfaces.ISalesOrderItem;
+lstbxPriceLevel.Items.Clear();
+if (salesOrderItem.Product != null)
+{
+	ListItem item;
+	foreach (Sage.Entity.Interfaces.IProductProgram priceLevel in salesOrderItem.Product.ProductProgram)
+	{
+		item = new ListItem();
+		item.Text = priceLevel.Program;
+		item.Value = priceLevel.Program;
+		lstbxPriceLevel.Items.Add(item);
+	}
+	lstbxPriceLevel.SelectedValue = salesOrderItem.Program;
+}
+
+QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharpCodeSnippet>
+        </CSharpSnippetActionItem>
+      </Action>
+      <IsDialogCloseAction>False</IsDialogCloseAction>
+      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+      <DialogActionResult>NoResult</DialogActionResult>
+      <PerformsUpdate>False</PerformsUpdate>
+      <AppliedSecurity />
+      <RefreshData>False</RefreshData>
+    </FormActionDefinition>
+    <FormActionDefinition>
+      <ResourceKey>8864b167-21d7-44a4-8c69-fe403aeadff4</ResourceKey>
+      <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+        <CodeSnippetActionItem methodId="a9e52695-5f0b-46a9-8ae2-fb81b1647531">
+          <MethodName>quickformload2</MethodName>
+        </CodeSnippetActionItem>
+      </Action>
+      <IsDialogCloseAction>False</IsDialogCloseAction>
+      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+      <DialogActionResult>NoResult</DialogActionResult>
+      <PerformsUpdate>False</PerformsUpdate>
+      <AppliedSecurity />
+      <RefreshData>False</RefreshData>
+    </FormActionDefinition>
+    <FormActionDefinition>
+      <ResourceKey>123eb301-4132-461a-8c9f-5551def14f32</ResourceKey>
+      <Action typeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms">
+        <CSharpSnippetActionItem>
+          <MethodName>quickformload3</MethodName>
+          <CSharpCodeSnippet>    Sage.Entity.Interfaces.ISalesOrderItem salesOrderItem = this.BindingSource.Current as Sage.Entity.Interfaces.ISalesOrderItem;
+    
+	if (salesOrderItem.ComplementLigneCommande.ECHANTILLON == null) 
+	{
+			QFECHANTILLON.Checked =  false;
+	}
+	else
+	{
+			QFECHANTILLON.Checked = salesOrderItem.ComplementLigneCommande.ECHANTILLON.ToString().Equals("1") ? true : false;
+	}
+</CSharpCodeSnippet>
+        </CSharpSnippetActionItem>
+      </Action>
+      <IsDialogCloseAction>False</IsDialogCloseAction>
+      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+      <DialogActionResult>NoResult</DialogActionResult>
+      <PerformsUpdate>False</PerformsUpdate>
+      <AppliedSecurity />
+      <RefreshData>False</RefreshData>
+    </FormActionDefinition>
+  </LoadActions>
+  <Name>EditSalesOrderItem</Name>
+  <ClientScriptIncludes />
+  <ClientResourceKeys />
+  <ExtendedProperties />
+  <HelpFile />
+  <ReadOnly>false</ReadOnly>
+  <GeneratePrintView>false</GeneratePrintView>
+  <Controls>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+      <QFControlsList>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>ctrlstLineNumber</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <Caption />
+        <Controls>
+          <ControlsCollection>
+            <Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+              <QFTextBox>
+                <Column>0</Column>
+                <Row>0</Row>
+                <IsReadOnly>true</IsReadOnly>
+                <Enabled>false</Enabled>
+                <HotKey>0</HotKey>
+                <TabIndex>0</TabIndex>
+                <ControlId>txtLineNumber</ControlId>
+                <DataBindings>
+                  <QuickFormPropertyDataBindingDefinition>
+                    <DataSourceID>MainEntity</DataSourceID>
+                    <DataItemName>LineNumber</DataItemName>
+                    <ControlItemName>Text</ControlItemName>
+                    <FormatString />
+                    <NullValueString />
+                  </QuickFormPropertyDataBindingDefinition>
+                </DataBindings>
+                <ControlLabelPlacement>left</ControlLabelPlacement>
+                <ExtendedProperties />
+                <CaptionAlignment>left</CaptionAlignment>
+                <StyleScheme />
+                <OnChangeAction>
+                  <ResourceKey>txtLineNumber</ResourceKey>
+                  <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                    <NoActionActionItem>
+                      <MethodName />
+                    </NoActionActionItem>
+                  </Action>
+                  <IsDialogCloseAction>False</IsDialogCloseAction>
+                  <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                  <DialogActionResult>NoResult</DialogActionResult>
+                  <PerformsUpdate>False</PerformsUpdate>
+                  <AppliedSecurity />
+                  <RefreshData>False</RefreshData>
+                </OnChangeAction>
+                <Required>false</Required>
+              </QFTextBox>
+            </Control>
+          </ControlsCollection>
+        </Controls>
+      </QFControlsList>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+      <QFTextBox>
+        <Column>0</Column>
+        <Row>1</Row>
+        <IsReadOnly>true</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>3</TabIndex>
+        <ControlId>txtSKU</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>ActualID</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>txtSKU</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+      </QFTextBox>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+      <QFTextBox>
+        <Column>0</Column>
+        <Row>2</Row>
+        <IsReadOnly>true</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>1</TabIndex>
+        <ControlId>txtProductName</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>ProductName</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>txtProductName</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+      </QFTextBox>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+      <QFTextBox>
+        <RowSpan>2</RowSpan>
+        <Column>0</Column>
+        <Row>3</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>2</TabIndex>
+        <ControlId>txtDescription</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>Description</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <Lines>2</Lines>
+        <OnChangeAction>
+          <ResourceKey>txtDescription</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+      </QFTextBox>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+      <QFControlsList>
+        <Column>0</Column>
+        <Row>5</Row>
+        <Visible>false</Visible>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>ctrlstPriceLevel</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <Caption />
+        <Controls>
+          <ControlsCollection>
+            <Control TypeName="Sage.Platform.QuickForms.QFControls.QFListBox, Sage.Platform.QuickForms.QFControls">
+              <QFListBox>
+                <Column>0</Column>
+                <Row>0</Row>
+                <HotKey>0</HotKey>
+                <TabIndex>5</TabIndex>
+                <ControlId>lstbxPriceLevel</ControlId>
+                <DataBindings>
+                  <QuickFormPropertyDataBindingDefinition>
+                    <DataSourceID>MainEntity</DataSourceID>
+                    <DataItemName>Program</DataItemName>
+                    <ControlItemName>SelectedValue</ControlItemName>
+                    <FormatString />
+                    <NullValueString />
+                  </QuickFormPropertyDataBindingDefinition>
+                </DataBindings>
+                <ControlLabelPlacement>left</ControlLabelPlacement>
+                <ExtendedProperties />
+                <CaptionAlignment>left</CaptionAlignment>
+                <StyleScheme />
+                <SelectedIndex>-1</SelectedIndex>
+                <Items />
+                <OnChangeAction>
+                  <ResourceKey>lstbxPriceLevel</ResourceKey>
+                  <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
+                    <BusinessRuleActionItem>
+                      <BusinessRule>CalcPriceFromProgramPrice</BusinessRule>
+                      <Object>SalesOrderItem</Object>
+                      <Parameters />
+                      <PassResultsToNextAction>False</PassResultsToNextAction>
+                      <OnComplete typeName="Sage.Platform.QuickForms.ActionItems.RefreshDataAction, Sage.Platform.QuickForms">
+                        <RefreshDataAction>
+                          <MethodName>lstbxPriceLevel_ChangeActionBRC</MethodName>
+                        </RefreshDataAction>
+                      </OnComplete>
+                    </BusinessRuleActionItem>
+                  </Action>
+                  <IsDialogCloseAction>False</IsDialogCloseAction>
+                  <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                  <DialogActionResult>NoResult</DialogActionResult>
+                  <PerformsUpdate>False</PerformsUpdate>
+                  <AppliedSecurity />
+                  <RefreshData>False</RefreshData>
+                </OnChangeAction>
+                <DataSource />
+                <TextField />
+                <ValueField />
+                <MultiSelect>false</MultiSelect>
+              </QFListBox>
+            </Control>
+          </ControlsCollection>
+        </Controls>
+      </QFControlsList>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFMultiTab, Sage.Platform.QuickForms.QFControls">
+      <QFMultiTab>
+        <ColumnSpan>2</ColumnSpan>
+        <RowSpan>12</RowSpan>
+        <Column>0</Column>
+        <Row>6</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>QFMultiDonnees</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <Tabs>
+          <QFPanel>
+            <Column>0</Column>
+            <Row>0</Row>
+            <HotKey>0</HotKey>
+            <TabIndex>0</TabIndex>
+            <ControlId>QFMultiTab_Page_1</ControlId>
+            <DataBindings />
+            <ControlLabelPlacement>left</ControlLabelPlacement>
+            <ExtendedProperties />
+            <CaptionAlignment>left</CaptionAlignment>
+            <StyleScheme />
+            <Caption>Personnalisation</Caption>
+            <Rows>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>28</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>28</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>28</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>28</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>28</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>28</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>28</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>28</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>28</Height>
+              </Row>
+            </Rows>
+            <columns>
+              <column>
+                <SizeType>Percent</SizeType>
+                <Width>50</Width>
+              </column>
+              <column>
+                <SizeType>Percent</SizeType>
+                <Width>50</Width>
+              </column>
+            </columns>
+            <Controls>
+              <ControlsCollection>
+                <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXPickList, Sage.SalesLogix.QuickForms.QFControls">
+                  <QFSLXPickList>
+                    <Column>0</Column>
+                    <Row>0</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFTYPEBAT</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.TYPEBAT</DataItemName>
+                        <ControlItemName>PickListValue</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <MaxLength>64</MaxLength>
+                    <OnChangeAction>
+                      <ResourceKey>QFTYPEBAT</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+                        <CodeSnippetActionItem methodId="98d2b857-ec50-432b-b0c0-bd761f9deb28">
+                          <MethodName>QFTYPEBAT_ChangeAction</MethodName>
+                        </CodeSnippetActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                    <AutoPostBack>false</AutoPostBack>
+                    <PickListName>C_TPL_ACTION</PickListName>
+                    <StorageMode>Text</StorageMode>
+                    <NameFormatString />
+                    <AllowMultiples>false</AllowMultiples>
+                    <AlphaSort>false</AlphaSort>
+                    <MustExistInList>false</MustExistInList>
+                    <NoneEditable>false</NoneEditable>
+                    <PickListId />
+                    <ValueStoredAsText>true</ValueStoredAsText>
+                  </QFSLXPickList>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFListBox, Sage.Platform.QuickForms.QFControls">
+                  <QFListBox>
+                    <Column>0</Column>
+                    <Row>1</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFRENOUVELLEMENT</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.NUMEROREPRISEREN</DataItemName>
+                        <ControlItemName>Text</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <SelectedIndex>-1</SelectedIndex>
+                    <Items />
+                    <OnChangeAction>
+                      <ResourceKey>QFRENOUVELLEMENT</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+                        <CodeSnippetActionItem methodId="2137f8d1-be0e-457b-955e-3d7f1ef469c6">
+                          <MethodName>QFRENOUVELLEMENT_ChangeAction</MethodName>
+                        </CodeSnippetActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <DataSource />
+                    <TextField />
+                    <ValueField />
+                    <MultiSelect>false</MultiSelect>
+                  </QFListBox>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFCheckBox, Sage.Platform.QuickForms.QFControls">
+                  <QFCheckBox>
+                    <Column>0</Column>
+                    <Row>2</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFECHANTILLON</ControlId>
+                    <DataBindings />
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <Checked>false</Checked>
+                    <OnChangeAction>
+                      <ResourceKey>QFECHANTILLON</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+                        <CodeSnippetActionItem methodId="540c7d91-a6d6-42f8-b839-395ba733ba87">
+                          <MethodName>QFECHANTILLON_ChangeAction</MethodName>
+                        </CodeSnippetActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                  </QFCheckBox>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
+                  <QFHorizontalSeparator>
+                    <ColumnSpan>2</ColumnSpan>
+                    <Column>0</Column>
+                    <Row>3</Row>
+                    <HotKey>48</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFMAINPERSO</ControlId>
+                    <DataBindings />
+                    <ControlLabelPlacement>none</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <DisplayAsTitleBar>false</DisplayAsTitleBar>
+                  </QFHorizontalSeparator>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+                  <QFControlsList>
+                    <Column>0</Column>
+                    <Row>4</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFRECTO</ControlId>
+                    <DataBindings />
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <Caption />
+                    <Controls>
+                      <ControlsCollection>
+                        <Control TypeName="Sage.Platform.QuickForms.QFControls.QFListBox, Sage.Platform.QuickForms.QFControls">
+                          <QFListBox>
+                            <Column>0</Column>
+                            <Row>0</Row>
+                            <HotKey>0</HotKey>
+                            <TabIndex>0</TabIndex>
+                            <ControlId>QFLISTRECTO</ControlId>
+                            <DataBindings />
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <ExtendedProperties />
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <StyleScheme />
+                            <SelectedIndex>-1</SelectedIndex>
+                            <Items />
+                            <OnChangeAction>
+                              <ResourceKey>QFLISTRECTO</ResourceKey>
+                              <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+                                <CodeSnippetActionItem methodId="fb7dd7bd-755c-4500-9398-35769622d063">
+                                  <MethodName>QFLISTRECTO_ChangeAction</MethodName>
+                                </CodeSnippetActionItem>
+                              </Action>
+                              <IsDialogCloseAction>False</IsDialogCloseAction>
+                              <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                              <DialogActionResult>NoResult</DialogActionResult>
+                              <PerformsUpdate>False</PerformsUpdate>
+                              <AppliedSecurity />
+                              <RefreshData>False</RefreshData>
+                            </OnChangeAction>
+                            <DataSource />
+                            <TextField />
+                            <ValueField />
+                            <MultiSelect>false</MultiSelect>
+                          </QFListBox>
+                        </Control>
+                        <Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+                          <QFTextBox>
+                            <Column>0</Column>
+                            <Row>0</Row>
+                            <HotKey>0</HotKey>
+                            <TabIndex>0</TabIndex>
+                            <ControlId>QFCOULEURSRECTO</ControlId>
+                            <DataBindings>
+                              <QuickFormPropertyDataBindingDefinition>
+                                <DataSourceID>MainEntity</DataSourceID>
+                                <DataItemName>ComplementLigneCommande.COULEURSRECTO</DataItemName>
+                                <ControlItemName>Text</ControlItemName>
+                                <FormatString />
+                                <NullValueString />
+                              </QuickFormPropertyDataBindingDefinition>
+                            </DataBindings>
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <ExtendedProperties />
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <StyleScheme />
+                            <OnChangeAction>
+                              <ResourceKey>QFCOULEURSRECTO</ResourceKey>
+                              <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                                <NoActionActionItem>
+                                  <MethodName />
+                                </NoActionActionItem>
+                              </Action>
+                              <IsDialogCloseAction>False</IsDialogCloseAction>
+                              <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                              <DialogActionResult>NoResult</DialogActionResult>
+                              <PerformsUpdate>False</PerformsUpdate>
+                              <AppliedSecurity />
+                              <RefreshData>False</RefreshData>
+                            </OnChangeAction>
+                            <Required>false</Required>
+                          </QFTextBox>
+                        </Control>
+                      </ControlsCollection>
+                    </Controls>
+                  </QFControlsList>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
+                  <QFHorizontalSeparator>
+                    <ColumnSpan>2</ColumnSpan>
+                    <Column>0</Column>
+                    <Row>5</Row>
+                    <HotKey>48</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFCOULEURS</ControlId>
+                    <DataBindings />
+                    <ControlLabelPlacement>none</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <DisplayAsTitleBar>false</DisplayAsTitleBar>
+                  </QFHorizontalSeparator>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+                  <QFTextBox>
+                    <ColumnSpan>2</ColumnSpan>
+                    <Column>0</Column>
+                    <Row>6</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFCOMMENTAIRE</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.COMMENTAIRE</DataItemName>
+                        <ControlItemName>Text</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFCOMMENTAIRE</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                  </QFTextBox>
+                </Control>
+                <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXPickList, Sage.SalesLogix.QuickForms.QFControls">
+                  <QFSLXPickList>
+                    <Column>1</Column>
+                    <Row>0</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFMODEBAT</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.MODEBAT</DataItemName>
+                        <ControlItemName>PickListValue</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <MaxLength>64</MaxLength>
+                    <OnChangeAction>
+                      <ResourceKey>QFMODEBAT</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                    <AutoPostBack>false</AutoPostBack>
+                    <PickListName>C_TPL_MODEEXPEDITION</PickListName>
+                    <StorageMode>Text</StorageMode>
+                    <NameFormatString />
+                    <AllowMultiples>false</AllowMultiples>
+                    <AlphaSort>false</AlphaSort>
+                    <MustExistInList>false</MustExistInList>
+                    <NoneEditable>false</NoneEditable>
+                    <PickListId />
+                    <ValueStoredAsText>true</ValueStoredAsText>
+                  </QFSLXPickList>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFListBox, Sage.Platform.QuickForms.QFControls">
+                  <QFListBox>
+                    <Column>1</Column>
+                    <Row>1</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFREPRISEPERSO</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.NUMEROCLICHE</DataItemName>
+                        <ControlItemName>Text</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <SelectedIndex>-1</SelectedIndex>
+                    <Items />
+                    <OnChangeAction>
+                      <ResourceKey>QFREPRISEPERSO</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <DataSource />
+                    <TextField />
+                    <ValueField />
+                    <MultiSelect>false</MultiSelect>
+                  </QFListBox>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+                  <QFTextBox>
+                    <Column>1</Column>
+                    <Row>2</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFCOULEURPRODUIT</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.COULPRODUIT</DataItemName>
+                        <ControlItemName>Text</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFCOULEURPRODUIT</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                  </QFTextBox>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+                  <QFControlsList>
+                    <Column>1</Column>
+                    <Row>4</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFVERSO</ControlId>
+                    <DataBindings />
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <Caption />
+                    <Controls>
+                      <ControlsCollection>
+                        <Control TypeName="Sage.Platform.QuickForms.QFControls.QFListBox, Sage.Platform.QuickForms.QFControls">
+                          <QFListBox>
+                            <Column>0</Column>
+                            <Row>0</Row>
+                            <HotKey>0</HotKey>
+                            <TabIndex>0</TabIndex>
+                            <ControlId>QFLISTVERSO</ControlId>
+                            <DataBindings />
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <ExtendedProperties />
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <StyleScheme />
+                            <SelectedIndex>-1</SelectedIndex>
+                            <Items />
+                            <OnChangeAction>
+                              <ResourceKey>QFLISTVERSO</ResourceKey>
+                              <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+                                <CodeSnippetActionItem methodId="1ff03de6-727f-48fc-bb23-df848154162b">
+                                  <MethodName>QFLISTVERSO_ChangeAction</MethodName>
+                                </CodeSnippetActionItem>
+                              </Action>
+                              <IsDialogCloseAction>False</IsDialogCloseAction>
+                              <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                              <DialogActionResult>NoResult</DialogActionResult>
+                              <PerformsUpdate>False</PerformsUpdate>
+                              <AppliedSecurity />
+                              <RefreshData>False</RefreshData>
+                            </OnChangeAction>
+                            <DataSource />
+                            <TextField />
+                            <ValueField />
+                            <MultiSelect>false</MultiSelect>
+                          </QFListBox>
+                        </Control>
+                        <Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+                          <QFTextBox>
+                            <Column>0</Column>
+                            <Row>0</Row>
+                            <HotKey>0</HotKey>
+                            <TabIndex>0</TabIndex>
+                            <ControlId>QFCOULEURSVERSO</ControlId>
+                            <DataBindings>
+                              <QuickFormPropertyDataBindingDefinition>
+                                <DataSourceID>MainEntity</DataSourceID>
+                                <DataItemName>ComplementLigneCommande.COULEURSVERSO</DataItemName>
+                                <ControlItemName>Text</ControlItemName>
+                                <FormatString />
+                                <NullValueString />
+                              </QuickFormPropertyDataBindingDefinition>
+                            </DataBindings>
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <ExtendedProperties />
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <StyleScheme />
+                            <OnChangeAction>
+                              <ResourceKey>QFCOULEURSVERSO</ResourceKey>
+                              <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                                <NoActionActionItem>
+                                  <MethodName />
+                                </NoActionActionItem>
+                              </Action>
+                              <IsDialogCloseAction>False</IsDialogCloseAction>
+                              <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                              <DialogActionResult>NoResult</DialogActionResult>
+                              <PerformsUpdate>False</PerformsUpdate>
+                              <AppliedSecurity />
+                              <RefreshData>False</RefreshData>
+                            </OnChangeAction>
+                            <Required>false</Required>
+                          </QFTextBox>
+                        </Control>
+                      </ControlsCollection>
+                    </Controls>
+                  </QFControlsList>
+                </Control>
+              </ControlsCollection>
+            </Controls>
+          </QFPanel>
+          <QFPanel>
+            <Column>0</Column>
+            <Row>0</Row>
+            <HotKey>0</HotKey>
+            <TabIndex>0</TabIndex>
+            <ControlId>QFMultiDonnees_Page_2</ControlId>
+            <DataBindings />
+            <ControlLabelPlacement>left</ControlLabelPlacement>
+            <ExtendedProperties />
+            <CaptionAlignment>left</CaptionAlignment>
+            <StyleScheme />
+            <Caption>Suivi PAO</Caption>
+            <Rows>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>28</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>35</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>35</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>35</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>35</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>35</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>35</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>35</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>35</Height>
+              </Row>
+              <Row>
+                <SizeType>Absolute</SizeType>
+                <Height>35</Height>
+              </Row>
+            </Rows>
+            <columns>
+              <column>
+                <SizeType>Percent</SizeType>
+                <Width>33</Width>
+              </column>
+              <column>
+                <SizeType>Percent</SizeType>
+                <Width>33</Width>
+              </column>
+              <column>
+                <SizeType>Percent</SizeType>
+                <Width>33</Width>
+              </column>
+            </columns>
+            <Controls>
+              <ControlsCollection>
+                <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                  <QFDateTimePicker>
+                    <Column>0</Column>
+                    <Row>0</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFPAODATEARRIVEE</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.PAODATEARRIVEE</DataItemName>
+                        <ControlItemName>DateTimeValue</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFPAODATEARRIVEE</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                    <DateTimeValue xsi:nil="true" />
+                    <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                    <DateOnly>true</DateOnly>
+                    <DisplayTime>false</DisplayTime>
+                    <BoundFieldType>DateTime</BoundFieldType>
+                    <AutoPostBack>false</AutoPostBack>
+                    <Timeless>false</Timeless>
+                  </QFDateTimePicker>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
+                  <QFHorizontalSeparator>
+                    <ColumnSpan>3</ColumnSpan>
+                    <Column>0</Column>
+                    <Row>1</Row>
+                    <HotKey>48</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFPAOINIT</ControlId>
+                    <DataBindings />
+                    <ControlLabelPlacement>none</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <DisplayAsTitleBar>false</DisplayAsTitleBar>
+                  </QFHorizontalSeparator>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+                  <QFControlsList>
+                    <Column>0</Column>
+                    <Row>2</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFMODIF1</ControlId>
+                    <DataBindings />
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <Caption />
+                    <Controls>
+                      <ControlsCollection>
+                        <Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+                          <QFTextBox>
+                            <RowSpan>5</RowSpan>
+                            <Column>0</Column>
+                            <Row>0</Row>
+                            <HotKey>0</HotKey>
+                            <TabIndex>0</TabIndex>
+                            <ControlId>QFPAOMODIF1</ControlId>
+                            <DataBindings>
+                              <QuickFormPropertyDataBindingDefinition>
+                                <DataSourceID>MainEntity</DataSourceID>
+                                <DataItemName>ComplementLigneCommande.PAOMODIF1</DataItemName>
+                                <ControlItemName>Text</ControlItemName>
+                                <FormatString />
+                                <NullValueString />
+                              </QuickFormPropertyDataBindingDefinition>
+                            </DataBindings>
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <ExtendedProperties />
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <StyleScheme />
+                            <Lines>5</Lines>
+                            <OnChangeAction>
+                              <ResourceKey>QFPAOMODIF1</ResourceKey>
+                              <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+                                <CodeSnippetActionItem methodId="a19b7d52-e30e-4216-a146-21e956884e2e">
+                                  <MethodName>QFPAOMODIF1_ChangeAction</MethodName>
+                                </CodeSnippetActionItem>
+                              </Action>
+                              <IsDialogCloseAction>False</IsDialogCloseAction>
+                              <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                              <DialogActionResult>NoResult</DialogActionResult>
+                              <PerformsUpdate>False</PerformsUpdate>
+                              <AppliedSecurity />
+                              <RefreshData>False</RefreshData>
+                            </OnChangeAction>
+                            <Required>false</Required>
+                          </QFTextBox>
+                        </Control>
+                        <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                          <QFDateTimePicker>
+                            <Column>0</Column>
+                            <Row>0</Row>
+                            <IsReadOnly>true</IsReadOnly>
+                            <HotKey>0</HotKey>
+                            <TabIndex>0</TabIndex>
+                            <ControlId>QFPAOMODIF1DATE</ControlId>
+                            <DataBindings>
+                              <QuickFormPropertyDataBindingDefinition>
+                                <DataSourceID>MainEntity</DataSourceID>
+                                <DataItemName>ComplementLigneCommande.PAOMODIF1DATE</DataItemName>
+                                <ControlItemName>DateTimeValue</ControlItemName>
+                                <FormatString />
+                                <NullValueString />
+                              </QuickFormPropertyDataBindingDefinition>
+                            </DataBindings>
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <ExtendedProperties />
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <StyleScheme />
+                            <OnChangeAction>
+                              <ResourceKey>QFPAOMODIF1DATE</ResourceKey>
+                              <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                                <NoActionActionItem>
+                                  <MethodName />
+                                </NoActionActionItem>
+                              </Action>
+                              <IsDialogCloseAction>False</IsDialogCloseAction>
+                              <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                              <DialogActionResult>NoResult</DialogActionResult>
+                              <PerformsUpdate>False</PerformsUpdate>
+                              <AppliedSecurity />
+                              <RefreshData>False</RefreshData>
+                            </OnChangeAction>
+                            <Required>false</Required>
+                            <DisplayMode>AsText</DisplayMode>
+                            <DateTimeValue xsi:nil="true" />
+                            <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                            <DateOnly>true</DateOnly>
+                            <DisplayTime>false</DisplayTime>
+                            <BoundFieldType>DateTime</BoundFieldType>
+                            <AutoPostBack>false</AutoPostBack>
+                            <Timeless>false</Timeless>
+                          </QFDateTimePicker>
+                        </Control>
+                      </ControlsCollection>
+                    </Controls>
+                  </QFControlsList>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
+                  <QFHorizontalSeparator>
+                    <ColumnSpan>3</ColumnSpan>
+                    <Column>0</Column>
+                    <Row>3</Row>
+                    <HotKey>48</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFPAOMODIF</ControlId>
+                    <DataBindings />
+                    <ControlLabelPlacement>none</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <DisplayAsTitleBar>false</DisplayAsTitleBar>
+                  </QFHorizontalSeparator>
+                </Control>
+                <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                  <QFDateTimePicker>
+                    <Column>0</Column>
+                    <Row>4</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFPAODATE1RELANCE</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.PAODATE1RELANCE</DataItemName>
+                        <ControlItemName>DateTimeValue</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFPAODATE1RELANCE</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                    <DateTimeValue xsi:nil="true" />
+                    <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                    <DateOnly>true</DateOnly>
+                    <DisplayTime>false</DisplayTime>
+                    <BoundFieldType>DateTime</BoundFieldType>
+                    <AutoPostBack>false</AutoPostBack>
+                    <Timeless>false</Timeless>
+                  </QFDateTimePicker>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
+                  <QFHorizontalSeparator>
+                    <ColumnSpan>3</ColumnSpan>
+                    <Column>0</Column>
+                    <Row>5</Row>
+                    <HotKey>48</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFRELANCES</ControlId>
+                    <DataBindings />
+                    <ControlLabelPlacement>none</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <DisplayAsTitleBar>false</DisplayAsTitleBar>
+                  </QFHorizontalSeparator>
+                </Control>
+                <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                  <QFDateTimePicker>
+                    <Column>0</Column>
+                    <Row>6</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFDATERELANCEFDV</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.DATERELANCEFDV</DataItemName>
+                        <ControlItemName>DateTimeValue</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFDATERELANCEFDV</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                    <DateTimeValue xsi:nil="true" />
+                    <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                    <DateOnly>true</DateOnly>
+                    <DisplayTime>false</DisplayTime>
+                    <BoundFieldType>DateTime</BoundFieldType>
+                    <AutoPostBack>false</AutoPostBack>
+                    <Timeless>false</Timeless>
+                  </QFDateTimePicker>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+                  <QFTextBox>
+                    <Column>0</Column>
+                    <Row>7</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFGRAPHISTE</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.GRAPHISTE</DataItemName>
+                        <ControlItemName>Text</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFGRAPHISTE</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                  </QFTextBox>
+                </Control>
+                <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                  <QFDateTimePicker>
+                    <Column>1</Column>
+                    <Row>0</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFPAODATECREA</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.PAODATECREA</DataItemName>
+                        <ControlItemName>DateTimeValue</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFPAODATECREA</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                    <DateTimeValue xsi:nil="true" />
+                    <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                    <DateOnly>true</DateOnly>
+                    <DisplayTime>false</DisplayTime>
+                    <BoundFieldType>DateTime</BoundFieldType>
+                    <AutoPostBack>false</AutoPostBack>
+                    <Timeless>false</Timeless>
+                  </QFDateTimePicker>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+                  <QFControlsList>
+                    <Column>1</Column>
+                    <Row>2</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFMODIF2</ControlId>
+                    <DataBindings />
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <Caption />
+                    <Controls>
+                      <ControlsCollection>
+                        <Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+                          <QFTextBox>
+                            <RowSpan>5</RowSpan>
+                            <Column>0</Column>
+                            <Row>0</Row>
+                            <HotKey>0</HotKey>
+                            <TabIndex>0</TabIndex>
+                            <ControlId>QFPAOMODIF2</ControlId>
+                            <DataBindings>
+                              <QuickFormPropertyDataBindingDefinition>
+                                <DataSourceID>MainEntity</DataSourceID>
+                                <DataItemName>ComplementLigneCommande.PAOMODIF2</DataItemName>
+                                <ControlItemName>Text</ControlItemName>
+                                <FormatString />
+                                <NullValueString />
+                              </QuickFormPropertyDataBindingDefinition>
+                            </DataBindings>
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <ExtendedProperties />
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <StyleScheme />
+                            <Lines>5</Lines>
+                            <OnChangeAction>
+                              <ResourceKey>QFPAOMODIF2</ResourceKey>
+                              <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+                                <CodeSnippetActionItem methodId="fb98e098-ff19-4a07-a5cc-4da8063a9fd0">
+                                  <MethodName>QFPAOMODIF2_ChangeAction</MethodName>
+                                </CodeSnippetActionItem>
+                              </Action>
+                              <IsDialogCloseAction>False</IsDialogCloseAction>
+                              <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                              <DialogActionResult>NoResult</DialogActionResult>
+                              <PerformsUpdate>False</PerformsUpdate>
+                              <AppliedSecurity />
+                              <RefreshData>False</RefreshData>
+                            </OnChangeAction>
+                            <Required>false</Required>
+                          </QFTextBox>
+                        </Control>
+                        <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                          <QFDateTimePicker>
+                            <Column>0</Column>
+                            <Row>0</Row>
+                            <IsReadOnly>true</IsReadOnly>
+                            <HotKey>0</HotKey>
+                            <TabIndex>0</TabIndex>
+                            <ControlId>QFPAOMODIF2DATE</ControlId>
+                            <DataBindings>
+                              <QuickFormPropertyDataBindingDefinition>
+                                <DataSourceID>MainEntity</DataSourceID>
+                                <DataItemName>ComplementLigneCommande.PAOMODIF2DATE</DataItemName>
+                                <ControlItemName>DateTimeValue</ControlItemName>
+                                <FormatString />
+                                <NullValueString />
+                              </QuickFormPropertyDataBindingDefinition>
+                            </DataBindings>
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <ExtendedProperties />
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <StyleScheme />
+                            <OnChangeAction>
+                              <ResourceKey>QFPAOMODIF2DATE</ResourceKey>
+                              <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                                <NoActionActionItem>
+                                  <MethodName />
+                                </NoActionActionItem>
+                              </Action>
+                              <IsDialogCloseAction>False</IsDialogCloseAction>
+                              <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                              <DialogActionResult>NoResult</DialogActionResult>
+                              <PerformsUpdate>False</PerformsUpdate>
+                              <AppliedSecurity />
+                              <RefreshData>False</RefreshData>
+                            </OnChangeAction>
+                            <Required>false</Required>
+                            <DisplayMode>AsText</DisplayMode>
+                            <DateTimeValue xsi:nil="true" />
+                            <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                            <DateOnly>true</DateOnly>
+                            <DisplayTime>false</DisplayTime>
+                            <BoundFieldType>DateTime</BoundFieldType>
+                            <AutoPostBack>false</AutoPostBack>
+                            <Timeless>false</Timeless>
+                          </QFDateTimePicker>
+                        </Control>
+                      </ControlsCollection>
+                    </Controls>
+                  </QFControlsList>
+                </Control>
+                <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                  <QFDateTimePicker>
+                    <Column>1</Column>
+                    <Row>4</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFPAODATE2RELANCE</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.PAODATE2RELANCE</DataItemName>
+                        <ControlItemName>DateTimeValue</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFPAODATE2RELANCE</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                    <DateTimeValue xsi:nil="true" />
+                    <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                    <DateOnly>true</DateOnly>
+                    <DisplayTime>false</DisplayTime>
+                    <BoundFieldType>DateTime</BoundFieldType>
+                    <AutoPostBack>false</AutoPostBack>
+                    <Timeless>false</Timeless>
+                  </QFDateTimePicker>
+                </Control>
+                <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                  <QFDateTimePicker>
+                    <Column>1</Column>
+                    <Row>6</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFDATEVALIDATIONBAT</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.DATEVALIDATIONBAT</DataItemName>
+                        <ControlItemName>DateTimeValue</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFDATEVALIDATIONBAT</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                    <DateTimeValue xsi:nil="true" />
+                    <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                    <DateOnly>true</DateOnly>
+                    <DisplayTime>false</DisplayTime>
+                    <BoundFieldType>DateTime</BoundFieldType>
+                    <AutoPostBack>false</AutoPostBack>
+                    <Timeless>false</Timeless>
+                  </QFDateTimePicker>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+                  <QFTextBox>
+                    <Column>1</Column>
+                    <Row>7</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFCORRECTEUR</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.CORRECTEUR</DataItemName>
+                        <ControlItemName>Text</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFCORRECTEUR</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                  </QFTextBox>
+                </Control>
+                <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                  <QFDateTimePicker>
+                    <Column>2</Column>
+                    <Row>0</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFPAODATEENV</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.PAODATEENV</DataItemName>
+                        <ControlItemName>DateTimeValue</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFPAODATEENV</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                    <DateTimeValue xsi:nil="true" />
+                    <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                    <DateOnly>true</DateOnly>
+                    <DisplayTime>false</DisplayTime>
+                    <BoundFieldType>DateTime</BoundFieldType>
+                    <AutoPostBack>false</AutoPostBack>
+                    <Timeless>false</Timeless>
+                  </QFDateTimePicker>
+                </Control>
+                <Control TypeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+                  <QFControlsList>
+                    <Column>2</Column>
+                    <Row>2</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFMODIF3</ControlId>
+                    <DataBindings />
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <Caption />
+                    <Controls>
+                      <ControlsCollection>
+                        <Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+                          <QFTextBox>
+                            <RowSpan>5</RowSpan>
+                            <Column>0</Column>
+                            <Row>0</Row>
+                            <HotKey>0</HotKey>
+                            <TabIndex>0</TabIndex>
+                            <ControlId>QFPAOMODIF3</ControlId>
+                            <DataBindings>
+                              <QuickFormPropertyDataBindingDefinition>
+                                <DataSourceID>MainEntity</DataSourceID>
+                                <DataItemName>ComplementLigneCommande.PAOMODIF3</DataItemName>
+                                <ControlItemName>Text</ControlItemName>
+                                <FormatString />
+                                <NullValueString />
+                              </QuickFormPropertyDataBindingDefinition>
+                            </DataBindings>
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <ExtendedProperties />
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <StyleScheme />
+                            <Lines>5</Lines>
+                            <OnChangeAction>
+                              <ResourceKey>QFPAOMODIF3</ResourceKey>
+                              <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+                                <CodeSnippetActionItem methodId="b15c49dc-5dbc-4c0f-995c-594526f7f41a">
+                                  <MethodName>QFPAOMODIF3_ChangeAction</MethodName>
+                                </CodeSnippetActionItem>
+                              </Action>
+                              <IsDialogCloseAction>False</IsDialogCloseAction>
+                              <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                              <DialogActionResult>NoResult</DialogActionResult>
+                              <PerformsUpdate>False</PerformsUpdate>
+                              <AppliedSecurity />
+                              <RefreshData>False</RefreshData>
+                            </OnChangeAction>
+                            <Required>false</Required>
+                          </QFTextBox>
+                        </Control>
+                        <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                          <QFDateTimePicker>
+                            <Column>0</Column>
+                            <Row>0</Row>
+                            <IsReadOnly>true</IsReadOnly>
+                            <HotKey>0</HotKey>
+                            <TabIndex>0</TabIndex>
+                            <ControlId>QFPAOMODIF3DATE</ControlId>
+                            <DataBindings>
+                              <QuickFormPropertyDataBindingDefinition>
+                                <DataSourceID>MainEntity</DataSourceID>
+                                <DataItemName>ComplementLigneCommande.PAOMODIF3DATE</DataItemName>
+                                <ControlItemName>DateTimeValue</ControlItemName>
+                                <FormatString />
+                                <NullValueString />
+                              </QuickFormPropertyDataBindingDefinition>
+                            </DataBindings>
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <ExtendedProperties />
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <StyleScheme />
+                            <OnChangeAction>
+                              <ResourceKey>QFPAOMODIF3DATE</ResourceKey>
+                              <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                                <NoActionActionItem>
+                                  <MethodName />
+                                </NoActionActionItem>
+                              </Action>
+                              <IsDialogCloseAction>False</IsDialogCloseAction>
+                              <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                              <DialogActionResult>NoResult</DialogActionResult>
+                              <PerformsUpdate>False</PerformsUpdate>
+                              <AppliedSecurity />
+                              <RefreshData>False</RefreshData>
+                            </OnChangeAction>
+                            <Required>false</Required>
+                            <DisplayMode>AsText</DisplayMode>
+                            <DateTimeValue xsi:nil="true" />
+                            <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                            <DateOnly>true</DateOnly>
+                            <DisplayTime>false</DisplayTime>
+                            <BoundFieldType>DateTime</BoundFieldType>
+                            <AutoPostBack>false</AutoPostBack>
+                            <Timeless>false</Timeless>
+                          </QFDateTimePicker>
+                        </Control>
+                      </ControlsCollection>
+                    </Controls>
+                  </QFControlsList>
+                </Control>
+                <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                  <QFDateTimePicker>
+                    <Column>2</Column>
+                    <Row>4</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFPAODATE3RELANCE</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.PAODATE3RELANCE</DataItemName>
+                        <ControlItemName>DateTimeValue</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFPAODATE3RELANCE</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                    <DateTimeValue xsi:nil="true" />
+                    <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                    <DateOnly>true</DateOnly>
+                    <DisplayTime>false</DisplayTime>
+                    <BoundFieldType>DateTime</BoundFieldType>
+                    <AutoPostBack>false</AutoPostBack>
+                    <Timeless>false</Timeless>
+                  </QFDateTimePicker>
+                </Control>
+                <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls">
+                  <QFDateTimePicker>
+                    <Column>2</Column>
+                    <Row>6</Row>
+                    <HotKey>0</HotKey>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFDATETRANSFERTPROD</ControlId>
+                    <DataBindings>
+                      <QuickFormPropertyDataBindingDefinition>
+                        <DataSourceID>MainEntity</DataSourceID>
+                        <DataItemName>ComplementLigneCommande.DATETRANSFERTPROD</DataItemName>
+                        <ControlItemName>DateTimeValue</ControlItemName>
+                        <FormatString />
+                        <NullValueString />
+                      </QuickFormPropertyDataBindingDefinition>
+                    </DataBindings>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <ExtendedProperties />
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <StyleScheme />
+                    <OnChangeAction>
+                      <ResourceKey>QFDATETRANSFERTPROD</ResourceKey>
+                      <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                        <NoActionActionItem>
+                          <MethodName />
+                        </NoActionActionItem>
+                      </Action>
+                      <IsDialogCloseAction>False</IsDialogCloseAction>
+                      <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                      <DialogActionResult>NoResult</DialogActionResult>
+                      <PerformsUpdate>False</PerformsUpdate>
+                      <AppliedSecurity />
+                      <RefreshData>False</RefreshData>
+                    </OnChangeAction>
+                    <Required>false</Required>
+                    <DateTimeValue xsi:nil="true" />
+                    <SelectedDateTime>0001-01-01T00:00:00</SelectedDateTime>
+                    <DateOnly>true</DateOnly>
+                    <DisplayTime>false</DisplayTime>
+                    <BoundFieldType>DateTime</BoundFieldType>
+                    <AutoPostBack>false</AutoPostBack>
+                    <Timeless>false</Timeless>
+                  </QFDateTimePicker>
+                </Control>
+              </ControlsCollection>
+            </Controls>
+          </QFPanel>
+        </Tabs>
+      </QFMultiTab>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXPickList, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXPickList>
+        <Column>0</Column>
+        <Row>18</Row>
+        <Visible>false</Visible>
+        <HotKey>0</HotKey>
+        <TabIndex>4</TabIndex>
+        <ControlId>pklFamily</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>Family</DataItemName>
+            <ControlItemName>PickListValue</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>pklFamily</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <AutoPostBack>false</AutoPostBack>
+        <PickListName>Product Family</PickListName>
+        <StorageMode>Text</StorageMode>
+        <NameFormatString />
+        <AllowMultiples>false</AllowMultiples>
+        <AlphaSort>false</AlphaSort>
+        <MustExistInList>false</MustExistInList>
+        <NoneEditable>false</NoneEditable>
+        <PickListId />
+        <ValueStoredAsText>true</ValueStoredAsText>
+      </QFSLXPickList>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXCurrency>
+        <Column>0</Column>
+        <Row>19</Row>
+        <IsReadOnly>true</IsReadOnly>
+        <Visible>false</Visible>
+        <HotKey>0</HotKey>
+        <TabIndex>6</TabIndex>
+        <ControlId>curPrice</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>Price</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>curPrice</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
+            <BusinessRuleActionItem>
+              <BusinessRule>CalculatePriceChange</BusinessRule>
+              <Object>SalesOrderItem</Object>
+              <Parameters />
+              <PassResultsToNextAction>False</PassResultsToNextAction>
+              <OnComplete typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                <NoActionActionItem>
+                  <MethodName />
+                </NoActionActionItem>
+              </OnComplete>
+            </BusinessRuleActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <CurrentCode />
+        <DisplayCurrencyCode>false</DisplayCurrencyCode>
+        <ExchangeRate>1</ExchangeRate>
+        <ExchangeRateType>BaseRate</ExchangeRateType>
+        <DecimalDigits>-1</DecimalDigits>
+      </QFSLXCurrency>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXNumeric, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXNumeric>
+        <Column>1</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>7</TabIndex>
+        <ControlId>txtDiscount</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>Discount</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>txtDiscount</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
+            <BusinessRuleActionItem>
+              <BusinessRule>CalculateDiscount</BusinessRule>
+              <Object>SalesOrderItem</Object>
+              <Parameters />
+              <PassResultsToNextAction>False</PassResultsToNextAction>
+              <OnComplete typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                <NoActionActionItem>
+                  <MethodName />
+                </NoActionActionItem>
+              </OnComplete>
+            </BusinessRuleActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <DecimalDigits>
+          <Strict>false</Strict>
+        </DecimalDigits>
+        <FormatType>Percent</FormatType>
+      </QFSLXNumeric>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXCurrency>
+        <Column>1</Column>
+        <Row>1</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>8</TabIndex>
+        <ControlId>curCalculatedPrice</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>CalculatedPrice</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>curCalculatedPrice</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
+            <BusinessRuleActionItem>
+              <BusinessRule>CalculateCalcPrice</BusinessRule>
+              <Object>SalesOrderItem</Object>
+              <Parameters />
+              <PassResultsToNextAction>False</PassResultsToNextAction>
+              <OnComplete typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                <NoActionActionItem>
+                  <MethodName />
+                </NoActionActionItem>
+              </OnComplete>
+            </BusinessRuleActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <CurrentCode />
+        <DisplayCurrencyCode>false</DisplayCurrencyCode>
+        <ExchangeRate>1</ExchangeRate>
+        <ExchangeRateType>BaseRate</ExchangeRateType>
+        <DecimalDigits>-1</DecimalDigits>
+      </QFSLXCurrency>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXNumeric, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXNumeric>
+        <Column>1</Column>
+        <Row>2</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>10</TabIndex>
+        <ControlId>numQuantity</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>Quantity</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>numQuantity</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
+            <BusinessRuleActionItem>
+              <BusinessRule>CalculateExtendedPrice</BusinessRule>
+              <Object>SalesOrderItem</Object>
+              <Parameters />
+              <PassResultsToNextAction>False</PassResultsToNextAction>
+              <OnComplete typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                <NoActionActionItem>
+                  <MethodName />
+                </NoActionActionItem>
+              </OnComplete>
+            </BusinessRuleActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <DecimalDigits>
+          <Strict>false</Strict>
+        </DecimalDigits>
+        <FormatType>Number</FormatType>
+      </QFSLXNumeric>
+    </Control>
+    <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls">
+      <QFSLXCurrency>
+        <Column>1</Column>
+        <Row>3</Row>
+        <IsReadOnly>true</IsReadOnly>
+        <HotKey>0</HotKey>
+        <TabIndex>11</TabIndex>
+        <ControlId>curExtendedPrice</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>ExtendedPrice</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>curExtendedPrice</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+        <CurrentCode />
+        <DisplayCurrencyCode>false</DisplayCurrencyCode>
+        <ExchangeRate>1</ExchangeRate>
+        <ExchangeRateType>BaseRate</ExchangeRateType>
+        <DecimalDigits>-1</DecimalDigits>
+      </QFSLXCurrency>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms">
+      <QFTextBox>
+        <Column>1</Column>
+        <Row>4</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>QFCommission</ControlId>
+        <DataBindings>
+          <QuickFormPropertyDataBindingDefinition>
+            <DataSourceID>MainEntity</DataSourceID>
+            <DataItemName>ComplementLigneCommande.TAUXCOMMISSION</DataItemName>
+            <ControlItemName>Text</ControlItemName>
+            <FormatString />
+            <NullValueString />
+          </QuickFormPropertyDataBindingDefinition>
+        </DataBindings>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <OnChangeAction>
+          <ResourceKey>QFCommission</ResourceKey>
+          <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+            <NoActionActionItem>
+              <MethodName />
+            </NoActionActionItem>
+          </Action>
+          <IsDialogCloseAction>False</IsDialogCloseAction>
+          <RunOnEveryRePaint>False</RunOnEveryRePaint>
+          <DialogActionResult>NoResult</DialogActionResult>
+          <PerformsUpdate>False</PerformsUpdate>
+          <AppliedSecurity />
+          <RefreshData>False</RefreshData>
+        </OnChangeAction>
+        <Required>false</Required>
+      </QFTextBox>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+      <QFControlsList>
+        <Column>1</Column>
+        <Row>5</Row>
+        <Visible>false</Visible>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>ctrlstMCPrice</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+        <Caption />
+        <Controls>
+          <ControlsCollection>
+            <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls">
+              <QFSLXCurrency>
+                <Column>0</Column>
+                <Row>0</Row>
+                <HotKey>0</HotKey>
+                <TabIndex>9</TabIndex>
+                <ControlId>curMCCalcPrice</ControlId>
+                <DataBindings>
+                  <QuickFormPropertyDataBindingDefinition>
+                    <DataSourceID>MainEntity</DataSourceID>
+                    <DataItemName>CalculatedPrice</DataItemName>
+                    <ControlItemName>Text</ControlItemName>
+                    <FormatString />
+                    <NullValueString />
+                  </QuickFormPropertyDataBindingDefinition>
+                </DataBindings>
+                <ControlLabelPlacement>left</ControlLabelPlacement>
+                <ExtendedProperties />
+                <CaptionAlignment>left</CaptionAlignment>
+                <StyleScheme />
+                <OnChangeAction>
+                  <ResourceKey>curMCCalcPrice</ResourceKey>
+                  <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+                    <CodeSnippetActionItem methodId="e23ed140-7427-4ae4-9e69-3a833bde8f76">
+                      <MethodName>curMCCalcPrice_ChangeAction</MethodName>
+                    </CodeSnippetActionItem>
+                  </Action>
+                  <IsDialogCloseAction>False</IsDialogCloseAction>
+                  <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                  <DialogActionResult>NoResult</DialogActionResult>
+                  <PerformsUpdate>False</PerformsUpdate>
+                  <AppliedSecurity />
+                  <RefreshData>False</RefreshData>
+                </OnChangeAction>
+                <Required>false</Required>
+                <CurrentCode />
+                <ExchangeRate>1</ExchangeRate>
+                <ExchangeRateType>EntityRate</ExchangeRateType>
+                <DecimalDigits>-1</DecimalDigits>
+              </QFSLXCurrency>
+            </Control>
+          </ControlsCollection>
+        </Controls>
+      </QFControlsList>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
+      <QFControlsList>
+        <Column>1</Column>
+        <Row>18</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>QFControlsList</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme>qfActionContainer</StyleScheme>
+        <Caption />
+        <Controls>
+          <ControlsCollection>
+            <Control TypeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+              <QFButton>
+                <Column>0</Column>
+                <Row>0</Row>
+                <HotKey>0</HotKey>
+                <TabIndex>12</TabIndex>
+                <ControlId>btnOK</ControlId>
+                <DataBindings />
+                <ControlLabelPlacement>none</ControlLabelPlacement>
+                <ExtendedProperties />
+                <CaptionAlignment>left</CaptionAlignment>
+                <StyleScheme>slxbutton</StyleScheme>
+                <ButtonType>StandardButton</ButtonType>
+                <Image />
+                <OnClientClick />
+                <OnClickAction>
+                  <ResourceKey>btnOK</ResourceKey>
+                  <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
+                    <BusinessRuleActionItem>
+                      <BusinessRule>Save</BusinessRule>
+                      <Object>SalesOrderItem</Object>
+                      <Parameters />
+                      <PassResultsToNextAction>False</PassResultsToNextAction>
+                      <OnComplete typeName="Sage.Platform.QuickForms.ActionItems.RefreshDataAction, Sage.Platform.QuickForms">
+                        <RefreshDataAction>
+                          <MethodName>btnOK_ClickActionBRC</MethodName>
+                        </RefreshDataAction>
+                      </OnComplete>
+                    </BusinessRuleActionItem>
+                  </Action>
+                  <IsDialogCloseAction>False</IsDialogCloseAction>
+                  <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                  <DialogActionResult>DialogOK</DialogActionResult>
+                  <PerformsUpdate>True</PerformsUpdate>
+                  <AppliedSecurity />
+                  <RefreshData>True</RefreshData>
+                </OnClickAction>
+              </QFButton>
+            </Control>
+            <Control TypeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms">
+              <QFButton>
+                <Column>0</Column>
+                <Row>0</Row>
+                <HotKey>0</HotKey>
+                <TabIndex>13</TabIndex>
+                <ControlId>btnCancel</ControlId>
+                <DataBindings />
+                <ControlLabelPlacement>none</ControlLabelPlacement>
+                <ExtendedProperties />
+                <CaptionAlignment>left</CaptionAlignment>
+                <StyleScheme>slxbutton</StyleScheme>
+                <ButtonType>StandardButton</ButtonType>
+                <Image />
+                <OnClientClick />
+                <OnClickAction>
+                  <ResourceKey>btnCancel</ResourceKey>
+                  <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
+                    <NoActionActionItem>
+                      <MethodName />
+                    </NoActionActionItem>
+                  </Action>
+                  <IsDialogCloseAction>False</IsDialogCloseAction>
+                  <RunOnEveryRePaint>False</RunOnEveryRePaint>
+                  <DialogActionResult>DialogCancel</DialogActionResult>
+                  <PerformsUpdate>False</PerformsUpdate>
+                  <AppliedSecurity />
+                  <RefreshData>False</RefreshData>
+                </OnClickAction>
+              </QFButton>
+            </Control>
+          </ControlsCollection>
+        </Controls>
+      </QFControlsList>
+    </Control>
+  </Controls>
+  <ToolControls>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>ebd48bd7e04203bc337cb1626119af</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+    <Control typeName="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms">
+      <QFElementSpacer>
+        <Column>0</Column>
+        <Row>0</Row>
+        <HotKey>0</HotKey>
+        <TabIndex>0</TabIndex>
+        <ControlId>f3ca7440b338432ba4d88c113d6d7760</ControlId>
+        <DataBindings />
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <ExtendedProperties />
+        <CaptionAlignment>left</CaptionAlignment>
+        <StyleScheme />
+      </QFElementSpacer>
+    </Control>
+  </ToolControls>
+  <Columns>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>50</Width>
+    </ColumnStyle>
+    <ColumnStyle>
+      <SizeType>Percent</SizeType>
+      <Width>50</Width>
+    </ColumnStyle>
+  </Columns>
+  <Rows>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>350</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+    <RowStyle>
+      <SizeType>Absolute</SizeType>
+      <Height>35</Height>
+    </RowStyle>
+  </Rows>
+  <Description>Edit Sales Order Items</Description>
+  <UseEntityNameAsTitle>false</UseEntityNameAsTitle>
+  <EntityTypeName>ISalesOrderItem</EntityTypeName>
+  <DefaultNamespace>Sage.Entity.Interfaces</DefaultNamespace>
+  <AssemblyName>Sage.Entity.Interfaces</AssemblyName>
+</QuickForm>

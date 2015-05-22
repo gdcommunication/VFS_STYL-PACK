@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deploymentold\webroot\common\dynamicmethods.xml" timeStamp="2015-03-27T08:14:06.6743" />
+  <exportedFile url="\deploymentold\webroot\common\hibernate.xml" timeStamp="2015-03-27T08:12:51.0467" />
+  <exportedFile url="\deploymentold\webroot\common\bin\" />
+  <exportedFile url="\deploymentold\webroot\common\css\" />
+  <exportedFile url="\deploymentold\webroot\common\images\" />
+  <exportedFile url="\deploymentold\webroot\common\jscript\" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\" />
+  <exportedFile url="\deploymentold\webroot\common\SummaryConfigData\" />
+</exportedFiles>

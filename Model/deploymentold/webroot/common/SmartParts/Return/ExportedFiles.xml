@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Return\InsertReturn.ascx" timeStamp="2015-03-27T08:13:17.3780" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Return\ReturnComments.ascx" timeStamp="2015-03-27T08:13:17.5313" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Return\ReturnDefects.ascx" timeStamp="2015-03-27T08:13:17.7071" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Return\ReturnDefects.js" timeStamp="2015-03-27T08:13:17.6856" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Return\ReturnDetails.ascx" timeStamp="2015-03-27T08:13:18.4200" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Return\ReturnExtendedDetails.ascx" timeStamp="2015-03-27T08:13:23.6868" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Return\ReturnShipToDetail.ascx" timeStamp="2015-03-27T08:13:23.9933" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\Return\App_LocalResources\" />
+</exportedFiles>

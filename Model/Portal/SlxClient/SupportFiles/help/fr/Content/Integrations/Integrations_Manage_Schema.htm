@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>&#160;Gestion de schéma</title>
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Borders.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/SALESLOGIX.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor511"></a>&#160;<a name="kanchor512"></a>Gestion de schéma</h1>
+        <p>Utilisez la boîte de dialogue Gérer schéma pour comparer le schéma de la base de données dans <span class="MyVariablesCompanyNameFull">Saleslogix</span> à votre schéma d'intégration pour garantir l'intégrité des données. Vous pouvez comparer les données de plusieurs ressources pour savoir si des différences de longueurs existent entre les données des systèmes.</p>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_2838147950_0" onclick="FMCDropDown( this ); return false;">En savoir plus sur la manière dont <span class="MyVariablesCompanyNameFull">Saleslogix</span> gère les différences de schéma...<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_2838147950_0" style="display: none;">
+                <p><span class="SLXBold">Longueur Max</span> : si la longueur des donnés synchronisées vers <span class="MyVariablesCompanyNameFull">Saleslogix</span> dépasse la LongueurMax d'un champ, la ligne entière est rejetée.</p>
+                <p><span class="SLXBold">Décimales</span> : si les donnés synchronisées vers <span class="MyVariablesCompanyNameFull">Saleslogix</span> contiennent un nombre de décimales supérieur à celui défini, la valeur est arrondie en fonction du nombre de décimales autorisé. Par exemple, si un champ de devise a la valeur 17,4, alors une valeur de 123,12348 est enregistrée sous la forme 123,1235 et une valeur de 123.12343 est enregistrée sous la forme 123,1234.</p>
+            </div>
+        </div>
+        <p class="RelatedTopics">Procédure</p>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_2838147950_1" onclick="FMCDropDown( this ); return false;">Ouvrir la boîte de dialogue Gérer schéma <img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_2838147950_1" style="display: none;">
+                <ul>
+                    <li value="1">Dans la vue <span class="SLXBold">Détails de l'intégration</span>, onglet <a href="Integrations_Resources_Tab.htm">Ressources</a>, cliquez sur le bouton <span class="MCExpanding_0"><a href="javascript:void(0);" class="MCExpandingHead_0" onclick="FMCExpand( this ); return false;">Gérer schéma<img style="border: none;margin-left: 5px;" src="../SkinSupport/ExpandClosed.gif" MadCap:altsrc="../SkinSupport/ExpandOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/ExpandOpen.gif' ); }" class="MCExpandingIcon" /></a><span class="MCExpandingBody_0" style="display: none;"><img src="../image/ManageSchema.png" /></span></span>.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MCDropDown_0">
+            <div class="MCDropDownHead_0"><a class="MCDropDownHotSpot_0" href="javascript:void(0);" id="MCDropDownHotSpot_2838147950_2" onclick="FMCDropDown( this ); return false;">Comparer le schéma pour les ressources<img style="border: none;margin-left: 5px;" src="../SkinSupport/DropDownClosed.gif" MadCap:altsrc="../SkinSupport/DropDownOpen.gif" onload="if ( typeof( FMCPreloadImage ) == 'function' ) { FMCPreloadImage( '../SkinSupport/DropDownOpen.gif' ); }" class="MCDropDownIcon" /></a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_2838147950_2" style="display: none;">
+                <ol>
+                    <li value="1">Dans la boîte de dialogue <span class="SLXBold">Gérer schéma</span>, zone <span class="SLXBold">Filtrer par ressource</span>, sélectionnez le type de ressource.</li>
+                    <li value="2">Cliquez sur <span class="SLXBold">Exécuter</span>.</li>
+                    <li value="3">Vérifiez les différences dans la grille.<br /> Notez toute information qui pourrait causer des problèmes d'intégrité des données. Par exemple, un champ du système de comptabilité peut n'accepter que trois caractères alors que le même champ dans <span class="MyVariablesProduct Name">Saleslogix</span> accepte du texte libre.</li>
+                    <li value="4">Répétez pour tous les types de ressources.</li>
+                    <li value="5">Cliquez sur <span class="SLXBold">Terminer</span>.</li>
+                </ol>
+            </div>
+        </div>
+        <p>&#160;</p>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/Borders.css');width: 100%;border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;margin-left: 0;margin-right: auto;" class="TableStyle_Borders" cellspacing="0">
+            <col style="width: 100%;" />
+            <tbody>
+                <tr MadCap:conditions="">
+                    <td style="font-size: 8pt;border-left-style: solid;border-left-width: 0px;border-right-style: solid;border-right-width: 0px;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;" class="TableStyle_Borders_Body_0_0_RowEnd_ColEnd">
+                        <p style="font-family: Verdana;font-size: 8pt;"><a href="../General/feedback.htm">Dites-nous comment améliorer l'aide</a>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

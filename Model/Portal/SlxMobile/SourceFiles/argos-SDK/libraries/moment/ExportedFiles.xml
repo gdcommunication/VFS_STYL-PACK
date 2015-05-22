@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\.gitignore" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\.travis.yml" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\component.json" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\composer.json" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\CONTRIBUTING.md" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\ender.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\Gruntfile.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\LICENSE" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\moment.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\package.js" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\package.json" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\readme.md" timeStamp="2013-12-27T17:57:59.0000" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\lang\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\min\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\tasks\" />
+  <exportedFile url="\Portal\SlxMobile\SourceFiles\argos-SDK\libraries\moment\test\" />
+</exportedFiles>

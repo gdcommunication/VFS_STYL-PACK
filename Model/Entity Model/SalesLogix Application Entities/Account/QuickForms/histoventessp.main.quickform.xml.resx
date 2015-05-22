@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Code_article.Caption" xml:space="preserve">
+    <value>Code Article</value>
+  </data>
+  <data name="Couleurs_recto.Caption" xml:space="preserve">
+    <value>Couleurs Recto</value>
+  </data>
+  <data name="Couleurs_verso.Caption" xml:space="preserve">
+    <value>Couleurs Verso</value>
+  </data>
+  <data name="CreateDate.Caption" xml:space="preserve">
+    <value>Createdate</value>
+  </data>
+  <data name="Date_piece.Caption" xml:space="preserve">
+    <value>Date Pièce</value>
+  </data>
+  <data name="Designation_1.Caption" xml:space="preserve">
+    <value>Désignation 1</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.3ade809d-362e-4570-a22b-0601f4668a3f.ColumnHeading" xml:space="preserve">
+    <value>Code Article</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.f5d9c291-21f2-4edb-9df3-99a03fe3432d.ColumnHeading" xml:space="preserve">
+    <value>Couleurs Recto</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.4c77b9a9-0f3a-4f25-815f-1dffcd7d4386.ColumnHeading" xml:space="preserve">
+    <value>Couleurs Verso</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.002bd8b8-9f87-4989-8477-63afc006da1e.ColumnHeading" xml:space="preserve">
+    <value>Createdate</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.374eb228-caed-44f1-8a4d-e268a1ccb1ef.ColumnHeading" xml:space="preserve">
+    <value>Date Pièce</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.ca04cf8d-8ca6-46fc-84e0-6452dc3142a2.ColumnHeading" xml:space="preserve">
+    <value>Désignation 1</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.0b07803b-ce5f-478a-bb2d-ccdb0253b0db.ColumnHeading" xml:space="preserve">
+    <value>Designation 2</value>
+  </data>
+  <data name="dcbf256f-1c60-4f9a-9172-08e594308a72.DialogTitleOverride" xml:space="preserve">
+    <value>Description article</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.936a2c1b-cd66-4938-95df-fbf3efddbde1.Text" xml:space="preserve">
+    <value>Visualisation article</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.c034fd3f-e347-480d-8f10-bf0817db4b6b.ColumnHeading" xml:space="preserve">
+    <value>Origine</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.abafaf16-a1cc-47f1-8dd4-d36df7a4e0e5.ColumnHeading" xml:space="preserve">
+    <value>N° Commande</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.9140ab27-3a00-46ff-aebb-e2b8377f3aef.ColumnHeading" xml:space="preserve">
+    <value>Qté commandée</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.d0503d81-811b-4adc-bf60-ada0c7bb515c.ColumnHeading" xml:space="preserve">
+    <value>Qté livrée</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.3190a479-d4a0-4f66-a8f2-d6e5c8315f49.ColumnHeading" xml:space="preserve">
+    <value>RAE</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.1c96a3d0-814b-457f-a982-a8dba5ac6d14.ColumnHeading" xml:space="preserve">
+    <value>Prix unitaire</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.472e74b5-d4c9-4653-bcbc-80d2fdf81017.ColumnHeading" xml:space="preserve">
+    <value>Montant HT</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.2a814aee-f73b-46af-a097-634bfb288383.ColumnHeading" xml:space="preserve">
+    <value>Date Livraison</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.831269d8-d44d-49bb-a2c2-4d3636672fc8.ColumnHeading" xml:space="preserve">
+    <value>GAMME</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.4d0c89bd-b3b4-4c87-b405-75af1c367788.ColumnHeading" xml:space="preserve">
+    <value>Livraison reelle</value>
+  </data>
+  <data name="QFORIGINE.Caption" xml:space="preserve">
+    <value>Origine:</value>
+  </data>
+  <data name="QFSTART.Caption" xml:space="preserve">
+    <value>Debut:</value>
+  </data>
+  <data name="QFEND.Caption" xml:space="preserve">
+    <value>Fin:</value>
+  </data>
+  <data name="QFGAMME.Caption" xml:space="preserve">
+    <value>Gamme:</value>
+  </data>
+  <data name="QFReference.Caption" xml:space="preserve">
+    <value>Reference comme:</value>
+  </data>
+  <data name="QFButton.Caption" xml:space="preserve">
+    <value>rest</value>
+  </data>
+  <data name="grdTHistoriqueLignesDeVentess.abf6ba01-c710-4b55-a8bd-ef279a943502.ColumnHeading" xml:space="preserve">
+    <value>Nb de colis</value>
+  </data>
+</root>

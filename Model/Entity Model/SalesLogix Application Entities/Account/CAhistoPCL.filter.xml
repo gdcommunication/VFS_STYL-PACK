@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmAnalyticsMetricEntityFilter" id="2dc051e5-7d6c-4113-96c3-a711b47c3dbd" lastModifiedUtc="2014-12-03T14:53:16.3777769Z" filterName="CAhistoPCL" propertyName="THISTOPCLS.Ca_ht" analyticsAvailable="true" aggregation="SUM">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmAnalyticsMetricEntityFilter" />
+  </ExtendedPropertiesCollection>
+</entityFilter>

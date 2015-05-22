@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\sites\SlxClient\SmartParts\Account\" />
+  <exportedFile url="\deployment\sites\SlxClient\SmartParts\Product\" />
+  <exportedFile url="\deployment\sites\SlxClient\SmartParts\SalesOrder\" />
+  <exportedFile url="\deployment\sites\SlxClient\SmartParts\SalesOrderItem\" />
+  <exportedFile url="\deployment\sites\SlxClient\SmartParts\THistoriqueLignesDeVentes\" />
+</exportedFiles>

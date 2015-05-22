@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\SalesOrder\BillToShipTo.ascx" timeStamp="2015-03-27T08:13:25.1124" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\SalesOrder\EditSalesOrderDetail.ascx" timeStamp="2015-03-27T08:13:25.2775" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\SalesOrder\InsertSalesOrder.ascx" timeStamp="2015-03-27T08:13:25.4777" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\SalesOrder\SalesOrderDetails.ascx" timeStamp="2015-03-27T08:13:25.6495" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\SalesOrder\SalesOrderProducts.ascx" timeStamp="2015-03-27T08:13:26.3234" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\SalesOrder\SalesOrderProducts.js" timeStamp="2015-03-27T08:13:26.3029" />
+  <exportedFile url="\deploymentold\webroot\common\SmartParts\SalesOrder\App_LocalResources\" />
+</exportedFiles>

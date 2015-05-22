@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountAssets.ascx" timeStamp="2015-04-08T08:28:55.1647" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountAssets.js" timeStamp="2015-04-08T08:28:55.0866" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountContacts.ascx" timeStamp="2015-04-08T08:28:55.6091" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountContacts.js" timeStamp="2015-04-08T08:28:55.5642" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountContracts.ascx" timeStamp="2015-04-08T08:28:55.9792" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountContracts.js" timeStamp="2015-04-08T08:28:55.9421" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountDetails.ascx" timeStamp="2015-04-29T12:28:57.3458" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountExtendedDetails.ascx" timeStamp="2015-04-29T12:23:21.1341" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountLiteratureRequests.ascx" timeStamp="2015-04-08T08:28:57.6853" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountLiteratureRequests.js" timeStamp="2015-04-08T08:28:57.4568" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountOpportunities.ascx" timeStamp="2015-04-08T08:28:57.9919" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountOpportunities.js" timeStamp="2015-04-08T08:28:57.9294" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountResponses.ascx" timeStamp="2015-04-08T08:28:58.7117" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountResponses.js" timeStamp="2015-04-08T08:28:58.6775" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountReturns.ascx" timeStamp="2015-04-08T08:28:59.4099" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountReturns.js" timeStamp="2015-04-08T08:28:59.1716" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountSalesOrders.ascx" timeStamp="2015-04-08T08:28:59.9080" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountSalesOrders.js" timeStamp="2015-04-08T08:28:59.8777" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountTickets.ascx" timeStamp="2015-04-08T08:29:01.3924" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountTickets.js" timeStamp="2015-04-08T08:29:01.3640" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AccountTimeline.ascx" timeStamp="2015-04-08T08:29:02.0516" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\ALLIGNEVENTES.ascx" timeStamp="2014-12-02T14:10:49.2777" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\AutreInfo.ascx" timeStamp="2015-04-29T12:28:57.3888" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\histoventes.ascx" timeStamp="2015-04-20T14:12:04.4366" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\histoventes.js" timeStamp="2015-04-20T12:31:50.6744" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\histoventespcl.ascx" timeStamp="2015-04-08T08:29:03.2635" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\histoventessp.ascx" timeStamp="2015-04-29T15:15:52.5743" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\histoventessp.js" timeStamp="2015-04-20T13:09:18.9403" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\ICAccountExtendedDetails.ascx" timeStamp="2015-04-08T08:29:03.7410" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\ICAccounting.ascx" timeStamp="2015-04-08T08:29:04.4061" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\InsertAccount.ascx" timeStamp="2015-04-08T08:29:04.8885" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\Pastilles.ascx" timeStamp="2015-04-29T12:05:16.0903" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\" />
+</exportedFiles>

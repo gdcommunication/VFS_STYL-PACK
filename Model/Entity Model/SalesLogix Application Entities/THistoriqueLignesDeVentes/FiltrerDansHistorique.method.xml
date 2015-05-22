@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6151b805-5a22-43d0-b95c-204c28cd3ad6" lastModifiedUtc="2015-04-20T13:10:05.1842442Z" name="FiltrerDansHistorique" returnType="System.Collections.Generic.IList&lt;Sage.Entity.Interfaces.ITHistoriqueLignesDeVentes&gt;" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="58f80a85-7744-47bc-b4ad-b73d4d609390" paramName="accountid" sequence="0" paramType="String" />
+    <OrmEntityMethodParam id="71a59d91-57ba-4307-aef9-038590901b71" paramName="societe" sequence="0" paramType="String" />
+    <OrmEntityMethodParam id="25ee123f-56e6-4e67-ae43-308ad974b578" paramName="debut" sequence="0" paramType="DateTime" />
+    <OrmEntityMethodParam id="354fb86b-86cc-423a-bc6c-362147d3f72f" paramName="fin" sequence="0" paramType="DateTime" />
+    <OrmEntityMethodParam id="6b3d3d32-a17e-499e-bbff-6c2686956896" paramName="gamme" sequence="0" paramType="String" />
+    <OrmEntityMethodParam id="048a830e-9cdc-4537-b8ee-e46d5db13924" paramName="reference" sequence="0" paramType="String" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="28140f50-96f8-47df-8429-47d5c1c0184d" lastModifiedUtc="2015-04-17T11:57:19.688923Z" targetType="Sage.BusinessRules.CodeSnippets.THistoriqueLignesDeVentesBusinessRules, Sage.SnippetLibrary.CSharp" targetMethod="FiltrerDansHistoriqueStep" active="true" codeSnippetId="7349b66e-4f60-4e0d-9f2e-4392e1eaf3fb">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

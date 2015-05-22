@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="Translation Status.Support files" xml:lang="fr" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="fr" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="WebClient.xml" MadCap:SearchType="Stem">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Présentation de l’intégration des agendas</title>
+        <link href="../Resources/TableStyles/TableStyle.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/Borders.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/SALESLOGIX.CSS" rel="stylesheet" />
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>Présentation de l’intégration des agendas</h1>
+        <p>L'intégration de l'agenda vous permet de synchroniser votre agenda entre <span class="MyVariablesProduct Name">Saleslogix</span> et une <a href="Using_External_Integrations.htm">intégration prise en charge</a>. Votre administrateur doit configurer et accorder une autorisation pour vous permettre de synchroniser des agendas avec une intégration.</p>
+        <p>During a synchronization cycle, <span class="MyVariablesProduct Name">Saleslogix</span> compares fields in both systems, and makes changes to ensure both systems contain the same information. Only data in mapped fields between the applications is transferred. The data is compared and changes are made to ensure the information <a href="Matching_Records.htm">matches</a>. For example, if a record has been added to one system and not to the other, that record is added to the incomplete system.</p>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%" MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">
+            <col style="width: 45px;" />
+            <col />
+            <tr MadCap:conditions="">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" />
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">La synchronisation est affectée par la sécurité intégrée des données associée à l'utilisateur connecté à <span class="MyVariablesProduct Name">Saleslogix</span>. La quantité de données pouvant être transférée est limitée par les droits de sécurité de l'utilisateur connecté.</td>
+            </tr>
+        </table>
+        <p class="subheading">Comportement de synchronisation des agendas</p>
+        <ul>
+            <li value="1">Si le même enregistrement est mis à jour dans les deux systèmes durant le même cycle de synchronisation, la dernière modification a préséance.</li>
+            <li value="2">La suppression d'une activité dans l'un ou l'autre système supprime l'activité des deux applications.</li>
+            <li value="3">Responsables, membres et ressources d'activité :<ul><li value="1">Les informations concernant les membres et les ressources ne sont pas synchronisées. </li><li value="2">Si l'utilisateur est membre ou responsable d'une activité, lorsque l'activité est synchronisée, l'utilisateur est listé comme responsable.</li></ul></li>
+            <li value="4">Les activités confirmées et non confirmées seront synchronisées.</li>
+            <li value="5">Activités refusées :<ul><li value="1">Les activités refusées avant un cycle de synchronisation ne sont pas synchronisées. </li><li value="2">Les activités qui sont refusées après un cycle de synchronisation sont supprimées de l'agenda de l'utilisateur dans les deux applications.</li></ul></li>
+            <li value="6">Les types d'activité dans <span class="MyVariablesCompanyNameFull">Saleslogix</span> peuvent être synchronisés avec différents types d'activité dans une application intégrée. Pour des détails, voir le tableau Présentation de l'échange de données d'agenda.</li>
+        </ul>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">Pour des scénarios spécifiques d'intégration d'agendas, voir les <a href="Synchronizing_Calendars.htm">scénarios de synchronisation d'agenda</a>.</MadCap:conditionalText>&#160;</p>
+        <p class="subheading">Présentation de l'échange de données d'agenda</p>
+        <p MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Le tableau répertorie comment l'agenda <span class="MyVariablesProduct Name">Saleslogix</span> est synchronisé avec des intégrations externes :</p>
+        <table style="width: 95%;mc-table-style: url('../Resources/TableStyles/TableStyle.css');margin-left: 0;margin-right: auto;" class="TableStyle-TableStyle" cellspacing="0" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">
+            <col class="Column-Column1">
+            </col>
+            <col class="Column-Column1">
+            </col>
+            <col class="Column-Column1">
+            </col>
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><span class="MyVariablesProduct Name">Saleslogix</span>
+                    </th>
+                    <th class="HeadE-Column1-Header1">Forme de synchronisation</th>
+                    <th class="HeadD-Column1-Header1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">MS Outlook</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Réunions</td>
+                    <td class="BodyE-Column1-Body1">Forme de synchronisation</td>
+                    <td class="BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Rendez-vous</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Appels téléphoniques</td>
+                    <td class="BodyE-Column1-Body1">Forme de synchronisation</td>
+                    <td class="BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Rendez-vous</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Activités personnelles </td>
+                    <td class="BodyE-Column1-Body1">Forme de synchronisation</td>
+                    <td class="BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Rendez-vous, avec la mention « Privé »</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Tâches à faire</td>
+                    <td class="BodyE-Column1-Body1">Forme de synchronisation</td>
+                    <td class="BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Tâches</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Événements</td>
+                    <td class="BodyE-Column1-Body1">Forme de synchronisation</td>
+                    <td class="BodyD-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">ne pas synchroniser</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Appel téléphonique, réunion ou activité personnelle sans horaire défini</td>
+                    <td class="BodyB-Column1-Body1">Forme de synchronisation</td>
+                    <td class="BodyA-Column1-Body1" MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient">Evénement d'une journée entière</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Procédure</p>
+        <ul>
+            <li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="1"><a href="../Outlook/Configuring_Outlook_Sync.htm">Définition des options de l'agenda</a>
+            </li>
+            <li MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient" value="2">Synchronisation manuelle de l'agenda et des contacts</li>
+        </ul>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%">
+            <tr>
+                <td style="width: 10%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="10%">
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                </td>
+            </tr>
+        </table>
+        <table wrapperparagraphselector="P" style="width: 80%;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="80%" MadCap:conditions="Output.WebClient,Output.OutlookSync,Output.Integrations LAN">
+            <col style="width: 45px;">
+            </col>
+            <col>
+            </col>
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif">
+                        </img>
+                    </p>
+                </td>
+                <td style="width: 90%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="90%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Il est déconseillé de synchroniser simultanément le client distant avec la base de données du bureau principal et Microsoft Outlook. Cela réduit considérablement la vitesse de la synchronisation et provoque des problèmes de mémoire. <span class="MyVariablesProduct Name">Saleslogix</span> recommande vous recommande de vous synchroniser avec MS Outlook avant ou après avoir synchronisé votre base de données distante.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Rubriques connexes</p>
+        <p MadCap:conditions="Output.Integrations LAN,Output.OutlookSync,Output.WebClient"><a href="Synchronizing_Calendars.htm">Scénarios de synchronisation d'agendas</a>
+        </p>
+        <p>&#160;</p>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/Borders.css');width: 100%;border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;margin-left: 0;margin-right: auto;" class="TableStyle_Borders" cellspacing="0">
+            <col style="width: 100%;" />
+            <tbody>
+                <tr MadCap:conditions="">
+                    <td style="font-size: 8pt;border-left-style: solid;border-left-width: 0px;border-right-style: solid;border-right-width: 0px;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;" class="TableStyle_Borders_Body_0_0_RowEnd_ColEnd">
+                        <p style="font-family: Verdana;font-size: 8pt;"><a href="../General/feedback.htm">Dites-nous comment améliorer l'aide</a>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

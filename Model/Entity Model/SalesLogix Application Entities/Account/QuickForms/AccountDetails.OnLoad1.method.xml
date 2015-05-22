@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="8bb14c5a-6a7f-48b5-a46d-e9039b0ebe25" lastModifiedUtc="2014-12-02T13:35:46.1890384Z" name="OnLoad1" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="AccountDetails">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="7fe9e26d-9c38-419a-9518-e21613d7a654" paramName="form" sequence="0" paramType="IAccountDetails" />
+    <OrmEntityMethodParam id="ed1c2976-2548-4064-9282-9fdd1f17f1f7" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="8a8c932b-e034-4057-b055-5a5d01dbfe4f" lastModifiedUtc="2014-12-02T13:22:39.5249838Z" targetType="Sage.BusinessRules.CodeSnippets.AccountDetailsEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="OnLoad1Step" active="true" codeSnippetId="d4ed91d2-7f8f-4ac3-9ea9-d2c814d99432">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>
