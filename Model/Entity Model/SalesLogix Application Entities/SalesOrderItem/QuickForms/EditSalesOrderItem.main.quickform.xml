@@ -97,16 +97,16 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
   <Controls>
     <Control typeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
       <QFControlsList>
+        <CaptionAlignment>left</CaptionAlignment>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <HotKey>0</HotKey>
+        <DataBindings />
+        <StyleScheme />
         <Column>0</Column>
         <Row>0</Row>
-        <HotKey>0</HotKey>
         <TabIndex>0</TabIndex>
         <ControlId>ctrlstLineNumber</ControlId>
-        <DataBindings />
-        <ControlLabelPlacement>left</ControlLabelPlacement>
         <ExtendedProperties />
-        <CaptionAlignment>left</CaptionAlignment>
-        <StyleScheme />
         <Caption />
         <Controls>
           <ControlsCollection>
@@ -270,27 +270,25 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
     </Control>
     <Control typeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
       <QFControlsList>
+        <CaptionAlignment>left</CaptionAlignment>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <HotKey>0</HotKey>
+        <DataBindings />
+        <StyleScheme />
         <Column>0</Column>
         <Row>5</Row>
         <Visible>false</Visible>
-        <HotKey>0</HotKey>
         <TabIndex>0</TabIndex>
         <ControlId>ctrlstPriceLevel</ControlId>
-        <DataBindings />
-        <ControlLabelPlacement>left</ControlLabelPlacement>
         <ExtendedProperties />
-        <CaptionAlignment>left</CaptionAlignment>
-        <StyleScheme />
         <Caption />
         <Controls>
           <ControlsCollection>
             <Control TypeName="Sage.Platform.QuickForms.QFControls.QFListBox, Sage.Platform.QuickForms.QFControls">
               <QFListBox>
-                <Column>0</Column>
-                <Row>0</Row>
+                <CaptionAlignment>left</CaptionAlignment>
+                <ControlLabelPlacement>left</ControlLabelPlacement>
                 <HotKey>0</HotKey>
-                <TabIndex>5</TabIndex>
-                <ControlId>lstbxPriceLevel</ControlId>
                 <DataBindings>
                   <QuickFormPropertyDataBindingDefinition>
                     <DataSourceID>MainEntity</DataSourceID>
@@ -300,10 +298,12 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                     <NullValueString />
                   </QuickFormPropertyDataBindingDefinition>
                 </DataBindings>
-                <ControlLabelPlacement>left</ControlLabelPlacement>
-                <ExtendedProperties />
-                <CaptionAlignment>left</CaptionAlignment>
                 <StyleScheme />
+                <Column>0</Column>
+                <Row>0</Row>
+                <TabIndex>5</TabIndex>
+                <ControlId>lstbxPriceLevel</ControlId>
+                <ExtendedProperties />
                 <SelectedIndex>-1</SelectedIndex>
                 <Items />
                 <OnChangeAction>
@@ -340,30 +340,30 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
     </Control>
     <Control typeName="Sage.Platform.QuickForms.QFControls.QFMultiTab, Sage.Platform.QuickForms.QFControls">
       <QFMultiTab>
+        <CaptionAlignment>left</CaptionAlignment>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <HotKey>0</HotKey>
+        <DataBindings />
+        <StyleScheme />
         <ColumnSpan>2</ColumnSpan>
         <RowSpan>12</RowSpan>
         <Column>0</Column>
         <Row>6</Row>
-        <HotKey>0</HotKey>
         <TabIndex>0</TabIndex>
         <ControlId>QFMultiDonnees</ControlId>
-        <DataBindings />
-        <ControlLabelPlacement>left</ControlLabelPlacement>
         <ExtendedProperties />
-        <CaptionAlignment>left</CaptionAlignment>
-        <StyleScheme />
         <Tabs>
           <QFPanel>
+            <CaptionAlignment>left</CaptionAlignment>
+            <ControlLabelPlacement>left</ControlLabelPlacement>
+            <HotKey>0</HotKey>
+            <DataBindings />
+            <StyleScheme />
             <Column>0</Column>
             <Row>0</Row>
-            <HotKey>0</HotKey>
             <TabIndex>0</TabIndex>
             <ControlId>QFMultiTab_Page_1</ControlId>
-            <DataBindings />
-            <ControlLabelPlacement>left</ControlLabelPlacement>
             <ExtendedProperties />
-            <CaptionAlignment>left</CaptionAlignment>
-            <StyleScheme />
             <Caption>Personnalisation</Caption>
             <Rows>
               <Row>
@@ -465,11 +465,9 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFListBox, Sage.Platform.QuickForms.QFControls">
                   <QFListBox>
-                    <Column>0</Column>
-                    <Row>1</Row>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
                     <HotKey>0</HotKey>
-                    <TabIndex>0</TabIndex>
-                    <ControlId>QFRENOUVELLEMENT</ControlId>
                     <DataBindings>
                       <QuickFormPropertyDataBindingDefinition>
                         <DataSourceID>MainEntity</DataSourceID>
@@ -479,10 +477,12 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                         <NullValueString />
                       </QuickFormPropertyDataBindingDefinition>
                     </DataBindings>
-                    <ControlLabelPlacement>left</ControlLabelPlacement>
-                    <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
                     <StyleScheme />
+                    <Column>0</Column>
+                    <Row>1</Row>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFRENOUVELLEMENT</ControlId>
+                    <ExtendedProperties />
                     <SelectedIndex>-1</SelectedIndex>
                     <Items />
                     <OnChangeAction>
@@ -536,47 +536,47 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
                   <QFHorizontalSeparator>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>none</ControlLabelPlacement>
+                    <HotKey>48</HotKey>
+                    <DataBindings />
+                    <StyleScheme />
                     <ColumnSpan>2</ColumnSpan>
                     <Column>0</Column>
                     <Row>3</Row>
-                    <HotKey>48</HotKey>
                     <TabIndex>0</TabIndex>
                     <ControlId>QFMAINPERSO</ControlId>
-                    <DataBindings />
-                    <ControlLabelPlacement>none</ControlLabelPlacement>
                     <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
-                    <StyleScheme />
                     <DisplayAsTitleBar>false</DisplayAsTitleBar>
                   </QFHorizontalSeparator>
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
                   <QFControlsList>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <HotKey>0</HotKey>
+                    <DataBindings />
+                    <StyleScheme />
                     <Column>0</Column>
                     <Row>4</Row>
-                    <HotKey>0</HotKey>
                     <TabIndex>0</TabIndex>
                     <ControlId>QFRECTO</ControlId>
-                    <DataBindings />
-                    <ControlLabelPlacement>left</ControlLabelPlacement>
                     <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
-                    <StyleScheme />
                     <Caption />
                     <Controls>
                       <ControlsCollection>
                         <Control TypeName="Sage.Platform.QuickForms.QFControls.QFListBox, Sage.Platform.QuickForms.QFControls">
                           <QFListBox>
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <HotKey>0</HotKey>
+                            <DataBindings />
+                            <StyleScheme />
                             <Column>0</Column>
                             <Row>0</Row>
-                            <HotKey>0</HotKey>
                             <TabIndex>0</TabIndex>
                             <ControlId>QFLISTRECTO</ControlId>
-                            <DataBindings />
-                            <ControlLabelPlacement>left</ControlLabelPlacement>
                             <ExtendedProperties />
-                            <CaptionAlignment>left</CaptionAlignment>
-                            <StyleScheme />
                             <SelectedIndex>-1</SelectedIndex>
                             <Items />
                             <OnChangeAction>
@@ -642,17 +642,17 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
                   <QFHorizontalSeparator>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>none</ControlLabelPlacement>
+                    <HotKey>48</HotKey>
+                    <DataBindings />
+                    <StyleScheme />
                     <ColumnSpan>2</ColumnSpan>
                     <Column>0</Column>
                     <Row>5</Row>
-                    <HotKey>48</HotKey>
                     <TabIndex>0</TabIndex>
                     <ControlId>QFCOULEURS</ControlId>
-                    <DataBindings />
-                    <ControlLabelPlacement>none</ControlLabelPlacement>
                     <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
-                    <StyleScheme />
                     <DisplayAsTitleBar>false</DisplayAsTitleBar>
                   </QFHorizontalSeparator>
                 </Control>
@@ -744,11 +744,9 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFListBox, Sage.Platform.QuickForms.QFControls">
                   <QFListBox>
-                    <Column>1</Column>
-                    <Row>1</Row>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
                     <HotKey>0</HotKey>
-                    <TabIndex>0</TabIndex>
-                    <ControlId>QFREPRISEPERSO</ControlId>
                     <DataBindings>
                       <QuickFormPropertyDataBindingDefinition>
                         <DataSourceID>MainEntity</DataSourceID>
@@ -758,10 +756,12 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                         <NullValueString />
                       </QuickFormPropertyDataBindingDefinition>
                     </DataBindings>
-                    <ControlLabelPlacement>left</ControlLabelPlacement>
-                    <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
                     <StyleScheme />
+                    <Column>1</Column>
+                    <Row>1</Row>
+                    <TabIndex>0</TabIndex>
+                    <ControlId>QFREPRISEPERSO</ControlId>
+                    <ExtendedProperties />
                     <SelectedIndex>-1</SelectedIndex>
                     <Items />
                     <OnChangeAction>
@@ -823,31 +823,31 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
                   <QFControlsList>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <HotKey>0</HotKey>
+                    <DataBindings />
+                    <StyleScheme />
                     <Column>1</Column>
                     <Row>4</Row>
-                    <HotKey>0</HotKey>
                     <TabIndex>0</TabIndex>
                     <ControlId>QFVERSO</ControlId>
-                    <DataBindings />
-                    <ControlLabelPlacement>left</ControlLabelPlacement>
                     <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
-                    <StyleScheme />
                     <Caption />
                     <Controls>
                       <ControlsCollection>
                         <Control TypeName="Sage.Platform.QuickForms.QFControls.QFListBox, Sage.Platform.QuickForms.QFControls">
                           <QFListBox>
+                            <CaptionAlignment>left</CaptionAlignment>
+                            <ControlLabelPlacement>left</ControlLabelPlacement>
+                            <HotKey>0</HotKey>
+                            <DataBindings />
+                            <StyleScheme />
                             <Column>0</Column>
                             <Row>0</Row>
-                            <HotKey>0</HotKey>
                             <TabIndex>0</TabIndex>
                             <ControlId>QFLISTVERSO</ControlId>
-                            <DataBindings />
-                            <ControlLabelPlacement>left</ControlLabelPlacement>
                             <ExtendedProperties />
-                            <CaptionAlignment>left</CaptionAlignment>
-                            <StyleScheme />
                             <SelectedIndex>-1</SelectedIndex>
                             <Items />
                             <OnChangeAction>
@@ -915,16 +915,16 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
             </Controls>
           </QFPanel>
           <QFPanel>
+            <CaptionAlignment>left</CaptionAlignment>
+            <ControlLabelPlacement>left</ControlLabelPlacement>
+            <HotKey>0</HotKey>
+            <DataBindings />
+            <StyleScheme />
             <Column>0</Column>
             <Row>0</Row>
-            <HotKey>0</HotKey>
             <TabIndex>0</TabIndex>
             <ControlId>QFMultiDonnees_Page_2</ControlId>
-            <DataBindings />
-            <ControlLabelPlacement>left</ControlLabelPlacement>
             <ExtendedProperties />
-            <CaptionAlignment>left</CaptionAlignment>
-            <StyleScheme />
             <Caption>Suivi PAO</Caption>
             <Rows>
               <Row>
@@ -1030,32 +1030,32 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
                   <QFHorizontalSeparator>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>none</ControlLabelPlacement>
+                    <HotKey>48</HotKey>
+                    <DataBindings />
+                    <StyleScheme />
                     <ColumnSpan>3</ColumnSpan>
                     <Column>0</Column>
                     <Row>1</Row>
-                    <HotKey>48</HotKey>
                     <TabIndex>0</TabIndex>
                     <ControlId>QFPAOINIT</ControlId>
-                    <DataBindings />
-                    <ControlLabelPlacement>none</ControlLabelPlacement>
                     <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
-                    <StyleScheme />
                     <DisplayAsTitleBar>false</DisplayAsTitleBar>
                   </QFHorizontalSeparator>
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
                   <QFControlsList>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <HotKey>0</HotKey>
+                    <DataBindings />
+                    <StyleScheme />
                     <Column>0</Column>
                     <Row>2</Row>
-                    <HotKey>0</HotKey>
                     <TabIndex>0</TabIndex>
                     <ControlId>QFMODIF1</ControlId>
-                    <DataBindings />
-                    <ControlLabelPlacement>left</ControlLabelPlacement>
                     <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
-                    <StyleScheme />
                     <Caption />
                     <Controls>
                       <ControlsCollection>
@@ -1150,17 +1150,17 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
                   <QFHorizontalSeparator>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>none</ControlLabelPlacement>
+                    <HotKey>48</HotKey>
+                    <DataBindings />
+                    <StyleScheme />
                     <ColumnSpan>3</ColumnSpan>
                     <Column>0</Column>
                     <Row>3</Row>
-                    <HotKey>48</HotKey>
                     <TabIndex>0</TabIndex>
                     <ControlId>QFPAOMODIF</ControlId>
-                    <DataBindings />
-                    <ControlLabelPlacement>none</ControlLabelPlacement>
                     <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
-                    <StyleScheme />
                     <DisplayAsTitleBar>false</DisplayAsTitleBar>
                   </QFHorizontalSeparator>
                 </Control>
@@ -1210,17 +1210,17 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls">
                   <QFHorizontalSeparator>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>none</ControlLabelPlacement>
+                    <HotKey>48</HotKey>
+                    <DataBindings />
+                    <StyleScheme />
                     <ColumnSpan>3</ColumnSpan>
                     <Column>0</Column>
                     <Row>5</Row>
-                    <HotKey>48</HotKey>
                     <TabIndex>0</TabIndex>
                     <ControlId>QFRELANCES</ControlId>
-                    <DataBindings />
-                    <ControlLabelPlacement>none</ControlLabelPlacement>
                     <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
-                    <StyleScheme />
                     <DisplayAsTitleBar>false</DisplayAsTitleBar>
                   </QFHorizontalSeparator>
                 </Control>
@@ -1351,16 +1351,16 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
                   <QFControlsList>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <HotKey>0</HotKey>
+                    <DataBindings />
+                    <StyleScheme />
                     <Column>1</Column>
                     <Row>2</Row>
-                    <HotKey>0</HotKey>
                     <TabIndex>0</TabIndex>
                     <ControlId>QFMODIF2</ControlId>
-                    <DataBindings />
-                    <ControlLabelPlacement>left</ControlLabelPlacement>
                     <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
-                    <StyleScheme />
                     <Caption />
                     <Controls>
                       <ControlsCollection>
@@ -1624,16 +1624,16 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                 </Control>
                 <Control TypeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
                   <QFControlsList>
+                    <CaptionAlignment>left</CaptionAlignment>
+                    <ControlLabelPlacement>left</ControlLabelPlacement>
+                    <HotKey>0</HotKey>
+                    <DataBindings />
+                    <StyleScheme />
                     <Column>2</Column>
                     <Row>2</Row>
-                    <HotKey>0</HotKey>
                     <TabIndex>0</TabIndex>
                     <ControlId>QFMODIF3</ControlId>
-                    <DataBindings />
-                    <ControlLabelPlacement>left</ControlLabelPlacement>
                     <ExtendedProperties />
-                    <CaptionAlignment>left</CaptionAlignment>
-                    <StyleScheme />
                     <Caption />
                     <Controls>
                       <ControlsCollection>
@@ -1870,13 +1870,10 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
     </Control>
     <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls">
       <QFSLXCurrency>
-        <Column>0</Column>
-        <Row>19</Row>
-        <IsReadOnly>true</IsReadOnly>
-        <Visible>false</Visible>
+        <CaptionAlignment>left</CaptionAlignment>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
         <HotKey>0</HotKey>
-        <TabIndex>6</TabIndex>
-        <ControlId>curPrice</ControlId>
+        <IsReadOnly>true</IsReadOnly>
         <DataBindings>
           <QuickFormPropertyDataBindingDefinition>
             <DataSourceID>MainEntity</DataSourceID>
@@ -1886,10 +1883,13 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
             <NullValueString />
           </QuickFormPropertyDataBindingDefinition>
         </DataBindings>
-        <ControlLabelPlacement>left</ControlLabelPlacement>
-        <ExtendedProperties />
-        <CaptionAlignment>left</CaptionAlignment>
         <StyleScheme />
+        <Column>0</Column>
+        <Row>19</Row>
+        <Visible>false</Visible>
+        <TabIndex>6</TabIndex>
+        <ControlId>curPrice</ControlId>
+        <ExtendedProperties />
         <OnChangeAction>
           <ResourceKey>curPrice</ResourceKey>
           <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
@@ -1922,11 +1922,9 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
     </Control>
     <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXNumeric, Sage.SalesLogix.QuickForms.QFControls">
       <QFSLXNumeric>
-        <Column>1</Column>
-        <Row>0</Row>
+        <CaptionAlignment>left</CaptionAlignment>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
         <HotKey>0</HotKey>
-        <TabIndex>7</TabIndex>
-        <ControlId>txtDiscount</ControlId>
         <DataBindings>
           <QuickFormPropertyDataBindingDefinition>
             <DataSourceID>MainEntity</DataSourceID>
@@ -1936,10 +1934,12 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
             <NullValueString />
           </QuickFormPropertyDataBindingDefinition>
         </DataBindings>
-        <ControlLabelPlacement>left</ControlLabelPlacement>
-        <ExtendedProperties />
-        <CaptionAlignment>left</CaptionAlignment>
         <StyleScheme />
+        <Column>1</Column>
+        <Row>0</Row>
+        <TabIndex>7</TabIndex>
+        <ControlId>txtDiscount</ControlId>
+        <ExtendedProperties />
         <OnChangeAction>
           <ResourceKey>txtDiscount</ResourceKey>
           <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
@@ -1971,11 +1971,9 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
     </Control>
     <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls">
       <QFSLXCurrency>
-        <Column>1</Column>
-        <Row>1</Row>
+        <CaptionAlignment>left</CaptionAlignment>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
         <HotKey>0</HotKey>
-        <TabIndex>8</TabIndex>
-        <ControlId>curCalculatedPrice</ControlId>
         <DataBindings>
           <QuickFormPropertyDataBindingDefinition>
             <DataSourceID>MainEntity</DataSourceID>
@@ -1985,10 +1983,12 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
             <NullValueString />
           </QuickFormPropertyDataBindingDefinition>
         </DataBindings>
-        <ControlLabelPlacement>left</ControlLabelPlacement>
-        <ExtendedProperties />
-        <CaptionAlignment>left</CaptionAlignment>
         <StyleScheme />
+        <Column>1</Column>
+        <Row>1</Row>
+        <TabIndex>8</TabIndex>
+        <ControlId>curCalculatedPrice</ControlId>
+        <ExtendedProperties />
         <OnChangeAction>
           <ResourceKey>curCalculatedPrice</ResourceKey>
           <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
@@ -2021,11 +2021,9 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
     </Control>
     <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXNumeric, Sage.SalesLogix.QuickForms.QFControls">
       <QFSLXNumeric>
-        <Column>1</Column>
-        <Row>2</Row>
+        <CaptionAlignment>left</CaptionAlignment>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
         <HotKey>0</HotKey>
-        <TabIndex>10</TabIndex>
-        <ControlId>numQuantity</ControlId>
         <DataBindings>
           <QuickFormPropertyDataBindingDefinition>
             <DataSourceID>MainEntity</DataSourceID>
@@ -2035,10 +2033,12 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
             <NullValueString />
           </QuickFormPropertyDataBindingDefinition>
         </DataBindings>
-        <ControlLabelPlacement>left</ControlLabelPlacement>
-        <ExtendedProperties />
-        <CaptionAlignment>left</CaptionAlignment>
         <StyleScheme />
+        <Column>1</Column>
+        <Row>2</Row>
+        <TabIndex>10</TabIndex>
+        <ControlId>numQuantity</ControlId>
+        <ExtendedProperties />
         <OnChangeAction>
           <ResourceKey>numQuantity</ResourceKey>
           <Action typeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms">
@@ -2070,12 +2070,10 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
     </Control>
     <Control typeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls">
       <QFSLXCurrency>
-        <Column>1</Column>
-        <Row>3</Row>
-        <IsReadOnly>true</IsReadOnly>
+        <CaptionAlignment>left</CaptionAlignment>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
         <HotKey>0</HotKey>
-        <TabIndex>11</TabIndex>
-        <ControlId>curExtendedPrice</ControlId>
+        <IsReadOnly>true</IsReadOnly>
         <DataBindings>
           <QuickFormPropertyDataBindingDefinition>
             <DataSourceID>MainEntity</DataSourceID>
@@ -2085,10 +2083,12 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
             <NullValueString />
           </QuickFormPropertyDataBindingDefinition>
         </DataBindings>
-        <ControlLabelPlacement>left</ControlLabelPlacement>
-        <ExtendedProperties />
-        <CaptionAlignment>left</CaptionAlignment>
         <StyleScheme />
+        <Column>1</Column>
+        <Row>3</Row>
+        <TabIndex>11</TabIndex>
+        <ControlId>curExtendedPrice</ControlId>
+        <ExtendedProperties />
         <OnChangeAction>
           <ResourceKey>curExtendedPrice</ResourceKey>
           <Action typeName="Sage.Platform.QuickForms.ActionItems.NoActionActionItem, Sage.Platform.QuickForms">
@@ -2150,27 +2150,25 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
     </Control>
     <Control typeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
       <QFControlsList>
+        <CaptionAlignment>left</CaptionAlignment>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <HotKey>0</HotKey>
+        <DataBindings />
+        <StyleScheme />
         <Column>1</Column>
         <Row>5</Row>
         <Visible>false</Visible>
-        <HotKey>0</HotKey>
         <TabIndex>0</TabIndex>
         <ControlId>ctrlstMCPrice</ControlId>
-        <DataBindings />
-        <ControlLabelPlacement>left</ControlLabelPlacement>
         <ExtendedProperties />
-        <CaptionAlignment>left</CaptionAlignment>
-        <StyleScheme />
         <Caption />
         <Controls>
           <ControlsCollection>
             <Control TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls">
               <QFSLXCurrency>
-                <Column>0</Column>
-                <Row>0</Row>
+                <CaptionAlignment>left</CaptionAlignment>
+                <ControlLabelPlacement>left</ControlLabelPlacement>
                 <HotKey>0</HotKey>
-                <TabIndex>9</TabIndex>
-                <ControlId>curMCCalcPrice</ControlId>
                 <DataBindings>
                   <QuickFormPropertyDataBindingDefinition>
                     <DataSourceID>MainEntity</DataSourceID>
@@ -2180,10 +2178,12 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
                     <NullValueString />
                   </QuickFormPropertyDataBindingDefinition>
                 </DataBindings>
-                <ControlLabelPlacement>left</ControlLabelPlacement>
-                <ExtendedProperties />
-                <CaptionAlignment>left</CaptionAlignment>
                 <StyleScheme />
+                <Column>0</Column>
+                <Row>0</Row>
+                <TabIndex>9</TabIndex>
+                <ControlId>curMCCalcPrice</ControlId>
+                <ExtendedProperties />
                 <OnChangeAction>
                   <ResourceKey>curMCCalcPrice</ResourceKey>
                   <Action typeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
@@ -2211,16 +2211,16 @@ QFLISTRECTO.Attributes["data-dojo-type"] = "dijit.form.FilteringSelect";</CSharp
     </Control>
     <Control typeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls">
       <QFControlsList>
+        <CaptionAlignment>left</CaptionAlignment>
+        <ControlLabelPlacement>left</ControlLabelPlacement>
+        <HotKey>0</HotKey>
+        <DataBindings />
+        <StyleScheme>qfActionContainer</StyleScheme>
         <Column>1</Column>
         <Row>18</Row>
-        <HotKey>0</HotKey>
         <TabIndex>0</TabIndex>
         <ControlId>QFControlsList</ControlId>
-        <DataBindings />
-        <ControlLabelPlacement>left</ControlLabelPlacement>
         <ExtendedProperties />
-        <CaptionAlignment>left</CaptionAlignment>
-        <StyleScheme>qfActionContainer</StyleScheme>
         <Caption />
         <Controls>
           <ControlsCollection>

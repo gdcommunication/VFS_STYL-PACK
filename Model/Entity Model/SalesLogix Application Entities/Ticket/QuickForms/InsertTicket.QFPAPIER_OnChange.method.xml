@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="82acbb78-3bbb-481e-9460-3f5a6f572f95" lastModifiedUtc="2015-05-25T12:45:25.6200202Z" name="QFPAPIER_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="InsertTicket">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="0339458e-2ea5-49f0-a5a5-ee3f18c45357" paramName="form" sequence="0" paramType="IInsertTicket" />
+    <OrmEntityMethodParam id="e40b8174-4227-4faf-adb8-db0186bc02ba" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="40a3d191-545a-41f4-9c69-55b667380b29" lastModifiedUtc="2015-05-25T13:43:20.2330844Z" targetType="Sage.BusinessRules.CodeSnippets.InsertTicketEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="QFPAPIER_OnChangeStep" active="true" codeSnippetId="fa4d2a95-ed30-4930-b02d-f5da2e952e76">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

@@ -1,8 +1,8 @@
 /*
  * Cette métadonnée est utilisée par la plateforme Sage.  Ne pas supprimer.
-<snippetHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="51c1639c-c448-49d7-bb56-0b6f172d952a">
+<snippetHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6893f8f8-4e10-4595-94f1-b16574d83fb2">
  <assembly>Sage.SnippetLibrary.CSharp</assembly>
- <name>QFPAOMODIF1_OnChangeStep</name>
+ <name>QFECHANTILLON_OnChangeStep</name>
  <references>
   <reference>
    <assemblyName>Sage.Entity.Interfaces.dll</assemblyName>
@@ -33,18 +33,21 @@ using Sage.SalesLogix.API;
 
 namespace Sage.BusinessRules.CodeSnippets
 {
-    public static partial class EditSalesOrderItemEventHandlers
+    public static partial class InsertTicketEventHandlers
     {
-        public static void QFPAOMODIF1_OnChangeStep( IEditSalesOrderItem form,  EventArgs args)
+        public static void QFECHANTILLON_OnChangeStep( IInsertTicket form,  EventArgs args)
         {
             // TODO: Complete business rule implementation
-			
-			
-			ISalesOrderItem salesOrderItem = form.CurrentEntity as ISalesOrderItem;			
-			salesOrderItem.ComplementLigneCommande.PAOMODIF1DATE = DateTime.UtcNow.ToLocalTime() ;
-			form.QFMultiDonnees.ActivePageIndex = 1 ;			
+			ITicket tic = form.CurrentEntity as ITicket;
 
-			
+				if (form.QFECHANTILLON.Checked.Equals(true))
+				{
+					tic.UserField8 = "T";
+				}
+				else 
+				{
+					tic.UserField8 = "F";
+				}
 			
         }
     }

@@ -1674,4 +1674,8 @@
  <ref id="44c98aa7-5158-457d-893b-02d80ed0669c" url="\Entity Model\Saleslogix Application Entities\VALIDATIONCDE\OnAfterDelete.method.xml" />
  <ref id="023ca1e3-0839-46bd-80e7-dab50a4c1b21" url="\Entity Model\Saleslogix Application Entities\VALIDATIONCDE\OnCreate.method.xml" />
  <ref id="bf221628-a210-4071-9f7b-5b4e856fe85d" url="\Entity Model\Saleslogix Application Entities\VALIDATIONCDE\VALIDATIONCDE.T_VALIDATION_CDE.entity.xml" />
+ <ref id="50a9b055-c087-4e3a-b98e-b88233204ad5" url="\Entity Model\Saleslogix Application Entities\THistoriqueLignesDeVentes\Sage.SnippetLibrary.CSharp.@.50a9b055-c087-4e3a-b98e-b88233204ad5.codesnippet.cs" />
+ <ref id="e643817c-d38b-472b-99af-6fc62a63370c" url="\Entity Model\Saleslogix Application Entities\Ticket\QuickForms\InsertTicket.main.quickform.xml" />
+ <ref id="5f31e72d-04b2-4c40-be0a-68abcaa777e7" url="\Entity Model\Saleslogix Application Entities\TicketProblem\TicketProblem.Ticket.TICKETPROBLEM.entity.xml" />
+ <ref id="c00678be-e713-41a2-908b-5875b9d2eccd" url="\Entity Model\Saleslogix Application Entities\TicketSolution\TicketSolution.Ticket.TICKETSOLUTION.entity.xml" />
 </modelItemIndex>

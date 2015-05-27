@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="5342ca6f-4edb-4578-a055-790d92b6dd92" lastModifiedUtc="2015-05-27T09:56:27.041826Z" name="cmdSave_OnClick" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="TicketDetails">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="8a4cb8ab-96e9-49bc-bfec-eba7af24f85b" paramName="form" sequence="0" paramType="ITicketDetails" />
+    <OrmEntityMethodParam id="b1edf690-6757-446b-a147-88a7346edd11" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="b26b13b2-dfdb-4c21-8529-7aed93d72f3b" lastModifiedUtc="2015-05-27T11:34:31.7105825Z" targetType="Sage.BusinessRules.CodeSnippets.TicketDetailsEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="cmdSave_OnClickStep" active="true" codeSnippetId="ed0a04e1-5830-4c91-819e-19e8d918128a">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="9c209bf7-9b1e-49d2-8ecb-d0c0116d984c" lastModifiedUtc="2015-05-25T12:52:40.0897158Z" name="QFECHANTILLON_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="InsertTicket">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="a8c979d2-7614-4a39-b2e8-a34f54cc26f0" paramName="form" sequence="0" paramType="IInsertTicket" />
+    <OrmEntityMethodParam id="cc9c92f4-d96b-4fc6-9bb0-184a56eb1fc9" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="bc84fa6b-1470-42f0-9b26-391088d67e48" lastModifiedUtc="2015-05-25T13:42:54.3060972Z" targetType="Sage.BusinessRules.CodeSnippets.InsertTicketEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="QFECHANTILLON_OnChangeStep" active="true" codeSnippetId="6893f8f8-4e10-4595-94f1-b16574d83fb2">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

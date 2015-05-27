@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="478f80cd-a472-46e7-999e-3a879a95ce10" lastModifiedUtc="2015-05-25T13:00:00.0174755Z" name="QFECHANTILLON_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="TicketDetails">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="b9247608-9fc7-45a5-bca2-e46bc14e29b1" paramName="form" sequence="0" paramType="ITicketDetails" />
+    <OrmEntityMethodParam id="22397088-6f34-43ba-9494-dc18443bad3b" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="796b80c0-e775-4358-bf6c-d0dbfa6fd409" lastModifiedUtc="2015-05-25T13:41:36.1315596Z" targetType="Sage.BusinessRules.CodeSnippets.TicketDetailsEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="QFECHANTILLON_OnChangeStep" active="true" codeSnippetId="05b2ccff-72c4-46fb-b8d6-1951ebd38637">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

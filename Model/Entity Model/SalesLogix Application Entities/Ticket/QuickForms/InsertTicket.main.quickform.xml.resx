@@ -330,4 +330,28 @@
   <data name="cmdPunchOut.Caption" xml:space="preserve">
     <value>Punch Out</value>
   </data>
+  <data name="QFNCDE.Caption" xml:space="preserve">
+    <value>N de cde:</value>
+  </data>
+  <data name="QFPrefixe.Caption" xml:space="preserve">
+    <value>Prefixe:</value>
+  </data>
+  <data name="QFLIGNECDE.Caption" xml:space="preserve">
+    <value>Ligne de cde:</value>
+  </data>
+  <data name="QFNUMEROBL.Caption" xml:space="preserve">
+    <value>Numero BL:</value>
+  </data>
+  <data name="QFNFACTURE.Caption" xml:space="preserve">
+    <value>Numero facture:</value>
+  </data>
+  <data name="QFPAPIER.Caption" xml:space="preserve">
+    <value>Dossier papier:</value>
+  </data>
+  <data name="QFECHANTILLON.Caption" xml:space="preserve">
+    <value>Echantillon:</value>
+  </data>
+  <data name="QFASSCO.Caption" xml:space="preserve">
+    <value>Assistente en charge:</value>
+  </data>
 </root>

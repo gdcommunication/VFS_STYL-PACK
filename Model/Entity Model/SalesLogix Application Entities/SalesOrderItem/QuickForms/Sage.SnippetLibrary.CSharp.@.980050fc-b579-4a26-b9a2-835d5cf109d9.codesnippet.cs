@@ -41,7 +41,7 @@ namespace Sage.BusinessRules.CodeSnippets
 			
 			
 			ISalesOrderItem salesOrderItem = form.CurrentEntity as ISalesOrderItem;			
-			salesOrderItem.ComplementLigneCommande.PAOMODIF3DATE = DateTime.UtcNow ;
+			salesOrderItem.ComplementLigneCommande.PAOMODIF3DATE = DateTime.UtcNow.ToLocalTime() ;
 			form.QFMultiDonnees.ActivePageIndex = 1 ;			
 
 			

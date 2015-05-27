@@ -1,8 +1,8 @@
 /*
  * Cette métadonnée est utilisée par la plateforme Sage.  Ne pas supprimer.
-<snippetHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="51c1639c-c448-49d7-bb56-0b6f172d952a">
+<snippetHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ed0a04e1-5830-4c91-819e-19e8d918128a">
  <assembly>Sage.SnippetLibrary.CSharp</assembly>
- <name>QFPAOMODIF1_OnChangeStep</name>
+ <name>cmdSave_OnClickStep</name>
  <references>
   <reference>
    <assemblyName>Sage.Entity.Interfaces.dll</assemblyName>
@@ -33,19 +33,34 @@ using Sage.SalesLogix.API;
 
 namespace Sage.BusinessRules.CodeSnippets
 {
-    public static partial class EditSalesOrderItemEventHandlers
+    public static partial class TicketDetailsEventHandlers
     {
-        public static void QFPAOMODIF1_OnChangeStep( IEditSalesOrderItem form,  EventArgs args)
+        public static void cmdSave_OnClickStep( ITicketDetails form,  EventArgs args)
         {
             // TODO: Complete business rule implementation
 			
+			ITicket tic = form.CurrentEntity as ITicket;
 			
-			ISalesOrderItem salesOrderItem = form.CurrentEntity as ISalesOrderItem;			
-			salesOrderItem.ComplementLigneCommande.PAOMODIF1DATE = DateTime.UtcNow.ToLocalTime() ;
-			form.QFMultiDonnees.ActivePageIndex = 1 ;			
+			Sage.SalesLogix.Security.SLXUserService usersvc = (Sage.SalesLogix.Security.SLXUserService)Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.Platform.Security.IUserService>();
+			Sage.Entity.Interfaces.IUser user = usersvc.GetUser();			
+			
+			if (tic.StatusCode.ToString() == "k6UJ9A000037")
+			{
+				tic.CompletedDate = DateTime.UtcNow.ToLocalTime() ;
+				tic.CompletedById = user.Id.ToString();	
+				tic.Closed = true;
+			}
+			else 
+			{
+				tic.CompletedDate = null ;
+				tic.CompletedById = null;	
+				tic.Closed=null;
+			}
+			
+			tic.Save();
+			
+			
 
-			
-			
         }
     }
 }

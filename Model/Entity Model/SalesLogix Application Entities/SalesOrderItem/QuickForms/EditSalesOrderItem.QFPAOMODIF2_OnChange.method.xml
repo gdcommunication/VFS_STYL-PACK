@@ -10,7 +10,7 @@
   </parameter>
   <preExecuteTargets />
   <methodTargets>
-    <methodTarget xsi:type="OrmMethodTargetSnippet" id="cd144fdd-6db1-428d-b7a8-a09c96e2bfa1" lastModifiedUtc="2015-04-09T12:18:36.239761Z" targetType="Sage.BusinessRules.CodeSnippets.EditSalesOrderItemEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="QFPAOMODIF2_OnChangeStep" active="true" codeSnippetId="b4cebf22-415a-4734-abc3-26a9f8bd4dd9">
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="cd144fdd-6db1-428d-b7a8-a09c96e2bfa1" lastModifiedUtc="2015-05-27T11:38:24.989242Z" targetType="Sage.BusinessRules.CodeSnippets.EditSalesOrderItemEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="QFPAOMODIF2_OnChangeStep" active="true" codeSnippetId="b4cebf22-415a-4734-abc3-26a9f8bd4dd9">
       <ExtendedPropertiesCollection>
         <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
       </ExtendedPropertiesCollection>

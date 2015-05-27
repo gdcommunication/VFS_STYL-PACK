@@ -207,6 +207,81 @@ LabelPlacement="right"  />
       </td>
                 <td></td>
       </tr>
+<tr>
+            <td  >
+ <div class=" lbl alignleft" >
+   <asp:Label ID="QFNCDE_lbl" AssociatedControlID="QFNCDE" runat="server" Text="<%$ resources: QFNCDE.Caption %>" ></asp:Label>
+ </div>
+  <div  class="textcontrol"   >
+<asp:TextBox runat="server" ID="QFNCDE"  dojoType="Sage.UI.Controls.TextBox"  />
+  </div>
+
+      </td>
+                <td  >
+ <div class=" lbl alignleft" >
+   <asp:Label ID="QFPrefixe_lbl" AssociatedControlID="QFPrefixe" runat="server" Text="<%$ resources: QFPrefixe.Caption %>" ></asp:Label>
+ </div>
+  <div  class="textcontrol"   >
+<asp:TextBox runat="server" ID="QFPrefixe"  dojoType="Sage.UI.Controls.TextBox" MaxLength="80"  />
+  </div>
+
+      </td>
+                <td  >
+ <div class=" lbl alignleft" >
+   <asp:Label ID="QFLIGNECDE_lbl" AssociatedControlID="QFLIGNECDE" runat="server" Text="<%$ resources: QFLIGNECDE.Caption %>" ></asp:Label>
+ </div>
+  <div  class="textcontrol"   >
+<asp:TextBox runat="server" ID="QFLIGNECDE"  dojoType="Sage.UI.Controls.TextBox" MaxLength="80"  />
+  </div>
+
+      </td>
+      </tr>
+<tr>
+            <td  >
+ <div class=" lbl alignleft" >
+   <asp:Label ID="QFNUMEROBL_lbl" AssociatedControlID="QFNUMEROBL" runat="server" Text="<%$ resources: QFNUMEROBL.Caption %>" ></asp:Label>
+ </div>
+  <div  class="textcontrol"   >
+<asp:TextBox runat="server" ID="QFNUMEROBL"  dojoType="Sage.UI.Controls.TextBox" MaxLength="80"  />
+  </div>
+
+      </td>
+                <td  >
+ <div class=" lbl alignleft" >
+   <asp:Label ID="QFNFACTURE_lbl" AssociatedControlID="QFNFACTURE" runat="server" Text="<%$ resources: QFNFACTURE.Caption %>" ></asp:Label>
+ </div>
+  <div  class="textcontrol"   >
+<asp:TextBox runat="server" ID="QFNFACTURE"  dojoType="Sage.UI.Controls.TextBox" MaxLength="80"  />
+  </div>
+
+      </td>
+                <td  >
+<div class="slxlabel  alignleft checkboxRight">
+
+  <SalesLogix:SLXCheckBox runat="server" ID="QFPAPIER"  Text="<%$ resources: QFPAPIER.Caption %>"  CssClass=""
+LabelPlacement="left" AutoPostBack="true"  />
+</div>
+      </td>
+      </tr>
+<tr>
+            <td  >
+<div class="slxlabel  alignleft checkboxRight">
+
+  <SalesLogix:SLXCheckBox runat="server" ID="QFECHANTILLON"  Text="<%$ resources: QFECHANTILLON.Caption %>"  CssClass=""
+LabelPlacement="left" AutoPostBack="true"  />
+</div>
+      </td>
+                <td  >
+ <div class=" lbl alignleft" >
+   <asp:Label ID="QFASSCO_lbl" AssociatedControlID="QFASSCO" runat="server" Text="<%$ resources: QFASSCO.Caption %>" ></asp:Label>
+ </div>
+  <div  class="textcontrol"   >
+<asp:TextBox runat="server" ID="QFASSCO"  dojoType="Sage.UI.Controls.TextBox" MaxLength="80"  />
+  </div>
+
+      </td>
+                <td></td>
+      </tr>
 </table>
  
 
@@ -298,10 +373,28 @@ protected override void OnAddEntityBindings() {
                        // ownOwner.LookupResultValue Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding ownOwnerLookupResultValueBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("AssignedTo", ownOwner, "LookupResultValue", "", null);
         BindingSource.Bindings.Add(ownOwnerLookupResultValueBinding);
+                    // QFNCDE.Text Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFNCDETextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("UserField2", QFNCDE, "Text");
+        BindingSource.Bindings.Add(QFNCDETextBinding);
+                    // QFPrefixe.Text Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFPrefixeTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("UserField1", QFPrefixe, "Text");
+        BindingSource.Bindings.Add(QFPrefixeTextBinding);
+                    // QFLIGNECDE.Text Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFLIGNECDETextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("UserField3", QFLIGNECDE, "Text");
+        BindingSource.Bindings.Add(QFLIGNECDETextBinding);
+                    // QFNUMEROBL.Text Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFNUMEROBLTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("UserField4", QFNUMEROBL, "Text");
+        BindingSource.Bindings.Add(QFNUMEROBLTextBinding);
+                    // QFNFACTURE.Text Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFNFACTURETextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("UserField5", QFNFACTURE, "Text");
+        BindingSource.Bindings.Add(QFNFACTURETextBinding);
+                          // QFASSCO.Text Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFASSCOTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("UserField9", QFASSCO, "Text");
+        BindingSource.Bindings.Add(QFASSCOTextBinding);
     
    
             }
-                                                                                                         
+                                                                                                                                                                 
 protected void lueAccount_ChangeAction(object sender, EventArgs e) {
       object[] objarray = new object[] { this.BindingSource.Current };
      Sage.Platform.EntityFactory.Execute<Sage.Entity.Interfaces.ITicket>("Ticket.OnAccountChanged", objarray);
@@ -423,6 +516,18 @@ protected void ownOwner_ChangeActionBRC(object sender, EventArgs e) {
   } 
 
 }
+protected void QFPAPIER_ChangeAction(object sender, EventArgs e) {
+Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+Object[] methodArgs = new Object[] { FormAdapter, e };
+lib.Execute("InsertTicket.QFPAPIER_OnChange", methodArgs);
+
+}
+protected void QFECHANTILLON_ChangeAction(object sender, EventArgs e) {
+Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+Object[] methodArgs = new Object[] { FormAdapter, e };
+lib.Execute("InsertTicket.QFECHANTILLON_OnChange", methodArgs);
+
+}
 protected void cmdSave_ClickAction(object sender, EventArgs e) {
   Sage.Entity.Interfaces.ITicket _entity = BindingSource.Current as Sage.Entity.Interfaces.ITicket;
   if (_entity != null)
@@ -524,6 +629,8 @@ lueContact.LookupResultValueChanged += new EventHandler(lueContact_ChangeAction)
 lueContract.LookupResultValueChanged += new EventHandler(lueContract_ChangeAction);
 cmdPunchInOut.Click += new EventHandler(cmdPunchInOut_ClickAction);
 ownOwner.LookupResultValueChanged += new EventHandler(ownOwner_ChangeAction);
+QFPAPIER.CheckedChanged += new EventHandler(QFPAPIER_ChangeAction);
+QFECHANTILLON.CheckedChanged += new EventHandler(QFECHANTILLON_ChangeAction);
 cmdSave.Click += new ImageClickEventHandler(cmdSave_ClickAction);
 cmdEmail.Click += new ImageClickEventHandler(cmdEmail_ClickAction);
 cmdAccountService.Click += new ImageClickEventHandler(cmdAccountService_ClickAction);
@@ -672,6 +779,21 @@ public class InsertTicketAdapter : Sage.Platform.WebPortal.Adapters.EntityFormAd
     {
         get { return FindControl(ref _dplArea, "dplArea"); }
     }
+    private Sage.Platform.Controls.ITextBoxControl _QFNCDE;
+    public  Sage.Platform.Controls.ITextBoxControl QFNCDE
+    {
+        get { return FindControl(ref _QFNCDE, "QFNCDE"); }
+    }
+    private Sage.Platform.Controls.ITextBoxControl _QFNUMEROBL;
+    public  Sage.Platform.Controls.ITextBoxControl QFNUMEROBL
+    {
+        get { return FindControl(ref _QFNUMEROBL, "QFNUMEROBL"); }
+    }
+    private Sage.Platform.Controls.ICheckBoxControl _QFECHANTILLON;
+    public  Sage.Platform.Controls.ICheckBoxControl QFECHANTILLON
+    {
+        get { return FindControl(ref _QFECHANTILLON, "QFECHANTILLON"); }
+    }
     private Sage.Platform.Controls.IPickListControl _pklViaCode;
     public  Sage.Platform.Controls.IPickListControl pklViaCode
     {
@@ -702,6 +824,21 @@ public class InsertTicketAdapter : Sage.Platform.WebPortal.Adapters.EntityFormAd
     {
         get { return FindControl(ref _ownOwner, "ownOwner"); }
     }
+    private Sage.Platform.Controls.ITextBoxControl _QFPrefixe;
+    public  Sage.Platform.Controls.ITextBoxControl QFPrefixe
+    {
+        get { return FindControl(ref _QFPrefixe, "QFPrefixe"); }
+    }
+    private Sage.Platform.Controls.ITextBoxControl _QFNFACTURE;
+    public  Sage.Platform.Controls.ITextBoxControl QFNFACTURE
+    {
+        get { return FindControl(ref _QFNFACTURE, "QFNFACTURE"); }
+    }
+    private Sage.Platform.Controls.ITextBoxControl _QFASSCO;
+    public  Sage.Platform.Controls.ITextBoxControl QFASSCO
+    {
+        get { return FindControl(ref _QFASSCO, "QFASSCO"); }
+    }
     private Sage.Platform.Controls.ICheckBoxControl _chkClosedOnFirst;
     public  Sage.Platform.Controls.ICheckBoxControl chkClosedOnFirst
     {
@@ -727,6 +864,16 @@ public class InsertTicketAdapter : Sage.Platform.WebPortal.Adapters.EntityFormAd
     {
         get { return FindControl(ref _cmdPunchInOut, "cmdPunchInOut"); }
     }
+    private Sage.Platform.Controls.ITextBoxControl _QFLIGNECDE;
+    public  Sage.Platform.Controls.ITextBoxControl QFLIGNECDE
+    {
+        get { return FindControl(ref _QFLIGNECDE, "QFLIGNECDE"); }
+    }
+    private Sage.Platform.Controls.ICheckBoxControl _QFPAPIER;
+    public  Sage.Platform.Controls.ICheckBoxControl QFPAPIER
+    {
+        get { return FindControl(ref _QFPAPIER, "QFPAPIER"); }
+    }
     private Sage.Platform.Controls.IButtonControl _cmdSave;
     public  Sage.Platform.Controls.IButtonControl cmdSave
     {
@@ -743,6 +890,18 @@ public class InsertTicketAdapter : Sage.Platform.WebPortal.Adapters.EntityFormAd
         get { return FindControl(ref _cmdAccountService, "cmdAccountService"); }
     }
 
+    public  void QFECHANTILLON_OnChange(System.EventArgs e)
+    {
+        Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+        Object[] methodArgs = new Object[] { this, e };
+        lib.Execute("InsertTicket.QFECHANTILLON_OnChange", methodArgs);
+    }
+    public  void QFPAPIER_OnChange(System.EventArgs e)
+    {
+        Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+        Object[] methodArgs = new Object[] { this, e };
+        lib.Execute("InsertTicket.QFPAPIER_OnChange", methodArgs);
+    }
 }
 
 </script>
