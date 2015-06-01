@@ -134,4 +134,5 @@
   <exportedFile url="\Entity Model\SalesLogix Application Entities\UnitOfMeasure\" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Urgency\" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\UserSubscription\" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\VALIDATIONCDE\" />
 </exportedFiles>

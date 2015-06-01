@@ -10,16 +10,17 @@
   <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\EditSalesOrderDetail.ascx.it.resx" timeStamp="2015-04-08T08:30:14.1376" />
   <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\EditSalesOrderDetail.ascx.resx" timeStamp="2015-04-08T08:30:14.1777" />
   <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\EditSalesOrderDetail.ascx.ru.resx" timeStamp="2015-04-08T08:30:14.4424" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\InsertSalesOrder.ascx.de.resx" timeStamp="2015-04-17T08:08:43.1473" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\InsertSalesOrder.ascx.fr.resx" timeStamp="2015-04-17T08:08:43.1502" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\InsertSalesOrder.ascx.it.resx" timeStamp="2015-04-17T08:08:43.1532" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\InsertSalesOrder.ascx.resx" timeStamp="2015-04-17T08:08:43.1571" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\InsertSalesOrder.ascx.ru.resx" timeStamp="2015-04-17T08:08:43.1600" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderDetails.ascx.de.resx" timeStamp="2015-04-17T14:04:16.4054" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderDetails.ascx.fr.resx" timeStamp="2015-04-17T14:04:16.4084" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderDetails.ascx.it.resx" timeStamp="2015-04-17T14:04:16.4113" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderDetails.ascx.resx" timeStamp="2015-04-17T14:04:16.4142" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderDetails.ascx.ru.resx" timeStamp="2015-04-17T14:04:16.4172" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\InsertSalesOrder.ascx.de.resx" timeStamp="2015-05-15T13:12:03.0306" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\InsertSalesOrder.ascx.fr.resx" timeStamp="2015-05-15T13:12:03.0355" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\InsertSalesOrder.ascx.it.resx" timeStamp="2015-05-15T13:12:03.0394" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\InsertSalesOrder.ascx.resx" timeStamp="2015-05-15T13:12:03.0423" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\InsertSalesOrder.ascx.ru.resx" timeStamp="2015-05-15T13:12:03.0462" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\ListeBlocages.ascx.resx" timeStamp="2015-05-15T10:08:34.2183" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderDetails.ascx.de.resx" timeStamp="2015-05-18T08:25:53.1657" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderDetails.ascx.fr.resx" timeStamp="2015-05-18T08:25:53.1696" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderDetails.ascx.it.resx" timeStamp="2015-05-18T08:25:53.1735" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderDetails.ascx.resx" timeStamp="2015-05-18T08:25:53.1764" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderDetails.ascx.ru.resx" timeStamp="2015-05-18T08:25:53.1803" />
   <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderProducts.ascx.de.resx" timeStamp="2015-04-29T14:25:04.3147" />
   <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderProducts.ascx.fr-FR.resx" timeStamp="2015-04-29T14:25:04.3284" />
   <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrder\App_LocalResources\SalesOrderProducts.ascx.fr.resx" timeStamp="2015-04-29T14:25:04.3421" />

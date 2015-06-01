@@ -4,7 +4,7 @@
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\AddPortalTicket.ascx" timeStamp="2014-11-27T14:28:41.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\CustomerPortalTicketActivities.ascx" timeStamp="2014-11-27T14:28:43.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\CustomerPortalTicketActivities_PrintView.ascx" timeStamp="2014-11-27T14:28:43.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\InsertTicket.ascx" timeStamp="2014-11-27T14:28:45.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\InsertTicket.ascx" timeStamp="2015-05-29T13:50:08.8040" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\PortalTicket.ascx" timeStamp="2014-11-27T14:28:47.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\PortalTicket_PrintView.ascx" timeStamp="2014-11-27T14:28:47.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\TicketActivities.ascx" timeStamp="2014-11-27T14:28:49.0000" />
@@ -21,8 +21,8 @@
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\TicketDefects.js" timeStamp="2014-11-27T14:28:49.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\TicketDefects_PrintView.ascx" timeStamp="2014-11-27T14:28:49.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\TicketDefects_PrintView.js" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\TicketDetails.ascx" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\TicketDetails_PrintView.ascx" timeStamp="2014-11-27T14:28:49.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\TicketDetails.ascx" timeStamp="2015-05-29T13:57:52.3393" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\TicketDetails_PrintView.ascx" timeStamp="2015-05-29T13:57:52.4233" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\TicketExtendedDetails.ascx" timeStamp="2014-11-27T14:28:49.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\TicketExtendedDetails_PrintView.ascx" timeStamp="2014-11-27T14:28:49.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\TicketHistory.ascx" timeStamp="2014-11-27T14:28:49.0000" />

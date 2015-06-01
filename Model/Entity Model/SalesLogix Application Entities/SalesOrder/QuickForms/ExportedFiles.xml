@@ -17,41 +17,45 @@
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\EditSalesOrderDetail.main.quickform.xml.resx" timeStamp="2014-01-07T23:58:34.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\EditSalesOrderDetail.main.quickform.xml.ru.resx" timeStamp="2014-01-07T23:58:34.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.btnAddNewAccount_OnClick.method.xml" timeStamp="2014-11-27T10:38:26.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.btnSaveNew_OnClick.method.xml" timeStamp="2015-04-07T08:35:07.8362" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.btnSave_OnClick.method.xml" timeStamp="2015-04-07T08:36:05.3674" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.btnSaveNew_OnClick.method.xml" timeStamp="2015-05-15T13:11:55.0716" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.btnSave_OnClick.method.xml" timeStamp="2015-05-15T13:11:54.9984" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.luePriceList_OnChange.method.xml" timeStamp="2014-01-07T23:58:34.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml" timeStamp="2015-04-17T08:08:36.1892" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml" timeStamp="2015-05-15T13:11:54.9896" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml.de.resx" timeStamp="2014-11-27T10:38:20.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml.fr.resx" timeStamp="2014-11-27T10:38:26.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml.it.resx" timeStamp="2014-11-27T10:38:26.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml.resx" timeStamp="2015-04-17T08:08:02.0344" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml.resx" timeStamp="2015-05-15T12:22:53.7859" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.main.quickform.xml.ru.resx" timeStamp="2014-11-27T10:38:26.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.OnLoad1.method.xml" timeStamp="2015-03-26T13:27:02.6572" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\InsertSalesOrder.OnLoad2.method.xml" timeStamp="2015-03-26T14:08:55.4179" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\ListeBlocages.main.quickform.xml" timeStamp="2015-05-15T10:08:22.5298" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\ListeBlocages.main.quickform.xml.resx" timeStamp="2015-05-15T10:08:22.5210" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\ListeBlocages.QFNEWREASON_OnClick.method.xml" timeStamp="2015-05-15T07:24:06.8840" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.03ece52b-ed84-472f-acc0-1c9e6f421871.codesnippet.cs" timeStamp="2014-01-07T23:58:34.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.1a2a450c-2d2e-4f15-b619-2ad176aae159.codesnippet.cs" timeStamp="2014-01-07T23:58:34.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.4293c9c1-d1ed-4fbd-adca-3b0068d9dbd4.codesnippet.cs" timeStamp="2015-04-07T08:36:05.3820" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.4293c9c1-d1ed-4fbd-adca-3b0068d9dbd4.codesnippet.cs" timeStamp="2015-05-15T13:11:55.0140" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.47c8ef52-3c79-4176-b716-81d347074e5a.codesnippet.cs" timeStamp="2014-01-07T23:58:34.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.56477aeb-6066-4f9e-b62c-5c0c66f4efe5.codesnippet.cs" timeStamp="2015-04-07T08:35:07.8508" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.56477aeb-6066-4f9e-b62c-5c0c66f4efe5.codesnippet.cs" timeStamp="2015-05-15T13:11:55.0863" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.5c9de628-c88e-4893-8c52-1a877f68a1e6.codesnippet.cs" timeStamp="2014-11-27T10:38:26.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.5cef2b4c-eea5-4e47-ba23-613f63e5fde0.codesnippet.cs" timeStamp="2014-01-07T23:58:34.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.5d1e2c90-426a-49a8-9553-d42c94664968.codesnippet.cs" timeStamp="2014-01-07T23:58:34.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.65582cd2-e126-48e2-aab5-3ac54d6129fd.codesnippet.cs" timeStamp="2015-04-17T13:40:11.4067" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.65582cd2-e126-48e2-aab5-3ac54d6129fd.codesnippet.cs" timeStamp="2015-05-15T13:11:15.3713" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.6bae84d4-d7a1-4e90-8709-f38352d24a8a.codesnippet.cs" timeStamp="2015-04-07T10:05:58.7324" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.a208a60c-1b62-4026-9b4e-8cdb57973919.codesnippet.cs" timeStamp="2015-03-26T13:27:02.6806" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.cd148d6e-e871-496f-a22b-8c7e47e20c63.codesnippet.cs" timeStamp="2015-03-23T13:22:57.1877" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.dd3c103e-bcb8-428b-adef-a309633ae91f.codesnippet.cs" timeStamp="2015-05-15T07:24:06.8958" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.f61e93d0-5d8b-4141-9e40-e42c37535573.codesnippet.cs" timeStamp="2014-01-07T23:58:34.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.fc60756c-b223-4b69-9607-a4b7e91fd6b3.codesnippet.cs" timeStamp="2015-04-16T05:54:36.0299" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.fc60756c-b223-4b69-9607-a4b7e91fd6b3.codesnippet.cs" timeStamp="2015-05-15T12:10:01.6483" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\Sage.SnippetLibrary.CSharp.@.fd6b6236-2885-4991-b63b-1d919f1d86aa.codesnippet.cs" timeStamp="2015-03-26T14:08:55.4306" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.btnSaveSalesOrder_OnClick.method.xml" timeStamp="2015-04-16T05:54:36.0182" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml" timeStamp="2015-04-17T14:04:08.9151" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.btnSaveSalesOrder_OnClick.method.xml" timeStamp="2015-05-15T12:10:01.6258" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml" timeStamp="2015-05-18T08:25:47.3532" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml.de.resx" timeStamp="2014-11-27T10:38:26.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml.fr.resx" timeStamp="2014-11-27T10:38:26.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml.it.resx" timeStamp="2014-11-27T10:38:26.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml.resx" timeStamp="2015-04-17T13:38:15.8278" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml.resx" timeStamp="2015-05-18T08:25:47.3210" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml.ru.resx" timeStamp="2014-11-27T10:38:26.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.OnLoad1.method.xml" timeStamp="2015-04-07T10:05:58.7171" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.QFButton_OnClick.method.xml" timeStamp="2015-04-17T13:40:11.3950" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.QFButton_OnClick.method.xml" timeStamp="2015-05-15T13:11:15.3586" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderProducts.btnAddCustomProduct_OnClick.method.xml" timeStamp="2014-01-07T23:58:34.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderProducts.main.quickform.xml" timeStamp="2015-04-29T14:24:57.6272" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderProducts.main.quickform.xml.de.resx" timeStamp="2014-01-07T23:58:34.0000" />

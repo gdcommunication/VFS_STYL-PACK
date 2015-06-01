@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="72b7bc25-c430-4320-b1b1-e47c922684e8" lastModifiedUtc="2015-05-29T12:57:48.2838889Z" name="QFLIGNECDE_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="TicketDetails">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="f5d51304-46e3-4d9e-9da2-d480d8b4c325" paramName="form" sequence="0" paramType="ITicketDetails" />
+    <OrmEntityMethodParam id="50e59a36-98da-4577-9ed0-87bd40a59de3" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="b18089a9-c4c6-4674-b9e2-e70b91c57b20" lastModifiedUtc="2015-05-29T13:57:31.7271132Z" targetType="Sage.BusinessRules.CodeSnippets.TicketDetailsEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="QFLIGNECDE_OnChangeStep" active="true" codeSnippetId="409e0bc9-07b7-40a2-a95e-dd0c00556a45">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

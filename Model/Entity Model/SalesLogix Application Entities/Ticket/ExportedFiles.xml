@@ -57,7 +57,7 @@
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\PunchInOut.method.xml" timeStamp="2014-01-07T23:58:35.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\ReOpenTicket.method.xml" timeStamp="2014-01-07T23:58:35.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\Status.filter.xml" timeStamp="2014-01-07T23:58:35.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\Ticket.TICKET.entity.xml" timeStamp="2014-11-27T10:38:26.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\Ticket.TICKET.entity.xml" timeStamp="2015-05-29T12:59:54.3701" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\TicketCount.filter.xml" timeStamp="2014-01-07T23:58:35.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\TicketNumber.filter.xml" timeStamp="2014-01-07T23:58:35.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\Urgency.filter.xml" timeStamp="2014-01-07T23:58:35.0000" />

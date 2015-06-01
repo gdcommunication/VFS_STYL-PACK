@@ -233,6 +233,7 @@
   <exportedFile url="\Entity Model\Relationships\SalesOrder.SalesOrderItem.d6aa2394bcc547a39de460f1a6134b84.relationship.xml" timeStamp="2014-01-07T23:58:16.0000" />
   <exportedFile url="\Entity Model\Relationships\SalesOrder.SlxPriceList.90859f5e33e8472eba7a3a05e5328a95.relationship.xml" timeStamp="2014-01-07T23:58:16.0000" />
   <exportedFile url="\Entity Model\Relationships\SalesOrder.User.e52a3f367d1b4ed191e2d4f1f1a6d7d2.relationship.xml" timeStamp="2014-01-07T23:58:16.0000" />
+  <exportedFile url="\Entity Model\Relationships\SalesOrder.VALIDATIONCDE.bc3a00dd896b44688115cf9178f4c0f9.relationship.xml" timeStamp="2015-05-14T07:01:25.4448" />
   <exportedFile url="\Entity Model\Relationships\SalesOrderItem.OpportunityProduct.e592a97aa2ea472a8729be80dc5648d8.relationship.xml" timeStamp="2014-01-07T23:58:16.0000" />
   <exportedFile url="\Entity Model\Relationships\SalesOrderItem.SlxLocation.d038baceb9684b80b01f9d43271e490b.relationship.xml" timeStamp="2014-01-07T23:58:16.0000" />
   <exportedFile url="\Entity Model\Relationships\SalesOrderItem.UnitOfMeasure.00accf868767435ea0a191ea9a0e4e55.relationship.xml" timeStamp="2014-01-07T23:58:16.0000" />

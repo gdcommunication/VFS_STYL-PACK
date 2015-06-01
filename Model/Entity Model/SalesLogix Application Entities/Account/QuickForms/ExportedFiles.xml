@@ -18,20 +18,20 @@
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountContracts.main.quickform.xml.it.resx" timeStamp="2014-01-07T23:58:20.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountContracts.main.quickform.xml.resx" timeStamp="2014-01-07T23:58:20.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountContracts.main.quickform.xml.ru.resx" timeStamp="2014-01-07T23:58:20.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountDetails.main.quickform.xml" timeStamp="2015-04-29T12:26:12.2605" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountDetails.main.quickform.xml" timeStamp="2015-05-13T13:01:06.3656" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountDetails.main.quickform.xml.de.resx" timeStamp="2015-02-11T16:47:59.7475" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountDetails.main.quickform.xml.fr.resx" timeStamp="2015-04-02T07:44:30.5257" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountDetails.main.quickform.xml.it.resx" timeStamp="2015-02-11T16:47:59.7514" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountDetails.main.quickform.xml.resx" timeStamp="2015-04-29T12:26:12.2302" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountDetails.main.quickform.xml.ru.resx" timeStamp="2015-02-11T16:47:59.7543" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountDetails.OnLoad1.method.xml" timeStamp="2015-02-11T16:47:59.7563" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountDetails.OnLoad2.method.xml" timeStamp="2015-04-29T11:58:14.1977" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountDetails.OnLoad2.method.xml" timeStamp="2015-05-13T13:01:06.2767" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountDetails.OnLoad3.method.xml" timeStamp="2015-04-23T07:32:33.9130" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml" timeStamp="2015-04-29T12:23:14.0218" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml" timeStamp="2015-05-18T08:51:33.6891" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml.de.resx" timeStamp="2014-11-27T10:38:25.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml.fr.resx" timeStamp="2015-02-17T09:47:59.8365" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml.it.resx" timeStamp="2014-11-27T10:38:25.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml.resx" timeStamp="2015-04-29T12:22:30.2765" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml.resx" timeStamp="2015-05-18T08:51:33.6549" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml.ru.resx" timeStamp="2014-11-27T10:38:25.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountExtendedDetails.OnLoad1.method.xml" timeStamp="2015-03-21T09:11:49.8768" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountExtendedDetails.QFTextBox4_OnChange.method.xml" timeStamp="2015-04-17T14:16:35.8318" />
@@ -91,15 +91,12 @@
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\CopyAccount.main.quickform.xml.it.resx" timeStamp="2014-01-07T23:58:20.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\CopyAccount.main.quickform.xml.resx" timeStamp="2014-01-07T23:58:20.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\CopyAccount.main.quickform.xml.ru.resx" timeStamp="2014-01-07T23:58:20.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\histoventes.main.quickform.xml" timeStamp="2015-04-20T14:11:58.4854" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\histoventes.main.quickform.xml.resx" timeStamp="2015-04-20T14:11:58.4766" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\histoventes.OnLoad1.method.xml" timeStamp="2015-04-20T12:31:44.8579" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\histoventespcl.main.quickform.xml" timeStamp="2015-03-21T14:12:21.3761" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\histoventespcl.main.quickform.xml.resx" timeStamp="2015-03-21T14:01:44.0072" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\histoventessp.main.quickform.xml" timeStamp="2015-05-04T12:04:33.9912" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\histoventessp.main.quickform.xml" timeStamp="2015-05-19T06:32:53.3545" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\histoventessp.main.quickform.xml.resx" timeStamp="2015-04-29T15:15:34.0108" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\histoventessp.OnLoad1.method.xml" timeStamp="2015-04-20T13:09:14.1893" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\histoventessp.QFORIGINE_OnChange.method.xml" timeStamp="2015-04-20T13:45:51.6683" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\histoventessp.QFORIGINE_OnChange.method.xml" timeStamp="2015-05-18T12:03:09.7657" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\ICAccountExtendedDetails.main.quickform.xml" timeStamp="2014-01-07T23:58:20.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\ICAccountExtendedDetails.main.quickform.xml.de.resx" timeStamp="2014-01-07T23:58:20.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\ICAccountExtendedDetails.main.quickform.xml.fr.resx" timeStamp="2014-01-07T23:58:20.0000" />
@@ -112,22 +109,21 @@
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\ICAccounting.main.quickform.xml.it.resx" timeStamp="2014-01-07T23:58:20.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\ICAccounting.main.quickform.xml.resx" timeStamp="2014-01-07T23:58:20.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\ICAccounting.main.quickform.xml.ru.resx" timeStamp="2014-01-07T23:58:20.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml" timeStamp="2014-11-27T10:38:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml" timeStamp="2015-05-13T13:06:37.8264" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml.de.resx" timeStamp="2014-11-27T10:38:25.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml.fr.resx" timeStamp="2014-11-27T10:38:25.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml.it.resx" timeStamp="2014-11-27T10:38:25.0000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml.resx" timeStamp="2014-11-27T10:38:25.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml.resx" timeStamp="2015-05-13T13:06:37.8010" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\InsertAccount.main.quickform.xml.ru.resx" timeStamp="2014-11-27T10:38:25.0000" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Pastilles.main.quickform.xml" timeStamp="2015-04-29T12:05:07.5259" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Pastilles.main.quickform.xml.resx" timeStamp="2015-04-29T11:56:36.5129" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Pastilles.OnLoad1.method.xml" timeStamp="2015-04-29T12:05:07.4546" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Sage.SnippetLibrary.CSharp.@.45fd400d-4b1f-497d-9613-36041b94ebae.codesnippet.cs" timeStamp="2015-04-20T13:09:14.2000" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Sage.SnippetLibrary.CSharp.@.52b60aec-ce9f-4e0f-97ca-a51e12c20db5.codesnippet.cs" timeStamp="2015-04-20T13:45:51.6791" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Sage.SnippetLibrary.CSharp.@.52b60aec-ce9f-4e0f-97ca-a51e12c20db5.codesnippet.cs" timeStamp="2015-05-18T12:03:09.7774" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Sage.SnippetLibrary.CSharp.@.5e2a1566-986f-473c-9af0-c0beb12412a6.codesnippet.cs" timeStamp="2015-03-21T09:11:49.8891" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Sage.SnippetLibrary.CSharp.@.ad5424d5-605e-4761-b351-9a6c77d93c76.codesnippet.cs" timeStamp="2015-04-17T14:16:35.8436" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Sage.SnippetLibrary.CSharp.@.b2cf2e66-7233-49e7-84e8-66e2cf7266f7.codesnippet.cs" timeStamp="2015-04-29T12:05:07.4692" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Sage.SnippetLibrary.CSharp.@.b994b3f5-a873-42f6-9e65-1e79246d3c1e.codesnippet.cs" timeStamp="2015-04-20T12:31:44.8676" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Sage.SnippetLibrary.CSharp.@.d4ed91d2-7f8f-4ac3-9ea9-d2c814d99432.codesnippet.cs" timeStamp="2015-02-11T16:47:59.7592" />
-  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Sage.SnippetLibrary.CSharp.@.ded6102b-4f4e-476b-9edc-cf467aa83793.codesnippet.cs" timeStamp="2015-04-29T11:58:14.2260" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Sage.SnippetLibrary.CSharp.@.ded6102b-4f4e-476b-9edc-cf467aa83793.codesnippet.cs" timeStamp="2015-05-13T13:01:06.2894" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\Account\QuickForms\Sage.SnippetLibrary.CSharp.@.dfc683a8-bcd8-409d-a5c3-f3a93308c1cb.codesnippet.cs" timeStamp="2015-04-23T07:32:33.9247" />
 </exportedFiles>

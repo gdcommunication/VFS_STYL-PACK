@@ -330,8 +330,8 @@
   <data name="cmdPunchOut.Caption" xml:space="preserve">
     <value>Punch Out</value>
   </data>
-  <data name="QFNCDE.Caption" xml:space="preserve">
-    <value>N de cde:</value>
+  <data name="QFNCDE.LookupProperties.CustomerPurchaseOrderNumber.PropertyHeader" xml:space="preserve">
+    <value>CustomerPurchaseOrderNumber (Numéro de bon de commande du client)</value>
   </data>
   <data name="QFPrefixe.Caption" xml:space="preserve">
     <value>Prefixe:</value>
@@ -352,6 +352,30 @@
     <value>Echantillon:</value>
   </data>
   <data name="QFASSCO.Caption" xml:space="preserve">
-    <value>Assistente en charge:</value>
+    <value>Assistante en charge:</value>
+  </data>
+  <data name="QFInformer.Caption" xml:space="preserve">
+    <value>Informer les services pour l'ouverture du ticket</value>
+  </data>
+  <data name="QFNCDE.LookupProperties.Account.AccountName.PropertyHeader" xml:space="preserve">
+    <value>Account AccountName (Nom du compte)</value>
+  </data>
+  <data name="QFNCDE.LookupProperties.Account.AccountId.PropertyHeader" xml:space="preserve">
+    <value>Account AccountId</value>
+  </data>
+  <data name="QFNCDE.LookupProperties.OrderDate.PropertyHeader" xml:space="preserve">
+    <value>OrderDate (Date de la commande)</value>
+  </data>
+  <data name="QFNCDE.Caption" xml:space="preserve">
+    <value>N de cde:</value>
+  </data>
+  <data name="QFNCDE.LookupProperties..PropertyHeader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="QFNCDE.LookupProperties.AlternateKeySuffix.PropertyHeader" xml:space="preserve">
+    <value>Autre suffixe</value>
+  </data>
+  <data name="QFREF.Caption" xml:space="preserve">
+    <value>Reference:</value>
   </data>
 </root>

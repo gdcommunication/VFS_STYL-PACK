@@ -1,8 +1,8 @@
 /*
  * Cette métadonnée est utilisée par la plateforme Sage.  Ne pas supprimer.
-<snippetHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e34189c2-8e18-41c6-82d4-495c7b25225b">
+<snippetHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="409e0bc9-07b7-40a2-a95e-dd0c00556a45">
  <assembly>Sage.SnippetLibrary.CSharp</assembly>
- <name>OnLoad1Step</name>
+ <name>QFLIGNECDE_OnChangeStep</name>
  <references>
   <reference>
    <assemblyName>Sage.Form.Interfaces.dll</assemblyName>
@@ -34,51 +34,29 @@ namespace Sage.BusinessRules.CodeSnippets
 {
     public static partial class TicketDetailsEventHandlers
     {
-        public static void OnLoad1Step( ITicketDetails form,  EventArgs args)
+        public static void QFLIGNECDE_OnChangeStep( ITicketDetails form,  EventArgs args)
         {
             // TODO: Complete business rule implementation
-
 			
 			
-			Sage.Entity.Interfaces.ITicket tic=form.CurrentEntity as Sage.Entity.Interfaces.ITicket;
-			Sage.Platform.Data.IDataService datasvc = Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.Platform.Data.IDataService>();
-			string Sql="";
-			string myref="";
-
-			using (System.Data.OleDb.OleDbConnection conn = new System.Data.OleDb.OleDbConnection(datasvc.GetConnectionString()))
-            {
-                conn.Open();
-				if (!(string.IsNullOrEmpty(tic.Account.ACCID)))
-				{
-
-
-					
-					
-		//chargement de 12MOISGLISSANTS	
-				Sql="SELECT Max(ISNULL(CA_12_MOIS,0)) AS CA12 FROM sysdba.T_HIST_LIGNES_VENTES WHERE ACCOUNTID = '" + tic.Account.ACCID.ToString() + "'" ;
-					
-									
-				using (System.Data.OleDb.OleDbCommand cmd = new System.Data.OleDb.OleDbCommand(Sql , conn))
-		        	        {          
-						System.Data.OleDb.OleDbDataReader groupement = cmd.ExecuteReader();
-						while (groupement.Read()) 
-							{						
-								form.QFCA12MOIS.Text = groupement["CA12"].ToString();
-							}
-					
-					}					
-					
-				}
-				
-				
+			
+			ITicket tic = form.CurrentEntity as ITicket;
 			if (tic.UserField3!=null)
 			{
 				if (tic.UserField2!=null)
 				{
+					
+					
+					
+//Ligne reference
 			
-					
-					
-						Sql="SELECT ISNULL(ACTUALID,'') AS RES FROM sysdba.SALESORDERITEMS WHERE SALESORDERID='"+tic.UserField2.ToString()+"' AND LINENUMBER=CASE WHEN ISNUMERIC('"+tic.UserField3.ToString()+"') = 1 THEN '"+tic.UserField3.ToString()+"' ELSE 0 END" ;
+					string Sql="";	
+					string myref="";
+					Sage.Platform.Data.IDataService datasvc = Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.Platform.Data.IDataService>();
+					using (System.Data.OleDb.OleDbConnection conn = new System.Data.OleDb.OleDbConnection(datasvc.GetConnectionString()))
+            		{
+            			conn.Open();
+						Sql="SELECT ISNULL(ACTUALID,'') AS RES FROM sysdba.SALESORDERITEMS WHERE SALESORDERID='"+tic.UserField2.ToString()+"' AND LINENUMBER=CASE WHEN ISNUMERIC('"+tic.UserField3.ToString()+"') = 1 THEN '"+tic.UserField3.ToString()+"' ELSE 0 END";
 						
 						using (System.Data.OleDb.OleDbCommand cmd = new System.Data.OleDb.OleDbCommand(Sql , conn))
                 		{          
@@ -92,18 +70,20 @@ namespace Sage.BusinessRules.CodeSnippets
 							
 					
 						}
+				
+				
+						
+					
+						conn.Close();
+					}
+			
+					form.QFREF.Text=myref;
 					
 					
-				
-				}				
-				
+					
+				}
 			}
-				
-				
-				conn.Close();
-				
-			}
-			form.QFREF.Text=myref;
+			
 			
 			
         }

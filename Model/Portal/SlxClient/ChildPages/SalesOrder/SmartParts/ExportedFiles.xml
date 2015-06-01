@@ -17,6 +17,8 @@
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\BillToShipTo.smartpart.xml.it.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\BillToShipTo.smartpart.xml.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\BillToShipTo.smartpart.xml.ru.resx" timeStamp="2014-01-07T23:59:22.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\CorrectionBlocage.smartpart.xml" timeStamp="2015-05-15T08:32:07.0632" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\CorrectionBlocage.smartpart.xml.resx" timeStamp="2015-05-15T08:32:07.1462" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\EditSalesOrderDetail.smartpart.xml" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\EditSalesOrderDetail.smartpart.xml.de.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\EditSalesOrderDetail.smartpart.xml.fr.resx" timeStamp="2014-01-07T23:59:22.0000" />
@@ -41,12 +43,16 @@
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\ICUpdatePricing.smartpart.xml.it.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\ICUpdatePricing.smartpart.xml.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\ICUpdatePricing.smartpart.xml.ru.resx" timeStamp="2014-01-07T23:59:22.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\ListeBlocages.smartpart.xml" timeStamp="2015-05-15T11:19:56.5708" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\ListeBlocages.smartpart.xml.resx" timeStamp="2015-05-15T11:19:56.6626" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\LiveGroupViewer.smartpart.xml" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\LiveGroupViewer.smartpart.xml.de.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\LiveGroupViewer.smartpart.xml.fr.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\LiveGroupViewer.smartpart.xml.it.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\LiveGroupViewer.smartpart.xml.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\LiveGroupViewer.smartpart.xml.ru.resx" timeStamp="2014-01-07T23:59:22.0000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\RaisonsBlocage.smartpart.xml" timeStamp="2015-05-14T09:39:59.0152" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\RaisonsBlocage.smartpart.xml.resx" timeStamp="2015-05-14T09:39:59.1451" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\SalesOrderDetails.smartpart.xml" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\SalesOrderProducts.smartpart.xml" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\SalesOrderProducts.smartpart.xml.de.resx" timeStamp="2014-01-07T23:59:22.0000" />

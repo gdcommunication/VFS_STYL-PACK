@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0"?>
 <exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\QuickForms\histoventes.main.quickform.xml" timeStamp="2015-05-20T13:54:41.3987" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\QuickForms\histoventes.main.quickform.xml.resx" timeStamp="2015-05-20T12:09:09.7861" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\QuickForms\histoventes.OnLoad1.method.xml" timeStamp="2015-05-20T13:54:41.3332" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\QuickForms\histoventes.OnLoad2.method.xml" timeStamp="2015-05-20T06:28:25.1590" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\QuickForms\Sage.SnippetLibrary.CSharp.@.8e7c419f-31f6-49c4-9a0c-106be54181c3.codesnippet.cs" timeStamp="2015-05-20T13:54:41.3459" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\QuickForms\visucompletventes.main.quickform.xml" timeStamp="2014-12-29T14:19:05.7902" />
   <exportedFile url="\Entity Model\SalesLogix Application Entities\THistoriqueLignesDeVentes\QuickForms\visucompletventes.main.quickform.xml.resx" timeStamp="2014-12-29T14:05:35.3318" />
 </exportedFiles>

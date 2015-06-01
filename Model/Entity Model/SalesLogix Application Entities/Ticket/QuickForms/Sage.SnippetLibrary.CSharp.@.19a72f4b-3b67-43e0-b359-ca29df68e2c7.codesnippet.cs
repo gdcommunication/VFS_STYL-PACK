@@ -1,20 +1,20 @@
 /*
  * Cette métadonnée est utilisée par la plateforme Sage.  Ne pas supprimer.
-<snippetHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ed0a04e1-5830-4c91-819e-19e8d918128a">
+<snippetHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="19a72f4b-3b67-43e0-b359-ca29df68e2c7">
  <assembly>Sage.SnippetLibrary.CSharp</assembly>
- <name>cmdSave_OnClickStep</name>
+ <name>QFInformer_OnChangeStep</name>
  <references>
   <reference>
-   <assemblyName>Sage.Entity.Interfaces.dll</assemblyName>
-   <hintPath>%BASEBUILDPATH%\interfaces\bin\Sage.Entity.Interfaces.dll</hintPath>
-  </reference>
-  <reference>
    <assemblyName>Sage.Form.Interfaces.dll</assemblyName>
-   <hintPath>%BASEBUILDPATH%\formInterfaces\bin\Sage.Form.Interfaces.dll</hintPath>
+   <hintPath>C:\Users\administrateur.STYL-PACK\AppData\Roaming\Sage\Platform\Output\STYLPACK\formInterfaces\bin\Sage.Form.Interfaces.dll</hintPath>
   </reference>
   <reference>
    <assemblyName>Sage.Platform.dll</assemblyName>
-   <hintPath>%BASEBUILDPATH%\assemblies\Sage.Platform.dll</hintPath>
+   <hintPath>C:\Users\administrateur.STYL-PACK\AppData\Roaming\Sage\Platform\Output\STYLPACK\assemblies\Sage.Platform.dll</hintPath>
+  </reference>
+  <reference>
+   <assemblyName>Sage.Platform.AdminModule.dll</assemblyName>
+   <hintPath>C:\Users\administrateur.STYL-PACK\AppData\Roaming\Sage\Platform\Output\STYLPACK\assemblies\Sage.Platform.AdminModule.dll</hintPath>
   </reference>
   <reference>
    <assemblyName>Sage.SalesLogix.API.dll</assemblyName>
@@ -28,20 +28,21 @@
 using System;
 using Sage.Entity.Interfaces;
 using Sage.Form.Interfaces;
-using Sage.SalesLogix.API;
 using System.Net.Mail;
 #endregion Usings
 
 namespace Sage.BusinessRules.CodeSnippets
 {
-    public static partial class TicketDetailsEventHandlers
+    public static partial class InsertTicketEventHandlers
     {
-        public static void cmdSave_OnClickStep( ITicketDetails form,  EventArgs args)
+        public static void QFInformer_OnChangeStep( IInsertTicket form,  EventArgs args)
         {
             // TODO: Complete business rule implementation
 			
-			ITicket tic = form.CurrentEntity as ITicket;
 			
+			ITicket tic = form.CurrentEntity as ITicket;
+				
+
 			Sage.SalesLogix.Security.SLXUserService usersvc = (Sage.SalesLogix.Security.SLXUserService)Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.Platform.Security.IUserService>();
 			Sage.Entity.Interfaces.IUser user = usersvc.GetUser();			
 			
@@ -50,10 +51,11 @@ namespace Sage.BusinessRules.CodeSnippets
 			string mytext="";									
 			string mybody="";
 			string myorder="";
+			string cial="vladimir_d@bit.bg";
 			Sage.Platform.Data.IDataService datasvc = Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.Platform.Data.IDataService>();
 			using (System.Data.OleDb.OleDbConnection conn = new System.Data.OleDb.OleDbConnection(datasvc.GetConnectionString()))
             		{
-           			conn.Open();
+            			conn.Open();
 						Sql="SELECT ISNULL(REGION,'') AS RES FROM sysdba.USERINFO WHERE USERID='" + user.Id.ToString()+ "'  " ;
 						
 						using (System.Data.OleDb.OleDbCommand cmd = new System.Data.OleDb.OleDbCommand(Sql , conn))
@@ -67,9 +69,37 @@ namespace Sage.BusinessRules.CodeSnippets
 
 							
 							
+					}
+					
+						
+						
+//CIAL MAIL						
+						if (!(string.IsNullOrEmpty(tic.Account.TCompteInformations.FDVSPF))) 
+						{
+							Sql="SELECT ISNULL(EMAIL,'') AS RES FROM sysdba.USERINFO AS UI LEFT JOIN sysdba.USERSECURITY AS US ON UI.USERID=US.USERID WHERE USERCODE='"+tic.Account.TCompteInformations.FDVSPF.ToString()+"' AND REGION='"+mytext+"'";
 						}
 						
+						else
+						{
+							Sql="SELECT ISNULL(EMAIL,'') AS RES FROM sysdba.USERINFO AS UI LEFT JOIN sysdba.USERSECURITY AS US ON UI.USERID=US.USERID WHERE USERCODE='MDO' AND REGION='"+mytext+"'";
+						}
+						
+						using (System.Data.OleDb.OleDbCommand cmd = new System.Data.OleDb.OleDbCommand(Sql , conn))
+                		{          
+							System.Data.OleDb.OleDbDataReader groupement = cmd.ExecuteReader();
+							while (groupement.Read()) 
+							{
+								cial = groupement["RES"].ToString();
+										
+							}
 
+							
+							
+					}
+
+
+
+						
 					if (!(string.IsNullOrEmpty(tic.UserField2))) 
 					{	
 						Sql="SELECT 'PJEX'+ ISNULL([ALTERNATEKEYSUFFIX],'') AS RES FROM sysdba.SALESORDER WHERE SALESORDERID ='"+tic.UserField2.ToString()+"'" ;
@@ -90,6 +120,7 @@ namespace Sage.BusinessRules.CodeSnippets
 					}
 						
 						
+					
 				conn.Close();
 			}
 			
@@ -124,7 +155,7 @@ namespace Sage.BusinessRules.CodeSnippets
 			}
 			if (mytext =="STYLPACK")
 			{
-				if (!(string.IsNullOrEmpty(tic.Account.InternalAccountNumber))) 
+				if (!(string.IsNullOrEmpty("Code client: "+tic.Account.InternalAccountNumber))) 
 				{
 					mybody=mybody+"Code client: "+tic.Account.InternalAccountNumber.ToString()+"\r";
 				}
@@ -148,7 +179,7 @@ namespace Sage.BusinessRules.CodeSnippets
 				}
 				else
 				{
-					if (!(string.IsNullOrEmpty(tic.Account.InternalAccountNumber))) 
+					if (!(string.IsNullOrEmpty("Code client: "+tic.Account.InternalAccountNumber))) 
 					{
 						mybody=mybody+"Code client: "+tic.Account.InternalAccountNumber.ToString()+"\r";
 					}
@@ -160,7 +191,7 @@ namespace Sage.BusinessRules.CodeSnippets
 				}
 			}
 
-			if (!(string.IsNullOrEmpty(tic.Account.AccountName))) 
+			if (!(string.IsNullOrEmpty("Nom du client: "+tic.Account.AccountName))) 
 			{
 				mybody=mybody+"Nom du client: "+tic.Account.AccountName.ToString()+"\r";
 			}
@@ -168,17 +199,6 @@ namespace Sage.BusinessRules.CodeSnippets
 			{
 				mybody=mybody+"Nom du client: "+"\r";
 			}
-
-			
-			
-			
-			if (tic.StatusCode.ToString() == "k6UJ9A000037")
-			{
-				tic.CompletedDate = DateTime.UtcNow.ToLocalTime() ;
-				//tic.CompletedById = user.Id.ToString();	
-				tic.Closed = true;
-				
-
 //send mail
 				
 				MailMessage mail = new MailMessage("slx@styl-pack.fr", mymail);
@@ -187,24 +207,25 @@ namespace Sage.BusinessRules.CodeSnippets
 				client.DeliveryMethod = SmtpDeliveryMethod.Network;
 				client.UseDefaultCredentials = false;
 				client.Host = "smtpadsl.oceanet-technology.com";
-				mail.Subject = "Cloture de ticket N: " + tic.AlternateKeyPrefix.ToString()+tic.AlternateKeySuffix.ToString();
+				mail.Subject = "Ouverture de nouveau ticket";
 				mail.Body =  mybody;
 				client.Send(mail);			
-				
-				
-				
-			}
-			else 
-			{
-				tic.CompletedDate = null ;
-				//tic.CompletedById = null;	
-				tic.Closed=null;
-			}
-			
-			tic.Save();
-			
-			
 
+				MailMessage mail1 = new MailMessage("slx@styl-pack.fr", cial);
+				mail1.Subject = "Ouverture de nouveau ticket";
+				mail1.Body =  mybody;
+				client.Send(mail1);			
+				
+				
+
+					
+				
+				
+			
+			
+			
+			
+			
         }
     }
 }

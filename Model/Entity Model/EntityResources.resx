@@ -14994,4 +14994,19 @@
   <data name="ComplementCommande.GOLD.DisplayName" xml:space="preserve">
     <value>GOLD</value>
   </data>
+  <data name="Ticket.DATERECEPTIONACHAT.DisplayName" xml:space="preserve">
+    <value>DATERECEPTIONACHAT</value>
+  </data>
+  <data name="Ticket.DATETRAITEMENTACHAT.DisplayName" xml:space="preserve">
+    <value>DATETRAITEMENTACHAT</value>
+  </data>
+  <data name="Ticket.DATERECEPTIONCOMPTA.DisplayName" xml:space="preserve">
+    <value>DATERECEPTIONCOMPTA</value>
+  </data>
+  <data name="Ticket.DATETRAITEMENTCOMPTA.DisplayName" xml:space="preserve">
+    <value>DATETRAITEMENTCOMPTA</value>
+  </data>
+  <data name="Ticket.DATECLOTURECOMPTA.DisplayName" xml:space="preserve">
+    <value>DATECLOTURECOMPTA</value>
+  </data>
 </root>

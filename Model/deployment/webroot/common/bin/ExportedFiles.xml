@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0"?>
 <exportedFiles>
-  <exportedFile url="\deployment\webroot\common\bin\Sage.Entity.Interfaces.dll" timeStamp="2015-04-29T15:13:29.3103" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.Form.Interfaces.dll" timeStamp="2015-04-29T15:15:37.2774" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.Integration.Entity.Feeds.dll" timeStamp="2015-04-29T15:14:23.4169" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.Integration.Entity.Feeds.pdb" timeStamp="2015-04-29T15:14:23.2733" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.ProcessOrchestration.dll" timeStamp="2015-04-29T15:13:59.3631" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.ProcessOrchestration.pdb" timeStamp="2015-04-29T15:13:59.3270" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Activity.Entities.dll" timeStamp="2015-04-29T15:14:00.2342" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Activity.Entities.pdb" timeStamp="2015-04-29T15:14:00.1971" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.ContractSync.Entities.dll" timeStamp="2015-04-29T15:14:07.9354" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.ContractSync.Entities.pdb" timeStamp="2015-04-29T15:14:07.9022" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Entities.dll" timeStamp="2015-04-29T15:14:06.4598" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Entities.pdb" timeStamp="2015-04-29T15:14:06.3592" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Security.Entities.dll" timeStamp="2015-04-29T15:14:09.3192" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Security.Entities.pdb" timeStamp="2015-04-29T15:14:09.2831" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.SpeedSearch.dll" timeStamp="2015-04-29T15:14:10.0008" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.SpeedSearch.pdb" timeStamp="2015-04-29T15:14:09.9647" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SnippetLibrary.CSharp.dll" timeStamp="2015-04-29T15:15:56.3536" />
-  <exportedFile url="\deployment\webroot\common\bin\Sage.SnippetLibrary.CSharp.pdb" timeStamp="2015-04-29T15:15:56.3204" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.Entity.Interfaces.dll" timeStamp="2015-05-29T13:00:10.1726" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.Form.Interfaces.dll" timeStamp="2015-05-29T13:57:47.1997" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.Integration.Entity.Feeds.dll" timeStamp="2015-05-29T13:01:47.1748" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.Integration.Entity.Feeds.pdb" timeStamp="2015-05-29T13:01:46.0767" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.ProcessOrchestration.dll" timeStamp="2015-05-13T07:08:02.4551" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.ProcessOrchestration.pdb" timeStamp="2015-05-13T07:08:02.4209" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Activity.Entities.dll" timeStamp="2015-05-13T07:08:03.4611" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Activity.Entities.pdb" timeStamp="2015-05-13T07:08:03.4229" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.ContractSync.Entities.dll" timeStamp="2015-05-13T07:08:10.7481" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.ContractSync.Entities.pdb" timeStamp="2015-05-13T07:08:10.7149" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Entities.dll" timeStamp="2015-05-29T13:01:30.1492" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Entities.pdb" timeStamp="2015-05-29T13:01:30.0456" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Security.Entities.dll" timeStamp="2015-05-13T07:08:12.0772" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.Security.Entities.pdb" timeStamp="2015-05-13T07:08:12.0421" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.SpeedSearch.dll" timeStamp="2015-05-13T07:08:12.6270" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SalesLogix.SpeedSearch.pdb" timeStamp="2015-05-13T07:08:12.5928" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SnippetLibrary.CSharp.dll" timeStamp="2015-05-29T13:57:56.1537" />
+  <exportedFile url="\deployment\webroot\common\bin\Sage.SnippetLibrary.CSharp.pdb" timeStamp="2015-05-29T13:57:56.1156" />
   <exportedFile url="\deployment\webroot\common\bin\de\" />
   <exportedFile url="\deployment\webroot\common\bin\fr\" />
   <exportedFile url="\deployment\webroot\common\bin\it\" />

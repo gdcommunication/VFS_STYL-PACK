@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0"?>
 <exportedFiles>
-  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\Modules.order.xml" timeStamp="2015-03-12T14:16:48.5937" />
-  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SalesOrder.page.xml" timeStamp="2015-03-12T14:16:48.5859" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\Modules.order.xml" timeStamp="2015-05-15T11:19:56.5650" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SalesOrder.page.xml" timeStamp="2015-05-15T11:19:56.5513" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SalesOrder.page.xml.de.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SalesOrder.page.xml.fr.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SalesOrder.page.xml.it.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SalesOrder.page.xml.resx" timeStamp="2014-01-07T23:59:22.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SalesOrder.page.xml.ru.resx" timeStamp="2014-01-07T23:59:22.0000" />
-  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts.order.xml" timeStamp="2015-03-12T14:16:48.6279" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts.order.xml" timeStamp="2015-05-15T11:19:56.6656" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\Modules\" />
   <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\" />
 </exportedFiles>

@@ -132,8 +132,10 @@
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\AttachmentList.smartpart.xml.it.resx" timeStamp="2014-01-07T23:58:44.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\AttachmentList.smartpart.xml.resx" timeStamp="2014-01-07T23:58:44.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\AttachmentList.smartpart.xml.ru.resx" timeStamp="2014-01-07T23:58:44.0000" />
-  <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\histoventes.smartpart.xml" timeStamp="2015-04-21T07:43:53.2470" />
-  <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\histoventes.smartpart.xml.resx" timeStamp="2015-04-21T07:43:53.2665" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\AutreInfo.smartpart.xml" timeStamp="2015-05-13T07:43:33.3609" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\AutreInfo.smartpart.xml.resx" timeStamp="2015-05-13T07:43:33.4546" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\histoventes.smartpart.xml" timeStamp="2015-05-19T12:54:21.3454" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\histoventes.smartpart.xml.resx" timeStamp="2015-05-19T12:54:21.3717" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\histoventespcl.smartpart.xml" timeStamp="2015-02-02T15:35:58.8197" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\histoventespcl.smartpart.xml.resx" timeStamp="2015-02-02T15:35:58.8499" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\histoventessp.smartpart.xml" timeStamp="2014-12-03T09:17:34.7285" />

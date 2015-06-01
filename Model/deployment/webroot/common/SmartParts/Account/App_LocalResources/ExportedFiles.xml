@@ -15,16 +15,16 @@
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountContracts.ascx.it.resx" timeStamp="2015-04-08T08:28:56.1726" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountContracts.ascx.resx" timeStamp="2015-04-08T08:28:56.2028" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountContracts.ascx.ru.resx" timeStamp="2015-04-08T08:28:56.2331" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountDetails.ascx.de.resx" timeStamp="2015-04-29T12:28:57.3497" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountDetails.ascx.fr.resx" timeStamp="2015-04-29T12:28:57.3527" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountDetails.ascx.it.resx" timeStamp="2015-04-29T12:28:57.3566" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountDetails.ascx.resx" timeStamp="2015-04-29T12:28:57.3595" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountDetails.ascx.ru.resx" timeStamp="2015-04-29T12:28:57.3624" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountExtendedDetails.ascx.de.resx" timeStamp="2015-04-29T12:23:21.1390" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountExtendedDetails.ascx.fr.resx" timeStamp="2015-04-29T12:23:21.1419" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountExtendedDetails.ascx.it.resx" timeStamp="2015-04-29T12:23:21.1448" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountExtendedDetails.ascx.resx" timeStamp="2015-04-29T12:23:21.1477" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountExtendedDetails.ascx.ru.resx" timeStamp="2015-04-29T12:23:21.1507" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountDetails.ascx.de.resx" timeStamp="2015-05-13T13:01:17.3344" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountDetails.ascx.fr.resx" timeStamp="2015-05-13T13:01:17.3373" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountDetails.ascx.it.resx" timeStamp="2015-05-13T13:01:17.3402" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountDetails.ascx.resx" timeStamp="2015-05-13T13:01:17.3432" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountDetails.ascx.ru.resx" timeStamp="2015-05-13T13:01:17.3471" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountExtendedDetails.ascx.de.resx" timeStamp="2015-05-18T08:51:45.1774" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountExtendedDetails.ascx.fr.resx" timeStamp="2015-05-18T08:51:45.1813" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountExtendedDetails.ascx.it.resx" timeStamp="2015-05-18T08:51:45.1842" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountExtendedDetails.ascx.resx" timeStamp="2015-05-18T08:51:45.1872" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountExtendedDetails.ascx.ru.resx" timeStamp="2015-05-18T08:51:45.1911" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountLiteratureRequests.ascx.de.resx" timeStamp="2015-04-08T08:28:57.7126" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountLiteratureRequests.ascx.fr.resx" timeStamp="2015-04-08T08:28:57.7409" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountLiteratureRequests.ascx.it.resx" timeStamp="2015-04-08T08:28:57.7693" />
@@ -62,9 +62,9 @@
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AccountTimeline.ascx.ru.resx" timeStamp="2015-04-08T08:29:02.4080" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\ALLIGNEVENTES.ascx.resx" timeStamp="2014-12-02T14:10:49.2807" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\AutreInfo.ascx.resx" timeStamp="2015-04-29T12:28:57.3917" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\histoventes.ascx.resx" timeStamp="2015-04-20T14:12:04.4405" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\histoventes.ascx.resx" timeStamp="2015-05-18T11:44:46.2092" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\histoventespcl.ascx.resx" timeStamp="2015-04-08T08:29:03.2928" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\histoventessp.ascx.resx" timeStamp="2015-04-29T15:15:52.5802" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\histoventessp.ascx.resx" timeStamp="2015-05-19T06:33:15.7356" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\ICAccountExtendedDetails.ascx.de.resx" timeStamp="2015-04-08T08:29:03.7694" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\ICAccountExtendedDetails.ascx.fr.resx" timeStamp="2015-04-08T08:29:04.0008" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\ICAccountExtendedDetails.ascx.it.resx" timeStamp="2015-04-08T08:29:04.0467" />
@@ -75,10 +75,10 @@
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\ICAccounting.ascx.it.resx" timeStamp="2015-04-08T08:29:04.4920" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\ICAccounting.ascx.resx" timeStamp="2015-04-08T08:29:04.5203" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\ICAccounting.ascx.ru.resx" timeStamp="2015-04-08T08:29:04.5614" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\InsertAccount.ascx.de.resx" timeStamp="2015-04-08T08:29:04.9168" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\InsertAccount.ascx.fr.resx" timeStamp="2015-04-08T08:29:04.9442" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\InsertAccount.ascx.it.resx" timeStamp="2015-04-08T08:29:04.9715" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\InsertAccount.ascx.resx" timeStamp="2015-04-08T08:29:04.9998" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\InsertAccount.ascx.ru.resx" timeStamp="2015-04-08T08:29:05.2489" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\InsertAccount.ascx.de.resx" timeStamp="2015-05-13T13:07:30.7806" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\InsertAccount.ascx.fr.resx" timeStamp="2015-05-13T13:07:30.7845" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\InsertAccount.ascx.it.resx" timeStamp="2015-05-13T13:07:30.7875" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\InsertAccount.ascx.resx" timeStamp="2015-05-13T13:07:30.7904" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\InsertAccount.ascx.ru.resx" timeStamp="2015-05-13T13:07:30.7943" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Account\App_LocalResources\Pastilles.ascx.resx" timeStamp="2015-04-29T12:05:16.0942" />
 </exportedFiles>

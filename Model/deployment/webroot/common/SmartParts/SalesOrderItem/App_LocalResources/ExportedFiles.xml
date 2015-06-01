@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0"?>
 <exportedFiles>
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.af.resx" timeStamp="2015-04-17T14:04:16.6554" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.de.resx" timeStamp="2015-04-17T14:04:16.6750" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.fr-FR.resx" timeStamp="2015-04-17T14:04:16.6974" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.fr.resx" timeStamp="2015-04-17T14:04:16.7004" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.it.resx" timeStamp="2015-04-17T14:04:16.7394" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.resx" timeStamp="2015-04-17T14:04:16.7424" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.ru.resx" timeStamp="2015-04-17T14:04:16.7511" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.af.resx" timeStamp="2015-05-27T11:50:03.1356" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.de.resx" timeStamp="2015-05-27T11:50:03.1395" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.fr-FR.resx" timeStamp="2015-05-27T11:50:03.1424" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.fr.resx" timeStamp="2015-05-27T11:50:03.1453" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.it.resx" timeStamp="2015-05-27T11:50:03.1483" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.resx" timeStamp="2015-05-27T11:50:03.1522" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\EditSalesOrderItem.ascx.ru.resx" timeStamp="2015-05-27T11:50:03.1551" />
   <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\ICEditSalesOrderItem.ascx.de.resx" timeStamp="2015-03-12T15:11:12.6341" />
   <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\ICEditSalesOrderItem.ascx.fr.resx" timeStamp="2015-03-12T15:11:12.6370" />
   <exportedFile url="\deployment\webroot\common\SmartParts\SalesOrderItem\App_LocalResources\ICEditSalesOrderItem.ascx.it.resx" timeStamp="2015-03-12T15:11:12.6409" />

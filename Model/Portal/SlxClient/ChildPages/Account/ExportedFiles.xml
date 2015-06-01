@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0"?>
 <exportedFiles>
-  <exportedFile url="\Portal\SlxClient\ChildPages\Account\Account.page.xml" timeStamp="2015-04-29T14:10:04.9697" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Account\Account.page.xml" timeStamp="2015-05-19T12:54:21.3268" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\Account.page.xml.de.resx" timeStamp="2014-01-07T23:58:43.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\Account.page.xml.fr.resx" timeStamp="2014-01-07T23:58:43.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\Account.page.xml.it.resx" timeStamp="2014-01-07T23:58:43.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\Account.page.xml.resx" timeStamp="2014-01-07T23:58:43.0000" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\Account.page.xml.ru.resx" timeStamp="2014-01-07T23:58:43.0000" />
-  <exportedFile url="\Portal\SlxClient\ChildPages\Account\Modules.order.xml" timeStamp="2015-04-29T14:10:04.9805" />
-  <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts.order.xml" timeStamp="2015-04-29T14:10:05.0146" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Account\Modules.order.xml" timeStamp="2015-05-19T12:54:21.3346" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts.order.xml" timeStamp="2015-05-19T12:54:21.3961" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\Modules\" />
   <exportedFile url="\Portal\SlxClient\ChildPages\Account\SmartParts\" />
 </exportedFiles>

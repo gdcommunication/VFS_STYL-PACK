@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e7a70408-03cb-4667-890b-39de33fb739b" lastModifiedUtc="2015-05-27T08:15:40.6079506Z" manageSchema="true" tableName="TICKET" name="Ticket" displayPropertyId="656a9297-abdb-4730-b98f-2a9143d58904" isExtension="false" cacheUsage="ReadWrite" audited="true" smallImage="[Localization!Global_Images:ticket_16x16]" largeImage="[Localization!Global_Images:ticket_24x24]" onBeforeInsertMethodId="428fe69b-8841-47ef-aadd-d29d10b16756" onAfterInsertMethodId="3c27d0ab-0687-4235-b78e-ca4f459af3cb" onBeforeUpdateMethodId="33696838-ee6b-402b-a1a6-92868cc45e63" onAfterUpdateMethodId="94702c7c-ac62-4066-adfc-672ebcdb686c" onBeforeDeleteMethodId="ef563cce-b15e-4290-a509-208d23f3d241" onAfterDeleteMethodId="b5ad55e9-4240-48d7-861c-cda88f65e219" onCreateId="0e8c7ea1-fe3c-459b-aa27-d6aa693f6118">
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e7a70408-03cb-4667-890b-39de33fb739b" lastModifiedUtc="2015-05-29T12:59:48.6679536Z" manageSchema="true" tableName="TICKET" name="Ticket" displayPropertyId="656a9297-abdb-4730-b98f-2a9143d58904" isExtension="false" cacheUsage="ReadWrite" audited="true" smallImage="[Localization!Global_Images:ticket_16x16]" largeImage="[Localization!Global_Images:ticket_24x24]" onBeforeInsertMethodId="428fe69b-8841-47ef-aadd-d29d10b16756" onAfterInsertMethodId="3c27d0ab-0687-4235-b78e-ca4f459af3cb" onBeforeUpdateMethodId="33696838-ee6b-402b-a1a6-92868cc45e63" onAfterUpdateMethodId="94702c7c-ac62-4066-adfc-672ebcdb686c" onBeforeDeleteMethodId="ef563cce-b15e-4290-a509-208d23f3d241" onAfterDeleteMethodId="b5ad55e9-4240-48d7-861c-cda88f65e219" onCreateId="0e8c7ea1-fe3c-459b-aa27-d6aa693f6118">
   <extendedMetaData />
   <ExtendedPropertiesCollection>
     <extendee type="Sage.Platform.Orm.Entities.OrmEntity">
@@ -755,6 +755,66 @@
         <TextDataType>
           <Length>64</Length>
         </TextDataType>
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="2b61a279-584a-48ab-a4a0-778664b300d4" lastModifiedUtc="2015-05-27T13:32:45.8947535Z" name="DATERECEPTIONACHAT" audited="false" columnName="DATERECEPTIONACHAT" maxLength="0" precision="0" scale="0" ordinal="52" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty">
+          <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+            <OrmEntityPropertySDataExtension generate="true" />
+          </extender>
+        </extendee>
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="9eaa7895-8e7a-463c-a064-c904104c1fad" lastModifiedUtc="2015-05-27T13:32:17.8544633Z" name="DATETRAITEMENTACHAT" audited="false" columnName="DATETRAITEMENTACHAT" maxLength="0" precision="0" scale="0" ordinal="53" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty">
+          <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+            <OrmEntityPropertySDataExtension generate="true" />
+          </extender>
+        </extendee>
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="bcdd619c-b676-49b6-949c-f4057bb7a8d9" lastModifiedUtc="2015-05-27T13:32:17.8583753Z" name="DATERECEPTIONCOMPTA" audited="false" columnName="DATERECEPTIONCOMPTA" maxLength="0" precision="0" scale="0" ordinal="54" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty">
+          <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+            <OrmEntityPropertySDataExtension generate="true" />
+          </extender>
+        </extendee>
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="b1aff795-c9ad-4547-8d17-67d603299d75" lastModifiedUtc="2015-05-27T13:32:17.8612997Z" name="DATETRAITEMENTCOMPTA" audited="false" columnName="DATETRAITEMENTCOMPTA" maxLength="0" precision="0" scale="0" ordinal="55" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty">
+          <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+            <OrmEntityPropertySDataExtension generate="true" />
+          </extender>
+        </extendee>
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="16ba088d-0a7d-472b-a2ec-3bd344f33c2a" lastModifiedUtc="2015-05-29T12:59:18.9572183Z" name="DATECLOTURECOMPTA" audited="false" columnName="DATECLOTURECOMPTA" maxLength="0" precision="0" scale="0" ordinal="56" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty">
+          <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+            <OrmEntityPropertySDataExtension generate="true" />
+          </extender>
+        </extendee>
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
       </SystemDataType>
     </property>
   </properties>

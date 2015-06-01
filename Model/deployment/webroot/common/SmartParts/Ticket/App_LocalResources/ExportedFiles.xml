@@ -20,11 +20,11 @@
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\CustomerPortalTicketActivities_PrintView.ascx.it.resx" timeStamp="2014-11-27T14:28:43.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\CustomerPortalTicketActivities_PrintView.ascx.resx" timeStamp="2014-11-27T14:28:43.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\CustomerPortalTicketActivities_PrintView.ascx.ru.resx" timeStamp="2014-11-27T14:28:43.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\InsertTicket.ascx.de.resx" timeStamp="2014-11-27T14:28:45.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\InsertTicket.ascx.fr.resx" timeStamp="2014-11-27T14:28:45.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\InsertTicket.ascx.it.resx" timeStamp="2014-11-27T14:28:45.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\InsertTicket.ascx.resx" timeStamp="2014-11-27T14:28:45.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\InsertTicket.ascx.ru.resx" timeStamp="2014-11-27T14:28:45.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\InsertTicket.ascx.de.resx" timeStamp="2015-05-29T13:50:08.8099" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\InsertTicket.ascx.fr.resx" timeStamp="2015-05-29T13:50:08.8147" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\InsertTicket.ascx.it.resx" timeStamp="2015-05-29T13:50:08.8206" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\InsertTicket.ascx.resx" timeStamp="2015-05-29T13:50:08.8265" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\InsertTicket.ascx.ru.resx" timeStamp="2015-05-29T13:50:08.8489" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\PortalTicket.ascx.de.resx" timeStamp="2014-11-27T14:28:47.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\PortalTicket.ascx.fr.resx" timeStamp="2014-11-27T14:28:47.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\PortalTicket.ascx.it.resx" timeStamp="2014-11-27T14:28:47.0000" />
@@ -75,16 +75,16 @@
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDefects_PrintView.ascx.it.resx" timeStamp="2014-11-27T14:28:49.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDefects_PrintView.ascx.resx" timeStamp="2014-11-27T14:28:49.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDefects_PrintView.ascx.ru.resx" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails.ascx.de.resx" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails.ascx.fr.resx" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails.ascx.it.resx" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails.ascx.resx" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails.ascx.ru.resx" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails_PrintView.ascx.de.resx" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails_PrintView.ascx.fr.resx" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails_PrintView.ascx.it.resx" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails_PrintView.ascx.resx" timeStamp="2014-11-27T14:28:49.0000" />
-  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails_PrintView.ascx.ru.resx" timeStamp="2014-11-27T14:28:49.0000" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails.ascx.de.resx" timeStamp="2015-05-29T13:57:52.3451" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails.ascx.fr.resx" timeStamp="2015-05-29T13:57:52.3500" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails.ascx.it.resx" timeStamp="2015-05-29T13:57:52.3549" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails.ascx.resx" timeStamp="2015-05-29T13:57:52.3588" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails.ascx.ru.resx" timeStamp="2015-05-29T13:57:52.3627" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails_PrintView.ascx.de.resx" timeStamp="2015-05-29T13:57:52.4282" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails_PrintView.ascx.fr.resx" timeStamp="2015-05-29T13:57:52.4321" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails_PrintView.ascx.it.resx" timeStamp="2015-05-29T13:57:52.4379" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails_PrintView.ascx.resx" timeStamp="2015-05-29T13:57:52.4584" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketDetails_PrintView.ascx.ru.resx" timeStamp="2015-05-29T13:57:52.4643" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketExtendedDetails.ascx.de.resx" timeStamp="2014-11-27T14:28:49.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketExtendedDetails.ascx.fr.resx" timeStamp="2014-11-27T14:28:49.0000" />
   <exportedFile url="\deployment\webroot\common\SmartParts\Ticket\App_LocalResources\TicketExtendedDetails.ascx.it.resx" timeStamp="2014-11-27T14:28:49.0000" />

@@ -55,4 +55,5 @@
   <exportedFile url="\deployment\webroot\common\SmartParts\TicketSolutionType\" />
   <exportedFile url="\deployment\webroot\common\SmartParts\User\" />
   <exportedFile url="\deployment\webroot\common\SmartParts\UserCalendar\" />
+  <exportedFile url="\deployment\webroot\common\SmartParts\VALIDATIONCDE\" />
 </exportedFiles>

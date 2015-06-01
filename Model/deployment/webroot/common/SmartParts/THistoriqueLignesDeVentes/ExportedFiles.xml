@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0"?>
 <exportedFiles>
+  <exportedFile url="\deployment\webroot\common\SmartParts\THistoriqueLignesDeVentes\histoventes.ascx" timeStamp="2015-05-20T13:56:21.9533" />
   <exportedFile url="\deployment\webroot\common\SmartParts\THistoriqueLignesDeVentes\visucompletventes.ascx" timeStamp="2015-01-09T15:10:14.5794" />
   <exportedFile url="\deployment\webroot\common\SmartParts\THistoriqueLignesDeVentes\App_LocalResources\" />
 </exportedFiles>

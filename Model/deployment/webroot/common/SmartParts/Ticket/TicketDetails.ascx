@@ -257,15 +257,32 @@ ReadOnly="true"  />
   </div>
 
       </td>
-                <td></td>
+                <td  >
+ <div class=" lbl alignleft" >
+   <asp:Label ID="QFREF_lbl" AssociatedControlID="QFREF" runat="server" Text="<%$ resources: QFREF.Caption %>" ></asp:Label>
+ </div>
+  <div  class="textcontrol"   >
+<asp:TextBox runat="server" ID="QFREF" ReadOnly="true"  dojoType="Sage.UI.Controls.TextBox"  />
+  </div>
+
+      </td>
       </tr>
 <tr>
             <td  >
- <div class=" lbl alignleft" >
+ <div class=" lbl alignleft">
    <asp:Label ID="QFNCDE_lbl" AssociatedControlID="QFNCDE" runat="server" Text="<%$ resources: QFNCDE.Caption %>" ></asp:Label>
- </div>
-  <div  class="textcontrol"   >
-<asp:TextBox runat="server" ID="QFNCDE"  dojoType="Sage.UI.Controls.TextBox" MaxLength="80"  />
+ </div>   
+  <div   class="textcontrol lookup"   >
+<SalesLogix:LookupControl runat="server" ID="QFNCDE" LookupEntityName="SalesOrder" LookupEntityTypeName="Sage.Entity.Interfaces.ISalesOrder, Sage.Entity.Interfaces, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" LookupBindingMode="String" SeedProperty="Account.Id" EnableHyperLinking="true" InitializeLookup="true" Required="true" AllowClearingResult="true" OverrideSeedOnSearch="true"  >
+<LookupProperties>
+<SalesLogix:LookupProperty PropertyHeader="<%$ resources: QFNCDE.LookupProperties.AlternateKeySuffix.PropertyHeader %>" PropertyName="AlternateKeySuffix" PropertyType="System.String" PropertyFormat="None" PropertyFormatString="" UseAsResult="False" ExcludeFromFilters="False"></SalesLogix:LookupProperty>
+<SalesLogix:LookupProperty PropertyHeader="<%$ resources: QFNCDE.LookupProperties.CustomerPurchaseOrderNumber.PropertyHeader %>" PropertyName="CustomerPurchaseOrderNumber" PropertyType="System.String" PropertyFormat="None" PropertyFormatString="" UseAsResult="True" ExcludeFromFilters="False"></SalesLogix:LookupProperty>
+<SalesLogix:LookupProperty PropertyHeader="<%$ resources: QFNCDE.LookupProperties.Account.AccountName.PropertyHeader %>" PropertyName="Account.AccountName" PropertyType="System.String" PropertyFormat="None" PropertyFormatString="" UseAsResult="False" ExcludeFromFilters="False"></SalesLogix:LookupProperty>
+<SalesLogix:LookupProperty PropertyHeader="<%$ resources: QFNCDE.LookupProperties.OrderDate.PropertyHeader %>" PropertyName="OrderDate" PropertyType="System.DateTime" PropertyFormat="None" PropertyFormatString="" UseAsResult="False" ExcludeFromFilters="False"></SalesLogix:LookupProperty>
+</LookupProperties>
+<LookupPreFilters>
+</LookupPreFilters>
+</SalesLogix:LookupControl>
   </div>
 
       </td>
@@ -283,7 +300,7 @@ ReadOnly="true"  />
    <asp:Label ID="QFLIGNECDE_lbl" AssociatedControlID="QFLIGNECDE" runat="server" Text="<%$ resources: QFLIGNECDE.Caption %>" ></asp:Label>
  </div>
   <div  class="textcontrol"   >
-<asp:TextBox runat="server" ID="QFLIGNECDE"  dojoType="Sage.UI.Controls.TextBox" MaxLength="80"  />
+<asp:TextBox runat="server" ID="QFLIGNECDE" Required="true"  dojoType="Sage.UI.Controls.TextBox" MaxLength="80" AutoPostBack="true"  />
   </div>
 
       </td>
@@ -341,9 +358,103 @@ LabelPlacement="left" AutoPostBack="true"  />
 	<SalesLogix:TabControl data-dojo-type="Sage.UI.Controls.MultiTab" data-dojo-props="tabStrip: false" id="QFDATESSUIVI" runat="server" 	 		  >
 	  <Panels>
 		<SalesLogix:TabPanel data-dojo-type="Sage.Layout.ContentPane" ID="QFMultiTab_Page_1" runat="server"  TabCaption="<%$ resources: QFMultiTab_Page_1.Caption %>"  >
+ <table border="0" cellpadding="1" cellspacing="0" class="slx-tab-panel">
+      <col width="33%" />
+        <col width="33%" />
+   
+   <tr>
+             <td  >
+        <div class=" lbl alignleft">
+   <asp:Label ID="QFRECEPTIONACHAT_lbl" AssociatedControlID="QFRECEPTIONACHAT" runat="server" Text="<%$ resources: QFRECEPTIONACHAT.Caption %>" ></asp:Label>
+ </div>
+   <div  class="textcontrol datepicker"  >
+    <SalesLogix:DateTimePicker runat="server" ID="QFRECEPTIONACHAT" DisplayTime="false" />
+  </div>
+
+      </td>
+                 <td  >
+        <div class=" lbl alignleft">
+   <asp:Label ID="QFTRAITEMENTACHAT_lbl" AssociatedControlID="QFTRAITEMENTACHAT" runat="server" Text="<%$ resources: QFTRAITEMENTACHAT.Caption %>" ></asp:Label>
+ </div>
+   <div  class="textcontrol datepicker"  >
+    <SalesLogix:DateTimePicker runat="server" ID="QFTRAITEMENTACHAT" DisplayTime="false" />
+  </div>
+
+      </td>
+         </tr>
+   <tr>
+             <td></td>
+                 <td></td>
+         </tr>
+   <tr>
+             <td></td>
+                 <td></td>
+         </tr>
+   <tr>
+             <td></td>
+                 <td></td>
+         </tr>
+   <tr>
+             <td></td>
+                 <td></td>
+         </tr>
+   <tr>
+             <td></td>
+                 <td></td>
+         </tr>
+   <tr>
+             <td></td>
+                 <td></td>
+         </tr>
+  </table>
                
 </SalesLogix:TabPanel>
 <SalesLogix:TabPanel data-dojo-type="Sage.Layout.ContentPane" ID="QFDATESSUIVI_Page_2" runat="server"  TabCaption="<%$ resources: QFDATESSUIVI_Page_2.Caption %>"  >
+ <table border="0" cellpadding="1" cellspacing="0" class="slx-tab-panel">
+      <col width="33%" />
+        <col width="33%" />
+   
+   <tr>
+             <td  >
+        <div class=" lbl alignleft">
+   <asp:Label ID="QFRECEPTIONCOMPTA_lbl" AssociatedControlID="QFRECEPTIONCOMPTA" runat="server" Text="<%$ resources: QFRECEPTIONCOMPTA.Caption %>" ></asp:Label>
+ </div>
+   <div  class="textcontrol datepicker"  >
+    <SalesLogix:DateTimePicker runat="server" ID="QFRECEPTIONCOMPTA" DisplayTime="false" />
+  </div>
+
+      </td>
+                 <td  >
+        <div class=" lbl alignleft">
+   <asp:Label ID="QFTRAITEMENTCOMPTA_lbl" AssociatedControlID="QFTRAITEMENTCOMPTA" runat="server" Text="<%$ resources: QFTRAITEMENTCOMPTA.Caption %>" ></asp:Label>
+ </div>
+   <div  class="textcontrol datepicker"  >
+    <SalesLogix:DateTimePicker runat="server" ID="QFTRAITEMENTCOMPTA" DisplayTime="false" />
+  </div>
+
+      </td>
+         </tr>
+   <tr>
+             <td  >
+        <div class=" lbl alignleft">
+   <asp:Label ID="QFCLOTURECOMPTA_lbl" AssociatedControlID="QFCLOTURECOMPTA" runat="server" Text="<%$ resources: QFCLOTURECOMPTA.Caption %>" ></asp:Label>
+ </div>
+   <div  class="textcontrol datepicker"  >
+    <SalesLogix:DateTimePicker runat="server" ID="QFCLOTURECOMPTA" DisplayTime="false" />
+  </div>
+
+      </td>
+                 <td></td>
+         </tr>
+   <tr>
+             <td></td>
+                 <td></td>
+         </tr>
+   <tr>
+             <td></td>
+                 <td></td>
+         </tr>
+  </table>
                
 </SalesLogix:TabPanel>
 	  </Panels>
@@ -479,9 +590,13 @@ protected override void OnAddEntityBindings() {
                     // emlAssignToEmail.Text Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding emlAssignToEmailTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("AssignedTo.User.UserInfo.Email", emlAssignToEmail, "Text");
         BindingSource.Bindings.Add(emlAssignToEmailTextBinding);
-                    // QFNCDE.Text Binding
-        Sage.Platform.WebPortal.Binding.WebEntityBinding QFNCDETextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("UserField2", QFNCDE, "Text");
-        BindingSource.Bindings.Add(QFNCDETextBinding);
+                       // QFNCDE.LookupResultValue Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFNCDELookupResultValueBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("UserField2", QFNCDE, "LookupResultValue");
+        BindingSource.Bindings.Add(QFNCDELookupResultValueBinding);
+                 // QFNCDE.SeedValue Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFNCDESeedValueBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("Account.Id", QFNCDE, "SeedValue");
+        QFNCDESeedValueBinding.IgnoreFLSDisabling = true;
+        BindingSource.Bindings.Add(QFNCDESeedValueBinding);
                     // QFPrefixe.Text Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding QFPrefixeTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("UserField1", QFPrefixe, "Text");
         BindingSource.Bindings.Add(QFPrefixeTextBinding);
@@ -497,13 +612,28 @@ protected override void OnAddEntityBindings() {
                           // QFASSCO.Text Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding QFASSCOTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("UserField9", QFASSCO, "Text");
         BindingSource.Bindings.Add(QFASSCOTextBinding);
-       
+                       // QFRECEPTIONACHAT.DateTimeValue Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFRECEPTIONACHATDateTimeValueBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("DATERECEPTIONACHAT", QFRECEPTIONACHAT, "DateTimeValue");
+        BindingSource.Bindings.Add(QFRECEPTIONACHATDateTimeValueBinding);
+                    // QFTRAITEMENTACHAT.DateTimeValue Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFTRAITEMENTACHATDateTimeValueBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("DATETRAITEMENTACHAT", QFTRAITEMENTACHAT, "DateTimeValue");
+        BindingSource.Bindings.Add(QFTRAITEMENTACHATDateTimeValueBinding);
+                    // QFRECEPTIONCOMPTA.DateTimeValue Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFRECEPTIONCOMPTADateTimeValueBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("DATERECEPTIONCOMPTA", QFRECEPTIONCOMPTA, "DateTimeValue");
+        BindingSource.Bindings.Add(QFRECEPTIONCOMPTADateTimeValueBinding);
+                    // QFCLOTURECOMPTA.DateTimeValue Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFCLOTURECOMPTADateTimeValueBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("DATECLOTURECOMPTA", QFCLOTURECOMPTA, "DateTimeValue");
+        BindingSource.Bindings.Add(QFCLOTURECOMPTADateTimeValueBinding);
+                    // QFTRAITEMENTCOMPTA.DateTimeValue Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFTRAITEMENTCOMPTADateTimeValueBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("DATETRAITEMENTCOMPTA", QFTRAITEMENTCOMPTA, "DateTimeValue");
+        BindingSource.Bindings.Add(QFTRAITEMENTCOMPTADateTimeValueBinding);
+    
    
                                      // lnkPrintViewLink.EntityId Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding lnkPrintViewLinkEntityIdBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("Id", lnkPrintViewLink, "EntityId");
         BindingSource.Bindings.Add(lnkPrintViewLinkEntityIdBinding);
        }
-                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                     
 protected void lueAccount_ChangeAction(object sender, EventArgs e) {
       object[] objarray = new object[] { this.BindingSource.Current };
      Sage.Platform.EntityFactory.Execute<Sage.Entity.Interfaces.ITicket>("Ticket.OnAccountChanged", objarray);
@@ -624,6 +754,12 @@ protected void ownAssignedTo_ChangeActionBRC(object sender, EventArgs e) {
   } 
 
 }
+protected void QFLIGNECDE_ChangeAction(object sender, EventArgs e) {
+Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+Object[] methodArgs = new Object[] { FormAdapter, e };
+lib.Execute("TicketDetails.QFLIGNECDE_OnChange", methodArgs);
+
+}
 protected void QFPAPIER_ChangeAction(object sender, EventArgs e) {
 Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
 Object[] methodArgs = new Object[] { FormAdapter, e };
@@ -693,6 +829,7 @@ pklStatusCode.PickListValueChanged += new EventHandler(pklStatusCode_ChangeActio
 lueContract.LookupResultValueChanged += new EventHandler(lueContract_ChangeAction);
 cmdPunchInOut.Click += new EventHandler(cmdPunchInOut_ClickAction);
 ownAssignedTo.LookupResultValueChanged += new EventHandler(ownAssignedTo_ChangeAction);
+QFLIGNECDE.TextChanged += new EventHandler(QFLIGNECDE_ChangeAction);
 QFPAPIER.CheckedChanged += new EventHandler(QFPAPIER_ChangeAction);
 QFECHANTILLON.CheckedChanged += new EventHandler(QFECHANTILLON_ChangeAction);
 cmdSave.Click += new ImageClickEventHandler(cmdSave_ClickAction);
@@ -878,8 +1015,8 @@ public class TicketDetailsAdapter : Sage.Platform.WebPortal.Adapters.EntityFormA
     {
         get { return FindControl(ref _dplArea, "dplArea"); }
     }
-    private Sage.Platform.Controls.ITextBoxControl _QFNCDE;
-    public  Sage.Platform.Controls.ITextBoxControl QFNCDE
+    private Sage.Platform.Controls.ILookupControl _QFNCDE;
+    public  Sage.Platform.Controls.ILookupControl QFNCDE
     {
         get { return FindControl(ref _QFNCDE, "QFNCDE"); }
     }
@@ -897,6 +1034,31 @@ public class TicketDetailsAdapter : Sage.Platform.WebPortal.Adapters.EntityFormA
     public  Sage.Platform.Controls.IMultiTabControl QFDATESSUIVI
     {
         get { return FindControl(ref _QFDATESSUIVI, "QFDATESSUIVI"); }
+    }
+    private Sage.Platform.Controls.IDateTimePickerControl _QFRECEPTIONACHAT;
+    public  Sage.Platform.Controls.IDateTimePickerControl QFRECEPTIONACHAT
+    {
+        get { return FindControl(ref _QFRECEPTIONACHAT, "QFRECEPTIONACHAT"); }
+    }
+    private Sage.Platform.Controls.IDateTimePickerControl _QFTRAITEMENTACHAT;
+    public  Sage.Platform.Controls.IDateTimePickerControl QFTRAITEMENTACHAT
+    {
+        get { return FindControl(ref _QFTRAITEMENTACHAT, "QFTRAITEMENTACHAT"); }
+    }
+    private Sage.Platform.Controls.IDateTimePickerControl _QFRECEPTIONCOMPTA;
+    public  Sage.Platform.Controls.IDateTimePickerControl QFRECEPTIONCOMPTA
+    {
+        get { return FindControl(ref _QFRECEPTIONCOMPTA, "QFRECEPTIONCOMPTA"); }
+    }
+    private Sage.Platform.Controls.IDateTimePickerControl _QFCLOTURECOMPTA;
+    public  Sage.Platform.Controls.IDateTimePickerControl QFCLOTURECOMPTA
+    {
+        get { return FindControl(ref _QFCLOTURECOMPTA, "QFCLOTURECOMPTA"); }
+    }
+    private Sage.Platform.Controls.IDateTimePickerControl _QFTRAITEMENTCOMPTA;
+    public  Sage.Platform.Controls.IDateTimePickerControl QFTRAITEMENTCOMPTA
+    {
+        get { return FindControl(ref _QFTRAITEMENTCOMPTA, "QFTRAITEMENTCOMPTA"); }
     }
     private Sage.Platform.Controls.IPickListControl _pklViaCode;
     public  Sage.Platform.Controls.IPickListControl pklViaCode
@@ -983,6 +1145,11 @@ public class TicketDetailsAdapter : Sage.Platform.WebPortal.Adapters.EntityFormA
     {
         get { return FindControl(ref _QFCA12MOIS, "QFCA12MOIS"); }
     }
+    private Sage.Platform.Controls.ITextBoxControl _QFREF;
+    public  Sage.Platform.Controls.ITextBoxControl QFREF
+    {
+        get { return FindControl(ref _QFREF, "QFREF"); }
+    }
     private Sage.Platform.Controls.ITextBoxControl _QFLIGNECDE;
     public  Sage.Platform.Controls.ITextBoxControl QFLIGNECDE
     {
@@ -1040,6 +1207,12 @@ public class TicketDetailsAdapter : Sage.Platform.WebPortal.Adapters.EntityFormA
         Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
         Object[] methodArgs = new Object[] { this, e };
         lib.Execute("TicketDetails.QFECHANTILLON_OnChange", methodArgs);
+    }
+    public  void QFLIGNECDE_OnChange(System.EventArgs e)
+    {
+        Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+        Object[] methodArgs = new Object[] { this, e };
+        lib.Execute("TicketDetails.QFLIGNECDE_OnChange", methodArgs);
     }
     public  void QFPAPIER_OnChange(System.EventArgs e)
     {
