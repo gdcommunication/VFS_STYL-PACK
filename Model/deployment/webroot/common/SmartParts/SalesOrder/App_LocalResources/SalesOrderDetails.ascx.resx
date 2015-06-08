@@ -465,4 +465,7 @@
   <data name="QFSLXLookup.Caption" xml:space="preserve">
     <value>Centre payeur:</value>
   </data>
+  <data name="QFTextBox1.Caption" xml:space="preserve">
+    <value>Total général</value>
+  </data>
 </root>

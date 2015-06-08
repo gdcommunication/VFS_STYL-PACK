@@ -308,6 +308,22 @@ if (salesOrder != null)
             <CustomFormatter />
             <AbbreviationLength>0</AbbreviationLength>
           </QFEditableCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>Product.Unit</DataField>
+            <ColumnId>8fbb396e-01e8-47f6-b028-ab290c5712f1</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>false</IsSortable>
+            <SortField>Product.Unit</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>false</IsEditable>
+            <HideCondition />
+            <Width>-1</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
           <QFSDataNumericCol>
             <StyleScheme />
             <DataField>Discount</DataField>
@@ -329,6 +345,22 @@ if (salesOrder != null)
             </DecimalDigits>
             <FormatType>Percent</FormatType>
           </QFSDataNumericCol>
+          <QFEditableCol>
+            <StyleScheme />
+            <DataField>Price</DataField>
+            <ColumnId>63e7f7e9-d0da-47fe-a975-49ff11bfbce9</ColumnId>
+            <HorizontalAlignment>left</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Price</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>true</IsEditable>
+            <HideCondition />
+            <Width>-1</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+          </QFEditableCol>
           <QFSDataCurrencyCol>
             <StyleScheme />
             <DataField>CalculatedPrice</DataField>
@@ -371,27 +403,6 @@ if (salesOrder != null)
             <ExchangeRateType>EntityRate</ExchangeRateType>
             <DecimalDigits>-1</DecimalDigits>
           </QFSDataCurrencyCol>
-          <QFSDataNumericCol>
-            <StyleScheme />
-            <DataField>Quantity</DataField>
-            <ColumnId>0fd9479b-1d6f-497f-a870-26efbf44550d</ColumnId>
-            <HorizontalAlignment>right</HorizontalAlignment>
-            <HeaderAlignment>left</HeaderAlignment>
-            <SortDirection>None</SortDirection>
-            <IsSortable>true</IsSortable>
-            <SortField>Quantity</SortField>
-            <MultiCurrencyDependent>false</MultiCurrencyDependent>
-            <IsEditable>true</IsEditable>
-            <HideCondition />
-            <Width>5</Width>
-            <CustomFormatter />
-            <AbbreviationLength>0</AbbreviationLength>
-            <DecimalDigits>
-              <DecimalDigits>0</DecimalDigits>
-              <Strict>false</Strict>
-            </DecimalDigits>
-            <FormatType>Number</FormatType>
-          </QFSDataNumericCol>
           <QFSDataLookupCol>
             <StyleScheme />
             <DataField>UnitOfMeasure</DataField>
@@ -406,7 +417,7 @@ if (salesOrder != null)
             <HideCondition>function () {
     return !isIntegrationContractEnabled();
 }</HideCondition>
-            <Width>-1</Width>
+            <Width>0</Width>
             <CustomFormatter />
             <AbbreviationLength>0</AbbreviationLength>
             <SeedOnRowEntity>false</SeedOnRowEntity>
@@ -457,6 +468,27 @@ if (salesOrder != null)
             <LookupBindingMode>Object</LookupBindingMode>
             <LookupDisplayProperty>Name</LookupDisplayProperty>
           </QFSDataLookupCol>
+          <QFSDataNumericCol>
+            <StyleScheme />
+            <DataField>Quantity</DataField>
+            <ColumnId>0fd9479b-1d6f-497f-a870-26efbf44550d</ColumnId>
+            <HorizontalAlignment>right</HorizontalAlignment>
+            <HeaderAlignment>left</HeaderAlignment>
+            <SortDirection>None</SortDirection>
+            <IsSortable>true</IsSortable>
+            <SortField>Quantity</SortField>
+            <MultiCurrencyDependent>false</MultiCurrencyDependent>
+            <IsEditable>true</IsEditable>
+            <HideCondition />
+            <Width>5</Width>
+            <CustomFormatter />
+            <AbbreviationLength>0</AbbreviationLength>
+            <DecimalDigits>
+              <DecimalDigits>0</DecimalDigits>
+              <Strict>false</Strict>
+            </DecimalDigits>
+            <FormatType>Number</FormatType>
+          </QFSDataNumericCol>
           <QFSDataCurrencyCol>
             <StyleScheme />
             <DataField>ExtendedPrice</DataField>
@@ -609,9 +641,19 @@ if (salesOrder != null)
             entity.Discount = 1 - entity.CalculatedPrice / entity.Price;
         }
     }
-    if ((attribute === 'Discount') || (attribute === 'CalculatedPrice') || (attribute === 'Quantity')) {
-        entity.ExtendedPrice = entity.CalculatedPrice * entity.Quantity;
-    }
+	if (attribute === 'Price') {
+		entity.CalculatedPrice = entity.Price - (entity.Price * entity.Discount);		
+	}
+	
+        
+		if (entity.Unit === '1000') {
+			entity.ExtendedPrice = entity.Price * (1 - salesOrderItem.Discount) * entity.Quantity /1000;
+		}
+		else {
+			entity.ExtendedPrice = entity.Price * (1 - salesOrderItem.Discount) * entity.Quantity;
+		}
+		
+	grid.update();
     if (attribute === 'Program') {
         if (!entity.Product || typeof entity.Product.$key === 'undefined') {
             /* Custom product (FreeText). */

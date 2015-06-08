@@ -50,18 +50,14 @@ AutoPostBack="true"  />
 
       </td>
                 <td  >
-<div class=" lbl alignleft">
-    <asp:Label ID="curCalculatedPrice_lbl" AssociatedControlID="curCalculatedPrice" runat="server" Text="<%$ resources: curCalculatedPrice.Caption %>" ></asp:Label>
-</div>
- <div  class="textcontrol currency"  >
-    <SalesLogix:Currency
-    runat="server"
-    ID="curCalculatedPrice" 
-    ExchangeRateType="BaseRate"
-     Required="false"
- DisplayCurrencyCode="false" DecimalDigits="-1"
-TabIndex="8" AutoPostBack="true"  />
-</div>
+ <div class=" lbl alignleft">
+   <asp:Label ID="numQuantity_lbl" AssociatedControlID="numQuantity" runat="server" Text="<%$ resources: numQuantity.Caption %>" ></asp:Label>
+ </div>   
+   <div  class="textcontrol numeric"  > 
+    <SalesLogix:NumericControl runat="server" ID="numQuantity"
+TabIndex="10" Strict="False" 
+AutoPostBack="true"  />
+  </div>
 
       </td>
       </tr>
@@ -77,11 +73,11 @@ TabIndex="8" AutoPostBack="true"  />
       </td>
                 <td  >
  <div class=" lbl alignleft">
-   <asp:Label ID="numQuantity_lbl" AssociatedControlID="numQuantity" runat="server" Text="<%$ resources: numQuantity.Caption %>" ></asp:Label>
+   <asp:Label ID="QFPRIX_lbl" AssociatedControlID="QFPRIX" runat="server" Text="<%$ resources: QFPRIX.Caption %>" ></asp:Label>
  </div>   
    <div  class="textcontrol numeric"  > 
-    <SalesLogix:NumericControl runat="server" ID="numQuantity"
-TabIndex="10" Strict="False" 
+    <SalesLogix:NumericControl runat="server" ID="QFPRIX"
+DecimalDigits="3" Strict="False" 
 AutoPostBack="true"  />
   </div>
 
@@ -99,6 +95,23 @@ AutoPostBack="true"  />
       </td>
                 <td  >
 <div class=" lbl alignleft">
+    <asp:Label ID="curCalculatedPrice_lbl" AssociatedControlID="curCalculatedPrice" runat="server" Text="<%$ resources: curCalculatedPrice.Caption %>" ></asp:Label>
+</div>
+ <div  class="textcontrol currency"  >
+    <SalesLogix:Currency
+    runat="server"
+    ID="curCalculatedPrice" 
+    ExchangeRateType="BaseRate"
+     Required="false"
+ DisplayCurrencyCode="false" DecimalDigits="-1"
+TabIndex="8" AutoPostBack="true"  />
+</div>
+
+      </td>
+      </tr>
+<tr>
+                  <td  >
+<div class=" lbl alignleft">
     <asp:Label ID="curExtendedPrice_lbl" AssociatedControlID="curExtendedPrice" runat="server" Text="<%$ resources: curExtendedPrice.Caption %>" ></asp:Label>
 </div>
  <div  class="textcontrol currency"  >
@@ -114,12 +127,21 @@ TabIndex="11"  />
       </td>
       </tr>
 <tr>
-                  <td  >
+            <td  >
  <div class=" lbl alignleft" >
    <asp:Label ID="QFCommission_lbl" AssociatedControlID="QFCommission" runat="server" Text="<%$ resources: QFCommission.Caption %>" ></asp:Label>
  </div>
   <div  class="textcontrol"   >
 <asp:TextBox runat="server" ID="QFCommission"  dojoType="Sage.UI.Controls.TextBox"  />
+  </div>
+
+      </td>
+                <td  >
+ <div class=" lbl alignleft" >
+   <asp:Label ID="QFUNIT_lbl" AssociatedControlID="QFUNIT" runat="server" Text="<%$ resources: QFUNIT.Caption %>" ></asp:Label>
+ </div>
+  <div  class="textcontrol"   >
+<asp:TextBox runat="server" ID="QFUNIT" ReadOnly="true"  dojoType="Sage.UI.Controls.TextBox"  />
   </div>
 
       </td>
@@ -621,24 +643,30 @@ protected override void OnAddEntityBindings() {
                     // txtSKU.Text Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding txtSKUTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("ActualID", txtSKU, "Text");
         BindingSource.Bindings.Add(txtSKUTextBinding);
-                    // curCalculatedPrice.Text Binding
-        Sage.Platform.WebPortal.Binding.WebEntityBinding curCalculatedPriceTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("CalculatedPrice", curCalculatedPrice, "Text");
-        BindingSource.Bindings.Add(curCalculatedPriceTextBinding);
-                    // txtProductName.Text Binding
-        Sage.Platform.WebPortal.Binding.WebEntityBinding txtProductNameTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("ProductName", txtProductName, "Text");
-        BindingSource.Bindings.Add(txtProductNameTextBinding);
                     // numQuantity.Text Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding numQuantityTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("Quantity", numQuantity, "Text");
         BindingSource.Bindings.Add(numQuantityTextBinding);
+                    // txtProductName.Text Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding txtProductNameTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("ProductName", txtProductName, "Text");
+        BindingSource.Bindings.Add(txtProductNameTextBinding);
+                    // QFPRIX.Text Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFPRIXTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("Price", QFPRIX, "Text");
+        BindingSource.Bindings.Add(QFPRIXTextBinding);
                     // txtDescription.Text Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding txtDescriptionTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("Description", txtDescription, "Text");
         BindingSource.Bindings.Add(txtDescriptionTextBinding);
+                    // curCalculatedPrice.Text Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding curCalculatedPriceTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("CalculatedPrice", curCalculatedPrice, "Text");
+        BindingSource.Bindings.Add(curCalculatedPriceTextBinding);
                     // curExtendedPrice.Text Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding curExtendedPriceTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("ExtendedPrice", curExtendedPrice, "Text");
         BindingSource.Bindings.Add(curExtendedPriceTextBinding);
                     // QFCommission.Text Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding QFCommissionTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("ComplementLigneCommande.TAUXCOMMISSION", QFCommission, "Text");
         BindingSource.Bindings.Add(QFCommissionTextBinding);
+                    // QFUNIT.Text Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFUNITTextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("Product.Unit", QFUNIT, "Text");
+        BindingSource.Bindings.Add(QFUNITTextBinding);
                        // lstbxPriceLevel.SelectedValue Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding lstbxPriceLevelSelectedValueBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("Program", lstbxPriceLevel, "SelectedValue");
         lstbxPriceLevelSelectedValueBinding.ChangeNotificationEventName = "TextChanged";
@@ -731,24 +759,51 @@ protected override void OnAddEntityBindings() {
     
    
 }
-                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                    
 protected void txtDiscount_ChangeAction(object sender, EventArgs e) {
-      object[] objarray = new object[] { this.BindingSource.Current };
-     Sage.Platform.EntityFactory.Execute<Sage.Entity.Interfaces.ISalesOrderItem>("SalesOrderItem.CalculateDiscount", objarray);
+Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+Object[] methodArgs = new Object[] { FormAdapter, e };
+lib.Execute("EditSalesOrderItem.txtDiscount_OnChange", methodArgs);
+  Sage.Platform.WebPortal.Services.IPanelRefreshService refresher = PageWorkItem.Services.Get<Sage.Platform.WebPortal.Services.IPanelRefreshService>();
+    if (refresher != null) {
+      refresher.RefreshAll();
+    }
+    else {  
+      Response.Redirect(Request.Url.ToString());
+    }
 
-  
-}
-protected void curCalculatedPrice_ChangeAction(object sender, EventArgs e) {
-      object[] objarray = new object[] { this.BindingSource.Current };
-     Sage.Platform.EntityFactory.Execute<Sage.Entity.Interfaces.ISalesOrderItem>("SalesOrderItem.CalculateCalcPrice", objarray);
-
-  
 }
 protected void numQuantity_ChangeAction(object sender, EventArgs e) {
-      object[] objarray = new object[] { this.BindingSource.Current };
-     Sage.Platform.EntityFactory.Execute<Sage.Entity.Interfaces.ISalesOrderItem>("SalesOrderItem.CalculateExtendedPrice", objarray);
+Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+Object[] methodArgs = new Object[] { FormAdapter, e };
+lib.Execute("EditSalesOrderItem.numQuantity_OnChange", methodArgs);
+  Sage.Platform.WebPortal.Services.IPanelRefreshService refresher = PageWorkItem.Services.Get<Sage.Platform.WebPortal.Services.IPanelRefreshService>();
+    if (refresher != null) {
+      refresher.RefreshAll();
+    }
+    else {  
+      Response.Redirect(Request.Url.ToString());
+    }
 
-  
+}
+protected void QFPRIX_ChangeAction(object sender, EventArgs e) {
+Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+Object[] methodArgs = new Object[] { FormAdapter, e };
+lib.Execute("EditSalesOrderItem.QFSLXNumeric_OnChange", methodArgs);
+
+}
+protected void curCalculatedPrice_ChangeAction(object sender, EventArgs e) {
+Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+Object[] methodArgs = new Object[] { FormAdapter, e };
+lib.Execute("EditSalesOrderItem.curCalculatedPrice_OnChange", methodArgs);
+  Sage.Platform.WebPortal.Services.IPanelRefreshService refresher = PageWorkItem.Services.Get<Sage.Platform.WebPortal.Services.IPanelRefreshService>();
+    if (refresher != null) {
+      refresher.RefreshAll();
+    }
+    else {  
+      Response.Redirect(Request.Url.ToString());
+    }
+
 }
 protected void lstbxPriceLevel_ChangeAction(object sender, EventArgs e) {
       object[] objarray = new object[] { this.BindingSource.Current };
@@ -895,8 +950,9 @@ protected override void OnWireEventHandlers()
 {
  base.OnWireEventHandlers();
  txtDiscount.TextChanged += new EventHandler(txtDiscount_ChangeAction);
-curCalculatedPrice.TextChanged += new EventHandler(curCalculatedPrice_ChangeAction);
 numQuantity.TextChanged += new EventHandler(numQuantity_ChangeAction);
+QFPRIX.TextChanged += new EventHandler(QFPRIX_ChangeAction);
+curCalculatedPrice.TextChanged += new EventHandler(curCalculatedPrice_ChangeAction);
 lstbxPriceLevel.TextChanged += new EventHandler(lstbxPriceLevel_ChangeAction);
 curMCCalcPrice.TextChanged += new EventHandler(curMCCalcPrice_ChangeAction);
 QFTYPEBAT.PickListValueChanged += new EventHandler(QFTYPEBAT_ChangeAction);
@@ -1074,6 +1130,11 @@ public class EditSalesOrderItemAdapter : Sage.Platform.WebPortal.Adapters.Entity
     public  Sage.Platform.Controls.ITextBoxControl txtDescription
     {
         get { return FindControl(ref _txtDescription, "txtDescription"); }
+    }
+    private Sage.Platform.Controls.ITextBoxControl _QFCommission;
+    public  Sage.Platform.Controls.ITextBoxControl QFCommission
+    {
+        get { return FindControl(ref _QFCommission, "QFCommission"); }
     }
     private Sage.Platform.Controls.IControlsListControl _ctrlstPriceLevel;
     public  Sage.Platform.Controls.IControlsListControl ctrlstPriceLevel
@@ -1270,25 +1331,30 @@ public class EditSalesOrderItemAdapter : Sage.Platform.WebPortal.Adapters.Entity
     {
         get { return FindControl(ref _txtDiscount, "txtDiscount"); }
     }
-    private Sage.Platform.Controls.ICurrencyControl _curCalculatedPrice;
-    public  Sage.Platform.Controls.ICurrencyControl curCalculatedPrice
-    {
-        get { return FindControl(ref _curCalculatedPrice, "curCalculatedPrice"); }
-    }
     private Sage.Platform.Controls.INumericControl _numQuantity;
     public  Sage.Platform.Controls.INumericControl numQuantity
     {
         get { return FindControl(ref _numQuantity, "numQuantity"); }
+    }
+    private Sage.Platform.Controls.INumericControl _QFPRIX;
+    public  Sage.Platform.Controls.INumericControl QFPRIX
+    {
+        get { return FindControl(ref _QFPRIX, "QFPRIX"); }
+    }
+    private Sage.Platform.Controls.ICurrencyControl _curCalculatedPrice;
+    public  Sage.Platform.Controls.ICurrencyControl curCalculatedPrice
+    {
+        get { return FindControl(ref _curCalculatedPrice, "curCalculatedPrice"); }
     }
     private Sage.Platform.Controls.ICurrencyControl _curExtendedPrice;
     public  Sage.Platform.Controls.ICurrencyControl curExtendedPrice
     {
         get { return FindControl(ref _curExtendedPrice, "curExtendedPrice"); }
     }
-    private Sage.Platform.Controls.ITextBoxControl _QFCommission;
-    public  Sage.Platform.Controls.ITextBoxControl QFCommission
+    private Sage.Platform.Controls.ITextBoxControl _QFUNIT;
+    public  Sage.Platform.Controls.ITextBoxControl QFUNIT
     {
-        get { return FindControl(ref _QFCommission, "QFCommission"); }
+        get { return FindControl(ref _QFUNIT, "QFUNIT"); }
     }
     private Sage.Platform.Controls.IControlsListControl _ctrlstMCPrice;
     public  Sage.Platform.Controls.IControlsListControl ctrlstMCPrice
@@ -1375,6 +1441,30 @@ public class EditSalesOrderItemAdapter : Sage.Platform.WebPortal.Adapters.Entity
         Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
         Object[] methodArgs = new Object[] { this, e };
         lib.Execute("EditSalesOrderItem.QFPAOMODIF3_OnChange", methodArgs);
+    }
+    public  void txtDiscount_OnChange(System.EventArgs e)
+    {
+        Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+        Object[] methodArgs = new Object[] { this, e };
+        lib.Execute("EditSalesOrderItem.txtDiscount_OnChange", methodArgs);
+    }
+    public  void numQuantity_OnChange(System.EventArgs e)
+    {
+        Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+        Object[] methodArgs = new Object[] { this, e };
+        lib.Execute("EditSalesOrderItem.numQuantity_OnChange", methodArgs);
+    }
+    public  void QFSLXNumeric_OnChange(System.EventArgs e)
+    {
+        Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+        Object[] methodArgs = new Object[] { this, e };
+        lib.Execute("EditSalesOrderItem.QFSLXNumeric_OnChange", methodArgs);
+    }
+    public  void curCalculatedPrice_OnChange(System.EventArgs e)
+    {
+        Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+        Object[] methodArgs = new Object[] { this, e };
+        lib.Execute("EditSalesOrderItem.curCalculatedPrice_OnChange", methodArgs);
     }
     public  void curMCCalcPrice_OnChange(System.EventArgs e)
     {

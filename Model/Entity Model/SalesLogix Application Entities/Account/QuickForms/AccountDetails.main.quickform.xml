@@ -898,6 +898,7 @@
       <QFButton>
         <Column>1</Column>
         <Row>16</Row>
+        <Visible>false</Visible>
         <HotKey>0</HotKey>
         <TabIndex>0</TabIndex>
         <ControlId>ALMAJTIERS</ControlId>

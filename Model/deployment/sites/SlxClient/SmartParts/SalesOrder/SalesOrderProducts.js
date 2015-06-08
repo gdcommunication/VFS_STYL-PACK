@@ -83,8 +83,8 @@ makeGrid : function(runtimeConfig) {
 		isCentered: true ,
 		dialogTop: 0,
 		dialogLeft: 0,
-		dialogHeight: 375,
-		dialogWidth: 600,
+		dialogHeight: 850,
+		dialogWidth: 950,
     	formObjectName: 'Sage.UI.Forms.SalesOrderProducts'
     				,appliedSecurity: 'Entities/SalesOrder/Edit'
     	    }
@@ -113,8 +113,8 @@ makeGrid : function(runtimeConfig) {
 		isCentered: true ,
 		dialogTop: 0,
 		dialogLeft: 0,
-		dialogHeight: 750,
-		dialogWidth: 700,
+		dialogHeight: 850,
+		dialogWidth: 950,
     	formObjectName: 'Sage.UI.Forms.SalesOrderProducts'
     				,appliedSecurity: 'Entities/SalesOrder/Edit'
     	    }
@@ -150,6 +150,19 @@ makeGrid : function(runtimeConfig) {
 				}
   	,
 {
+		field: 'ActualID',
+				name:  SalesOrderProductsgrdItems_Strings['grdItems_936ffc51_64bc_458d_b22b_8bb884f507ad_ColumnHeading']  || 'Reference',
+	sortable: true,
+		width: '10',
+	 	styles: 'width:auto;',
+    cellClasses: '  alignleft ',
+	headerClasses: ' alignleft '
+, 
+	defaultValue: '', 
+	editable: false
+				}
+  	,
+{
 		field: 'ProductName',
 				name:  SalesOrderProductsgrdItems_Strings['grdItems_0c39de35_d246_4c4b_a1fa_57a0a9be41c6_ColumnHeading']  || 'Produit',
 	sortable: true,
@@ -163,11 +176,11 @@ makeGrid : function(runtimeConfig) {
 				}
   	,
 {
-		field: 'Family',
-				name:  SalesOrderProductsgrdItems_Strings['grdItems_6210cd5f_3e9d_40cf_8b1d_f8c15476cc79_ColumnHeading']  || '',
+		field: 'Product.Unit',
+				name:  SalesOrderProductsgrdItems_Strings['grdItems_8fbb396e_01e8_47f6_b028_ab290c5712f1_ColumnHeading']  || 'Unite',
 	sortable: false,
-		width: 0,
-		styles: 'width:auto;',
+		width: '10',
+	 	styles: 'width:auto;',
     cellClasses: '  alignleft ',
 	headerClasses: ' alignleft '
 , 
@@ -175,59 +188,6 @@ makeGrid : function(runtimeConfig) {
 	editable: false
 				}
   	,
-{
-		field: 'Program',
-				    //Set to the value of the visibleCondition property
-	    hidden: function () {
-    return isIntegrationContractEnabled();
-}(),
-		name:  SalesOrderProductsgrdItems_Strings['grdItems_a74f322c_ebd9_49d4_ad41_3bcd939e8b41_ColumnHeading']  || 'Niveau de prix',
-	sortable: false,
-		width: 0,
-		styles: 'width:auto;',
-    cellClasses: '  alignleft ',
-	headerClasses: ' alignleft '
-,  
-	editable: false,
-	type: Lookup,
-	lookupOptions: {
-		field: 'Program',
-		seedOnRowEntity: false,
-		seedOnRelatedEntity: 'Product',
-		returnObject:  false ,
-		displayMode: 'DropDownList'
-	},
-	lookupStructure: [{
-            cells: [{
-		     name: 'Program',
-		     field: 'Program'
-		 }]
-    }],
-	lookupStoreOptions: {		
-        resourceKind:  'productPrograms'      },
-	lookupGridOptions: {
-			  }
-		}
-  	,
-{
-		field: 'Price',
-				name:  SalesOrderProductsgrdItems_Strings['grdItems_3ef53358_80dd_4e3f_99fb_355cb397a797_ColumnHeading']  || 'Prix',
-	sortable: true,
-		width: 10,
-		styles: 'width:auto;',
-    cellClasses: '  alignright ',
-	headerClasses: ' alignleft '
-,
-	editable: false,
-		type: Currency,
-	constraints: {  places: Sys.CultureInfo.CurrentCulture.numberFormat.CurrencyDecimalDigits  },  
-
-			exchangeRateType:  'BaseRate' ,
-	displayCurrencyCode: true,
-		    displayMode: 'AsControl',
-    multiCurrency: isMultiCurrencyEnabled()	 //TODO: Move this method to Sage.IntegrationContractService.isMultiCurrencyEnabled()
-}
-  										,
 {
 		field: 'Discount',
 				name:  SalesOrderProductsgrdItems_Strings['grdItems_983c7b9b_3c12_48e3_add2_73ff8cd065c2_ColumnHeading']  || 'Remise',
@@ -245,7 +205,7 @@ makeGrid : function(runtimeConfig) {
   	,
 {
 		field: 'CalculatedPrice',
-				name:  SalesOrderProductsgrdItems_Strings['grdItems_5cd443a0_928c_44a2_86f2_a4246f8223c7_ColumnHeading']  || 'Prix ajusté',
+				name:  SalesOrderProductsgrdItems_Strings['grdItems_5cd443a0_928c_44a2_86f2_a4246f8223c7_ColumnHeading']  || 'Prix unit. HT',
 	sortable: true,
 		width: 10,
 		styles: 'width:auto;',
@@ -268,7 +228,7 @@ makeGrid : function(runtimeConfig) {
 	    hidden: function () {
     return !isMultiCurrencyEnabled();
 }(),
-		name:  SalesOrderProductsgrdItems_Strings['grdItems_28d57a8b_13ca_47c0_b41e_d969ed17dc28_ColumnHeading']  || 'Prix ajusté',
+		name:  SalesOrderProductsgrdItems_Strings['grdItems_28d57a8b_13ca_47c0_b41e_d969ed17dc28_ColumnHeading']  || 'Prix unit. HT',
 	sortable: true,
 		width: 10,
 		styles: 'width:auto;',
@@ -288,21 +248,6 @@ makeGrid : function(runtimeConfig) {
 }
   															 			 			,
 {
-		field: 'Quantity',
-				name:  SalesOrderProductsgrdItems_Strings['grdItems_0fd9479b_1d6f_497f_a870_26efbf44550d_ColumnHeading']  || 'Quantité',
-	sortable: true,
-		width: 5,
-		styles: 'width:auto;',
-    cellClasses: '  alignright ',
-	headerClasses: ' alignleft '
-,
-	editable: true,
-	type: Numeric,
-	    constraints: { places:   '0,0'  ,  round: -1 },  
-	formatType: 'Number'
-}
-  	,
-{
 		field: 'UnitOfMeasure',
 				    //Set to the value of the visibleCondition property
 	    hidden: function () {
@@ -310,8 +255,8 @@ makeGrid : function(runtimeConfig) {
 }(),
 		name:  SalesOrderProductsgrdItems_Strings['grdItems_eef3d53b_092f_4f1b_9429_22cfd8dd2bf4_ColumnHeading']  || 'Unité',
 	sortable: true,
-		width: '10',
-	 	styles: 'width:auto;',
+		width: 0,
+		styles: 'width:auto;',
     cellClasses: '  alignleft ',
 	headerClasses: ' alignleft '
 ,  
@@ -379,12 +324,27 @@ makeGrid : function(runtimeConfig) {
 		}
   	,
 {
+		field: 'Quantity',
+				name:  SalesOrderProductsgrdItems_Strings['grdItems_0fd9479b_1d6f_497f_a870_26efbf44550d_ColumnHeading']  || 'Quantité',
+	sortable: true,
+		width: 5,
+		styles: 'width:auto;',
+    cellClasses: '  alignright ',
+	headerClasses: ' alignleft '
+,
+	editable: true,
+	type: Numeric,
+	    constraints: { places:   '0,0'  ,  round: -1 },  
+	formatType: 'Number'
+}
+  	,
+{
 		field: 'ExtendedPrice',
 				    //Set to the value of the visibleCondition property
 	    hidden: function () {
     return isMultiCurrencyEnabled();
 }(),
-		name:  SalesOrderProductsgrdItems_Strings['grdItems_68096333_c869_44c2_9b19_51d9058e50d8_ColumnHeading']  || 'Prix étendu',
+		name:  SalesOrderProductsgrdItems_Strings['grdItems_68096333_c869_44c2_9b19_51d9058e50d8_ColumnHeading']  || 'Montant HT',
 	sortable: true,
 		width: '10',
 	 	styles: 'width:auto;',
@@ -407,7 +367,7 @@ makeGrid : function(runtimeConfig) {
 	    hidden: function () {
     return !isMultiCurrencyEnabled();
 }(),
-		name:  SalesOrderProductsgrdItems_Strings['grdItems_ff4abcfa_992a_4721_8841_c0c0b6e89485_ColumnHeading']  || 'Prix étendu',
+		name:  SalesOrderProductsgrdItems_Strings['grdItems_ff4abcfa_992a_4721_8841_c0c0b6e89485_ColumnHeading']  || 'Montant HT',
 	sortable: true,
 		width: '10',
 	 	styles: 'width:auto;',
@@ -462,6 +422,53 @@ makeGrid : function(runtimeConfig) {
 	defaultValue: '', 
 	editable: false
 				}
+  	,
+{
+		field: 'Program',
+				    //Set to the value of the visibleCondition property
+	    hidden: function () {
+    return isIntegrationContractEnabled();
+}(),
+		name:  SalesOrderProductsgrdItems_Strings['grdItems_a74f322c_ebd9_49d4_ad41_3bcd939e8b41_ColumnHeading']  || 'Niveau de prix',
+	sortable: false,
+		width: 0,
+		styles: 'width:auto;',
+    cellClasses: '  alignleft ',
+	headerClasses: ' alignleft '
+,  
+	editable: false,
+	type: Lookup,
+	lookupOptions: {
+		field: 'Program',
+		seedOnRowEntity: false,
+		seedOnRelatedEntity: 'Product',
+		returnObject:  false ,
+		displayMode: 'DropDownList'
+	},
+	lookupStructure: [{
+            cells: [{
+		     name: 'Program',
+		     field: 'Program'
+		 }]
+    }],
+	lookupStoreOptions: {		
+        resourceKind:  'productPrograms'      },
+	lookupGridOptions: {
+			  }
+		}
+  	,
+{
+		field: 'Family',
+				name:  SalesOrderProductsgrdItems_Strings['grdItems_6210cd5f_3e9d_40cf_8b1d_f8c15476cc79_ColumnHeading']  || '',
+	sortable: false,
+		width: 0,
+		styles: 'width:auto;',
+    cellClasses: '  alignleft ',
+	headerClasses: ' alignleft '
+, 
+	defaultValue: '', 
+	editable: false
+				}
   	          ],
         storeOptions: {
             resourceKind: 'salesOrderItems',
@@ -473,10 +480,10 @@ makeGrid : function(runtimeConfig) {
             sort: [
        { attribute: "LineNumber"
      }
-           , { attribute: "CalculatedPrice"
+          , { attribute: "CalculatedPrice"
      ,descending: true
      }
-                         ]
+                           ]
         },
         tools: [
 

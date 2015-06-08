@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6e4e5461-7716-4869-8b1d-533d27be9e1c" lastModifiedUtc="2014-12-03T08:49:38.7030632Z" manageSchema="false" tableName="T_PRODUCT_COMP" name="Tproduitscomplements" isExtension="true" parentEntityId="03da3a53-eab7-4bb2-bd1b-9c0c988b66d2" audited="false" onBeforeInsertMethodId="bf73010e-eb1b-4635-9274-b677d8c73581" onAfterInsertMethodId="47a02650-3ace-4e68-ab35-2f1335c7d75f" onBeforeUpdateMethodId="26953c04-b7fc-463f-a8bb-6c03a1f363dd" onAfterUpdateMethodId="7e0a45c4-a2b8-4280-bfb2-ab02a625999d" onBeforeDeleteMethodId="1ab635dc-f6f9-44da-9fd3-90125222dc46" onAfterDeleteMethodId="9dd36243-e4b8-4008-b576-c0cf47e3f24d" onCreateId="3f04d95b-b786-42d5-8aa7-7e148f8d3cf0">
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6e4e5461-7716-4869-8b1d-533d27be9e1c" lastModifiedUtc="2015-06-04T12:57:28.4424337Z" manageSchema="false" tableName="T_PRODUCT_COMP" name="Tproduitscomplements" isExtension="true" parentEntityId="03da3a53-eab7-4bb2-bd1b-9c0c988b66d2" audited="false" onBeforeInsertMethodId="bf73010e-eb1b-4635-9274-b677d8c73581" onAfterInsertMethodId="47a02650-3ace-4e68-ab35-2f1335c7d75f" onBeforeUpdateMethodId="26953c04-b7fc-463f-a8bb-6c03a1f363dd" onAfterUpdateMethodId="7e0a45c4-a2b8-4280-bfb2-ab02a625999d" onBeforeDeleteMethodId="1ab635dc-f6f9-44da-9fd3-90125222dc46" onAfterDeleteMethodId="9dd36243-e4b8-4008-b576-c0cf47e3f24d" onCreateId="3f04d95b-b786-42d5-8aa7-7e148f8d3cf0">
   <extendedMetaData />
   <ExtendedPropertiesCollection>
     <extendee type="Sage.Platform.Orm.Entities.OrmEntity">
       <extender guid="1589723d-0536-4bf3-bdd7-3f6f7fe165d0">
         <OrmEntityMetadataExtension>
           <StringExpression>${CreateUser}</StringExpression>
-          <HistoryTypeName />
+          <HistoryTypeName>inherit</HistoryTypeName>
           <IsHistoryTable>false</IsHistoryTable>
         </OrmEntityMetadataExtension>
       </extender>

@@ -29,7 +29,7 @@ Value="True"
       </td>
                 <td rowspan="4"  >
 <%@ Register tagPrefix="SalesLogix" tagName="wbrSalesOrder" src="~/SmartParts/SalesOrder/SalesOrderSnapShot.ascx" %>
-<SalesLogix:wbrSalesOrder id="wbrSalesOrder" runat="server" OnInit="setwbrSalesOrderContext" ></SalesLogix:wbrSalesOrder>
+<SalesLogix:wbrSalesOrder id="wbrSalesOrder" runat="server" OnInit="setwbrSalesOrderContext" Visible="false" ></SalesLogix:wbrSalesOrder>
 <script runat="server" type="text/C#">
 	protected void setwbrSalesOrderContext(object sender, EventArgs e)
 	{
@@ -105,7 +105,15 @@ Value="True"
   </div>
 
       </td>
-                <td></td>
+                <td  >
+ <div class=" lbl alignleft" >
+   <asp:Label ID="QFTextBox1_lbl" AssociatedControlID="QFTextBox1" runat="server" Text="<%$ resources: QFTextBox1.Caption %>" ></asp:Label>
+ </div>
+  <div  class="textcontrol"   >
+<asp:TextBox runat="server" ID="QFTextBox1" ReadOnly="true"  dojoType="Sage.UI.Controls.TextBox"  />
+  </div>
+
+      </td>
       </tr>
 <tr>
             <td  >
@@ -485,6 +493,9 @@ protected override void OnAddEntityBindings() {
                     // pklType.PickListValue Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding pklTypePickListValueBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("OrderType", pklType, "PickListValue");
         BindingSource.Bindings.Add(pklTypePickListValueBinding);
+                    // QFTextBox1.Text Binding
+        Sage.Platform.WebPortal.Binding.WebEntityBinding QFTextBox1TextBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("GrandTotal", QFTextBox1, "Text");
+        BindingSource.Bindings.Add(QFTextBox1TextBinding);
                     // pklStatus.PickListValue Binding
         Sage.Platform.WebPortal.Binding.WebEntityBinding pklStatusPickListValueBinding = new Sage.Platform.WebPortal.Binding.WebEntityBinding("Status", pklStatus, "PickListValue");
         BindingSource.Bindings.Add(pklStatusPickListValueBinding);
@@ -569,7 +580,7 @@ protected override void OnAddEntityBindings() {
       
       
     }
-                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                     
 protected void rdgSOType_ChangeAction(object sender, EventArgs e) {
 Sage.Entity.Interfaces.ISalesOrder salesOrder = this.BindingSource.Current as Sage.Entity.Interfaces.ISalesOrder;
 salesOrder.IsQuote = (rdgSOType.SelectedIndex == 1);
@@ -925,6 +936,11 @@ public class SalesOrderDetailsAdapter : Sage.Platform.WebPortal.Adapters.EntityF
     public  Sage.Platform.Controls.IDateTimePickerControl dtpPromisedDate
     {
         get { return FindControl(ref _dtpPromisedDate, "dtpPromisedDate"); }
+    }
+    private Sage.Platform.Controls.ITextBoxControl _QFTextBox1;
+    public  Sage.Platform.Controls.ITextBoxControl QFTextBox1
+    {
+        get { return FindControl(ref _QFTextBox1, "QFTextBox1"); }
     }
     private Sage.Platform.Controls.ICheckBoxControl _QFQTEEXACTE;
     public  Sage.Platform.Controls.ICheckBoxControl QFQTEEXACTE

@@ -176,6 +176,19 @@ makeGrid : function(runtimeConfig) {
 				}
   	,
 {
+		field: 'Product.Unit',
+				name:  SalesOrderProductsgrdItems_Strings['grdItems_8fbb396e_01e8_47f6_b028_ab290c5712f1_ColumnHeading']  || 'Unite',
+	sortable: false,
+		width: '10',
+	 	styles: 'width:auto;',
+    cellClasses: '  alignleft ',
+	headerClasses: ' alignleft '
+, 
+	defaultValue: '', 
+	editable: false
+				}
+  	,
+{
 		field: 'Discount',
 				name:  SalesOrderProductsgrdItems_Strings['grdItems_983c7b9b_3c12_48e3_add2_73ff8cd065c2_ColumnHeading']  || 'Discount',
 	sortable: true,
@@ -191,8 +204,21 @@ makeGrid : function(runtimeConfig) {
 }
   	,
 {
+		field: 'Price',
+				name:  SalesOrderProductsgrdItems_Strings['grdItems_63e7f7e9_d0da_47fe_a975_49ff11bfbce9_ColumnHeading']  || 'Prix unit. HT',
+	sortable: true,
+		width: '10',
+	 	styles: 'width:auto;',
+    cellClasses: '  alignleft ',
+	headerClasses: ' alignleft '
+, 
+	defaultValue: '', 
+	editable: true
+				}
+  	,
+{
 		field: 'CalculatedPrice',
-				name:  SalesOrderProductsgrdItems_Strings['grdItems_5cd443a0_928c_44a2_86f2_a4246f8223c7_ColumnHeading']  || 'Prix unit. HT',
+				name:  SalesOrderProductsgrdItems_Strings['grdItems_5cd443a0_928c_44a2_86f2_a4246f8223c7_ColumnHeading']  || 'Prix unit. HT remise',
 	sortable: true,
 		width: 10,
 		styles: 'width:auto;',
@@ -215,7 +241,7 @@ makeGrid : function(runtimeConfig) {
 	    hidden: function () {
     return !isMultiCurrencyEnabled();
 }(),
-		name:  SalesOrderProductsgrdItems_Strings['grdItems_28d57a8b_13ca_47c0_b41e_d969ed17dc28_ColumnHeading']  || 'Prix unit. HT',
+		name:  SalesOrderProductsgrdItems_Strings['grdItems_28d57a8b_13ca_47c0_b41e_d969ed17dc28_ColumnHeading']  || 'Prix unit. HT remise',
 	sortable: true,
 		width: 10,
 		styles: 'width:auto;',
@@ -235,21 +261,6 @@ makeGrid : function(runtimeConfig) {
 }
   															 			 			,
 {
-		field: 'Quantity',
-				name:  SalesOrderProductsgrdItems_Strings['grdItems_0fd9479b_1d6f_497f_a870_26efbf44550d_ColumnHeading']  || 'Quantity',
-	sortable: true,
-		width: 5,
-		styles: 'width:auto;',
-    cellClasses: '  alignright ',
-	headerClasses: ' alignleft '
-,
-	editable: true,
-	type: Numeric,
-	    constraints: { places:   '0,0'  ,  round: -1 },  
-	formatType: 'Number'
-}
-  	,
-{
 		field: 'UnitOfMeasure',
 				    //Set to the value of the visibleCondition property
 	    hidden: function () {
@@ -257,8 +268,8 @@ makeGrid : function(runtimeConfig) {
 }(),
 		name:  SalesOrderProductsgrdItems_Strings['grdItems_eef3d53b_092f_4f1b_9429_22cfd8dd2bf4_ColumnHeading']  || 'Unit',
 	sortable: true,
-		width: '10',
-	 	styles: 'width:auto;',
+		width: 0,
+		styles: 'width:auto;',
     cellClasses: '  alignleft ',
 	headerClasses: ' alignleft '
 ,  
@@ -324,6 +335,21 @@ makeGrid : function(runtimeConfig) {
 
 			  }
 		}
+  	,
+{
+		field: 'Quantity',
+				name:  SalesOrderProductsgrdItems_Strings['grdItems_0fd9479b_1d6f_497f_a870_26efbf44550d_ColumnHeading']  || 'Quantity',
+	sortable: true,
+		width: 5,
+		styles: 'width:auto;',
+    cellClasses: '  alignright ',
+	headerClasses: ' alignleft '
+,
+	editable: true,
+	type: Numeric,
+	    constraints: { places:   '0,0'  ,  round: -1 },  
+	formatType: 'Number'
+}
   	,
 {
 		field: 'ExtendedPrice',
@@ -467,7 +493,7 @@ makeGrid : function(runtimeConfig) {
             sort: [
        { attribute: "LineNumber"
      }
-         , { attribute: "CalculatedPrice"
+           , { attribute: "CalculatedPrice"
      ,descending: true
      }
                            ]
@@ -1084,9 +1110,19 @@ makeGrid : function(runtimeConfig) {
             entity.Discount = 1 - entity.CalculatedPrice / entity.Price;
         }
     }
-    if ((attribute === 'Discount') || (attribute === 'CalculatedPrice') || (attribute === 'Quantity')) {
-        entity.ExtendedPrice = entity.CalculatedPrice * entity.Quantity;
-    }
+	if (attribute === 'Price') {
+		entity.CalculatedPrice = entity.Price - (entity.Price * entity.Discount);		
+	}
+	
+        
+		if (entity.Unit === '1000') {
+			entity.ExtendedPrice = entity.Price * (1 - salesOrderItem.Discount) * entity.Quantity /1000;
+		}
+		else {
+			entity.ExtendedPrice = entity.Price * (1 - salesOrderItem.Discount) * entity.Quantity;
+		}
+		
+	grid.update();
     if (attribute === 'Program') {
         if (!entity.Product || typeof entity.Product.$key === 'undefined') {
             /* Custom product (FreeText). */

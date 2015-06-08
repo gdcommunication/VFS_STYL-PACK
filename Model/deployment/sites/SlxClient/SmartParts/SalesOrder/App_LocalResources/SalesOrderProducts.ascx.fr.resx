@@ -142,7 +142,7 @@
     <value>Niveau de prix</value>
   </data>
   <data name="grdItems.ff4abcfa-992a-4721-8841-c0c0b6e89485.ColumnHeading" xml:space="preserve">
-    <value>Prix étendu</value>
+    <value>Montant HT</value>
   </data>
   <data name="grdItems.ca87da6c-54ec-4780-b7c9-ff6e49313f91.ColumnHeading" xml:space="preserve">
     <value>Type de la ligne</value>
@@ -205,7 +205,7 @@
     <value>Verrouiller tous les éléments</value>
   </data>
   <data name="grdItems.28d57a8b-13ca-47c0-b41e-d969ed17dc28.ColumnHeading" xml:space="preserve">
-    <value>Prix ajusté</value>
+    <value>Prix unit. HT</value>
   </data>
   <data name="grdItems.b0fc2ecd-742c-4a7e-8012-afebc395c56e.Text" xml:space="preserve">
     <value>Modifier</value>
@@ -250,7 +250,7 @@
     <value>Ajouter sélection</value>
   </data>
   <data name="grdItems.5cd443a0-928c-44a2-86f2-a4246f8223c7.ColumnHeading" xml:space="preserve">
-    <value>Prix ajusté</value>
+    <value>Prix unit. HT</value>
   </data>
   <data name="btnAddCustomProduct.ToolTip" xml:space="preserve">
     <value>Ajouter un produit personnalisé...</value>
@@ -304,7 +304,7 @@
     <value>Famille</value>
   </data>
   <data name="grdItems.68096333-c869-44c2-9b19-51d9058e50d8.ColumnHeading" xml:space="preserve">
-    <value>Prix étendu</value>
+    <value>Montant HT</value>
   </data>
   <data name="fa9f648f-24ba-4937-b26a-ec8ea9e558b6.DialogTitleOverride" xml:space="preserve">
     <value>Modifier le produit</value>
@@ -425,5 +425,11 @@
   </data>
   <data name="grdItems.6210cd5f-3e9d-40cf-8b1d-f8c15476cc79.ColumnHeading" xml:space="preserve">
     <value />
+  </data>
+  <data name="grdItems.936ffc51-64bc-458d-b22b-8bb884f507ad.ColumnHeading" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="grdItems.8fbb396e-01e8-47f6-b028-ab290c5712f1.ColumnHeading" xml:space="preserve">
+    <value>Unite</value>
   </data>
 </root>

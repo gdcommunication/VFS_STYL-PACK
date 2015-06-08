@@ -43,19 +43,20 @@ type="text/css">
         <SalesLogix:ResourceKeyName Key="grdItems.3160cbc2-c14d-4e58-94c9-5277e17b3951.Text" />
 <SalesLogix:ResourceKeyName Key="0475f9ec-f5ca-4fbd-9241-6d93fbcbdaf7.DialogTitleOverride" />   <SalesLogix:ResourceKeyName Key="grdItems.eae77157-0570-48d4-bd9a-d78df7b84496.ColumnHeading" />
        <SalesLogix:ResourceKeyName Key="grdItems.530b7cdb-cef1-4e94-a46a-cf8d931ff779.ColumnHeading" />
+       <SalesLogix:ResourceKeyName Key="grdItems.936ffc51-64bc-458d-b22b-8bb884f507ad.ColumnHeading" />
        <SalesLogix:ResourceKeyName Key="grdItems.0c39de35-d246-4c4b-a1fa-57a0a9be41c6.ColumnHeading" />
-       <SalesLogix:ResourceKeyName Key="grdItems.6210cd5f-3e9d-40cf-8b1d-f8c15476cc79.ColumnHeading" />
-       <SalesLogix:ResourceKeyName Key="grdItems.a74f322c-ebd9-49d4-ad41-3bcd939e8b41.ColumnHeading" />
-       <SalesLogix:ResourceKeyName Key="grdItems.3ef53358-80dd-4e3f-99fb-355cb397a797.ColumnHeading" />
+       <SalesLogix:ResourceKeyName Key="grdItems.8fbb396e-01e8-47f6-b028-ab290c5712f1.ColumnHeading" />
        <SalesLogix:ResourceKeyName Key="grdItems.983c7b9b-3c12-48e3-add2-73ff8cd065c2.ColumnHeading" />
        <SalesLogix:ResourceKeyName Key="grdItems.5cd443a0-928c-44a2-86f2-a4246f8223c7.ColumnHeading" />
        <SalesLogix:ResourceKeyName Key="grdItems.28d57a8b-13ca-47c0-b41e-d969ed17dc28.ColumnHeading" />
-       <SalesLogix:ResourceKeyName Key="grdItems.0fd9479b-1d6f-497f-a870-26efbf44550d.ColumnHeading" />
        <SalesLogix:ResourceKeyName Key="grdItems.eef3d53b-092f-4f1b-9429-22cfd8dd2bf4.ColumnHeading" />
+       <SalesLogix:ResourceKeyName Key="grdItems.0fd9479b-1d6f-497f-a870-26efbf44550d.ColumnHeading" />
        <SalesLogix:ResourceKeyName Key="grdItems.68096333-c869-44c2-9b19-51d9058e50d8.ColumnHeading" />
        <SalesLogix:ResourceKeyName Key="grdItems.ff4abcfa-992a-4721-8841-c0c0b6e89485.ColumnHeading" />
        <SalesLogix:ResourceKeyName Key="grdItems.ca87da6c-54ec-4780-b7c9-ff6e49313f91.ColumnHeading" />
        <SalesLogix:ResourceKeyName Key="grdItems.7f13becf-d7b7-41ec-82af-24215aec5077.ColumnHeading" />
+       <SalesLogix:ResourceKeyName Key="grdItems.a74f322c-ebd9-49d4-ad41-3bcd939e8b41.ColumnHeading" />
+       <SalesLogix:ResourceKeyName Key="grdItems.6210cd5f-3e9d-40cf-8b1d-f8c15476cc79.ColumnHeading" />
            <SalesLogix:ResourceKeyName Key="grdItems.Save.ToolTip" />
     <SalesLogix:ResourceKeyName Key="grdItems.Relate.ToolTip" />
     <SalesLogix:ResourceKeyName Key="grdItems.Delete.ToolTip" />
@@ -63,13 +64,13 @@ type="text/css">
      </Keys>
 </SalesLogix:ScriptResourceProvider>
 
-												
+													
 		
 		
 		
 		
 
-																					
+															
 			
 			
 			
@@ -83,7 +84,7 @@ type="text/css">
 			
 			
 			
-																										 
+																												 
 
 
 

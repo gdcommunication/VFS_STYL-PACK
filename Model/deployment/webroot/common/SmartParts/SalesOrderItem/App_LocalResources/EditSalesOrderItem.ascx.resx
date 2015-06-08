@@ -142,7 +142,7 @@
     <value>Cancel</value>
   </data>
   <data name="curCalculatedPrice.Caption" xml:space="preserve">
-    <value>Prix unit. HT:</value>
+    <value>Prix unit. HT remise:</value>
   </data>
   <data name="curMCCalcPrice.Caption" xml:space="preserve">
     <value>Adjusted Price:</value>
@@ -272,5 +272,11 @@
   </data>
   <data name="QFCORRECTEUR.Caption" xml:space="preserve">
     <value>Correcteur:</value>
+  </data>
+  <data name="QFUNIT.Caption" xml:space="preserve">
+    <value>Unité</value>
+  </data>
+  <data name="QFPRIX.Caption" xml:space="preserve">
+    <value>Prix unit. HT:</value>
   </data>
 </root>

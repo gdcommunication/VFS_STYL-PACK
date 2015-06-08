@@ -275,7 +275,7 @@
       </td>
                 <td  >
  <asp:Button runat="server" ID="ALMAJTIERS"
- Text="<%$ resources: ALMAJTIERS.Caption %>"  />
+ Text="<%$ resources: ALMAJTIERS.Caption %>" Visible="false"  />
  
       </td>
                 <td  >
@@ -829,7 +829,7 @@ btnDelete.Visible = false;
 }
 if (ClientBindingMgr != null) { ClientBindingMgr.RegisterResetButton(cmdReset); }
 quickformload0(this, EventArgs.Empty);
-ScriptManager.RegisterClientScriptInclude(this, this.GetType(), "fd404b18-f4f8-456b-a36b-70e1d78418d8", "jscript/Alticap/Alticap.js");
+ScriptManager.RegisterClientScriptInclude(this, this.GetType(), "63b5267f-e05a-476c-9140-7a38f0b728fe", "jscript/Alticap/Alticap.js");
 
 
 }

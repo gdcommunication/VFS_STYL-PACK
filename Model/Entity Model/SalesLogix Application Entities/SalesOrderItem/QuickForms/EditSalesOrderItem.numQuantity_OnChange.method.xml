@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="0510a6c3-8307-4beb-b0da-34dea46001aa" lastModifiedUtc="2015-06-05T11:41:09.1629503Z" name="numQuantity_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="EditSalesOrderItem">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="1ec9e5df-3c80-47bf-a92a-12274cb4f074" paramName="form" sequence="0" paramType="IEditSalesOrderItem" />
+    <OrmEntityMethodParam id="6cc2cf6e-6834-4198-88e5-8ea1175992f9" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="53049b65-138c-4f90-841b-f175329fa09d" lastModifiedUtc="2015-06-05T11:42:07.0437217Z" targetType="Sage.BusinessRules.CodeSnippets.EditSalesOrderItemEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="numQuantity_OnChangeStep" active="true" codeSnippetId="8813b61a-c40b-4dbd-bb96-b4f1def7467a">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

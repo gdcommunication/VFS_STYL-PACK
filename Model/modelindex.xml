@@ -1678,4 +1678,9 @@
  <ref id="e643817c-d38b-472b-99af-6fc62a63370c" url="\Entity Model\Saleslogix Application Entities\Ticket\QuickForms\InsertTicket.main.quickform.xml" />
  <ref id="5f31e72d-04b2-4c40-be0a-68abcaa777e7" url="\Entity Model\Saleslogix Application Entities\TicketProblem\TicketProblem.Ticket.TICKETPROBLEM.entity.xml" />
  <ref id="c00678be-e713-41a2-908b-5875b9d2eccd" url="\Entity Model\Saleslogix Application Entities\TicketSolution\TicketSolution.Ticket.TICKETSOLUTION.entity.xml" />
+ <ref id="1ae0238c-da5f-4448-a749-ebade5adcd65" url="\Entity Model\Saleslogix Application Entities\SalesOrderItem\QuickForms\EditSalesOrderItem.txtDiscount_OnChange.method.xml" />
+ <ref id="1e90b00e-8fd5-47c0-a43e-f99784e7c033" url="\Entity Model\Saleslogix Application Entities\SalesOrderItem\QuickForms\EditSalesOrderItem.curCalculatedPrice_OnChange.method.xml" />
+ <ref id="0510a6c3-8307-4beb-b0da-34dea46001aa" url="\Entity Model\Saleslogix Application Entities\SalesOrderItem\QuickForms\EditSalesOrderItem.numQuantity_OnChange.method.xml" />
+ <ref id="8813b61a-c40b-4dbd-bb96-b4f1def7467a" url="\Entity Model\Saleslogix Application Entities\SalesOrderItem\QuickForms\Sage.SnippetLibrary.CSharp.@.8813b61a-c40b-4dbd-bb96-b4f1def7467a.codesnippet.cs" />
+ <ref id="6e4e5461-7716-4869-8b1d-533d27be9e1c" url="\Entity Model\Saleslogix Application Entities\Tproduitscomplements\Tproduitscomplements.Product.T_PRODUCT_COMP.entity.xml" />
 </modelItemIndex>
